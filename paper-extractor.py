@@ -34,7 +34,7 @@ def retrieve_papers(data=DATA, query=QUERY, cursorMark="*"):
 
 def export_csv():
   column_names = ['id', 'doi', 'title', 'authorString', 'journalTitle', 'pubYear']
-  with open('papers.csv', 'w') as csvfile:
+  with open('data/papers.csv', 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=column_names)
     writer.writeheader()
     for d in DATA:
