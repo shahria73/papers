@@ -1,2 +1,2 @@
-# hdr-uk-papers
-Extract of publications that mention HDR-UK
+# HDR-UK Papers
+Extract of publications that mention HDR-UK in acknowledgements or as funder
