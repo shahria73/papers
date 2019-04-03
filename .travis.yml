@@ -1,0 +1,18 @@
+language: python
+
+python:
+- '3.6'
+
+jobs:
+  include:
+  - stage: build_pages
+    python: '3.6'
+    script:
+      - python3 paper-extractor.py
+    deploy:
+      provider: pages
+      skip_cleanup: true
+      github_token: $GITHUB_TOKEN
+      keep_history: true
+      on:
+        branch: master
