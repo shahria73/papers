@@ -9,4 +9,3 @@ jobs:
     python: '3.6'
     script:
       - python3 paper-extractor.py
-      - cat papers.csv
