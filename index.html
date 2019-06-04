@@ -57,11 +57,11 @@
 
       CsvToHtmlTable.init({
         csv_path: 'data/papers.csv',
-        element: 'table-container', 
+        element: 'table-container',
         allow_download: true,
         csv_options: {separator: ',', delimiter: '"'},
         datatables_options: {"paging": false},
-        custom_formatting: [[4, format_link]]
+        custom_formatting: [[1, format_link],[2, format_link]]
       });
     </script>
   </body>
