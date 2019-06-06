@@ -11,9 +11,9 @@ import urllib
 import requests
 
 EPMC_BASE_URL="https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
-QUERY="ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\""
-
-DATA = []
+SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
+ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
+AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 
 def request_url(URL):
   """HTTP GET request and load into json"""
@@ -23,41 +23,48 @@ def request_url(URL):
   else:
     r.raise_for_status()
 
-def retrieve_papers(data=DATA, query=QUERY, cursorMark="*"):
+def retrieve_papers(query="", data=[], cursorMark="*"):
+  DATA=data
   query = urllib.parse.quote_plus(query)
   URL = EPMC_BASE_URL + "&".join(["query=%s" % query, "cursorMark=%s" % cursorMark])
   d = request_url(URL)
   numResults = d['hitCount']
   DATA.extend(d['resultList']['result'])
   if numResults > 1000:
-    retrieve_papers(DATA, cursorMark=d['nextCursorMark'])
+    retrieve_papers(query, DATA, cursorMark=d['nextCursorMark'])
+  return DATA
 
-def export_csv():
+def export_csv(outputFilename, data):
   column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'abstract']
-  with open('data/papers.csv', 'w') as csvfile:
+  with open(outputFilename, 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=column_names)
     writer.writeheader()
-    for d in DATA:
+    for d in data:
       # Extracting Author affiliations
       authorAffiliations = []
       for author in d['authorList']['author']:
         if 'affiliation' in author.keys():
           authorAffiliations.append(author['affiliation'])
       row = {
-        'id': "http://europepmc.org/articles/" + d['pmcid'],
+        'id': d['id'],
         'doi': "https://doi.org/" + d['doi'],
         'title': d['title'],
         'authorString': d['authorString'],
-        'authorAffiliations': authorAffiliations,
+        'authorAffiliations': " ; ".join(authorAffiliations),
         'journalTitle': d['journalInfo']['journal']['title'],
         'pubYear': d['pubYear'],
-        'abstract': d['abstractText']
+        'abstract': d.get('abstractText', '')
       }
       writer.writerow(row)
 
 def main():
-  retrieve_papers()
-  export_csv()
+  # retrieve papers with funding acknowledgement to HDR-UK
+  data = retrieve_papers(query=ACK_FUND_QUERY)
+  export_csv('data/papers.csv', data)
+
+  # retrieve papers with author affiliation to HDR-UK
+  data = retrieve_papers(query=AFF_QUERY)
+  export_csv('data/affiliation.csv', data)
 
 if __name__ == "__main__":
     main()
