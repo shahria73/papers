@@ -72,7 +72,7 @@ def main():
 
   # retrieve papers with author affiliation to HDR-UK
   aff_data = retrieve_papers(query=AFF_QUERY, data=[])
-  export_csv('data/affiliation.csv', aff_data)
+  export_csv('data/affiliations.csv', aff_data)
 
   # export papers with author affiliation OR funding acknowledgement to HDR-UK
   mergedData = merge('id', ack_data, aff_data)
