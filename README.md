@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/HDRUK/papers.svg?branch=master)](https://travis-ci.org/HDRUK/papers.svg?branch=master)
+[![Build Status](https://travis-ci.org/HDRUK/papers.svg?branch=master)](https://travis-ci.com/HDRUK/papers?branch=master)
 # HDRUK Papers
 Publications that mention HDR-UK (or any variant thereof) in:
 - [Acknowledgements](/acknowledgments)
