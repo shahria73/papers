@@ -59,12 +59,12 @@ def export_csv(outputFilename, data):
 
 def main():
   # retrieve papers with funding acknowledgement to HDR-UK
-  data = retrieve_papers(query=ACK_FUND_QUERY)
-  export_csv('data/papers.csv', data)
+  ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
+  export_csv('data/papers.csv', ack_data)
 
   # retrieve papers with author affiliation to HDR-UK
-  data = retrieve_papers(query=AFF_QUERY)
-  export_csv('data/affiliation.csv', data)
+  aff_data = retrieve_papers(query=AFF_QUERY, data=[])
+  export_csv('data/affiliation.csv', aff_data)
 
 if __name__ == "__main__":
     main()
