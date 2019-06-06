@@ -50,7 +50,7 @@ def export_csv(outputFilename, data):
         'doi': "https://doi.org/" + d['doi'],
         'title': d['title'],
         'authorString': d['authorString'],
-        'authorAffiliations': authorAffiliations,
+        'authorAffiliations': " ; ".join(authorAffiliations),
         'journalTitle': d['journalInfo']['journal']['title'],
         'pubYear': d['pubYear'],
         'abstract': d.get('abstractText', '')
