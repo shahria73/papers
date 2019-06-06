@@ -13,6 +13,7 @@ import requests
 EPMC_BASE_URL="https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
 SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
 ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
+AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 
 def request_url(URL):
   """HTTP GET request and load into json"""
@@ -52,7 +53,7 @@ def export_csv(outputFilename, data):
         'authorAffiliations': authorAffiliations,
         'journalTitle': d['journalInfo']['journal']['title'],
         'pubYear': d['pubYear'],
-        'abstract': d['abstractText']
+        'abstract': d.get('abstractText', '')
       }
       writer.writerow(row)
 
@@ -60,6 +61,10 @@ def main():
   # retrieve funding acknowledgement papers
   data = retrieve_papers(query=ACK_FUND_QUERY)
   export_csv('data/papers.csv', data)
+
+  # retrieve author affiliation papers
+  data = retrieve_papers(query=AFF_QUERY)
+  export_csv('data/affiliation.csv', data)
 
 if __name__ == "__main__":
     main()
