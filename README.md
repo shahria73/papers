@@ -1,6 +1,9 @@
 [![Build Status](https://travis-ci.org/HDRUK/papers.svg?branch=master)](https://travis-ci.org/HDRUK/papers.svg?branch=master)
 # HDRUK Papers
-Extract of publications that mention HDRUK in acknowledgements or as funder
+Publications that mention HDR-UK (or any variant thereof) in:
+- [Acknowledgements](/acknowledgments)
+- [Author Affiliations](/affiliations)
+- [Merged Completed Publications](/)
 
 ## Data Sources
 - [Europe PMC](https://europepmc.org/)
