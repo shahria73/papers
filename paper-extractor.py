@@ -45,7 +45,7 @@ def export_csv(outputFilename, data):
         if 'affiliation' in author.keys():
           authorAffiliations.append(author['affiliation'])
       row = {
-        'id': "http://europepmc.org/articles/" + d['pmcid'],
+        'id': d['id'],
         'doi': "https://doi.org/" + d['doi'],
         'title': d['title'],
         'authorString': d['authorString'],
