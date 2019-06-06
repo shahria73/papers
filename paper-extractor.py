@@ -58,11 +58,11 @@ def export_csv(outputFilename, data):
       writer.writerow(row)
 
 def main():
-  # retrieve funding acknowledgement papers
+  # retrieve papers with funding acknowledgement to HDR-UK
   data = retrieve_papers(query=ACK_FUND_QUERY)
   export_csv('data/papers.csv', data)
 
-  # retrieve author affiliation papers
+  # retrieve papers with author affiliation to HDR-UK
   data = retrieve_papers(query=AFF_QUERY)
   export_csv('data/affiliation.csv', data)
 
