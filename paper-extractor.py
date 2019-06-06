@@ -11,7 +11,8 @@ import urllib
 import requests
 
 EPMC_BASE_URL="https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
-QUERY="ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\""
+SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
+ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
 
 DATA = []
 
@@ -32,9 +33,9 @@ def retrieve_papers(data=DATA, query=QUERY, cursorMark="*"):
   if numResults > 1000:
     retrieve_papers(DATA, cursorMark=d['nextCursorMark'])
 
-def export_csv():
+def export_csv(outputFilename):
   column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'abstract']
-  with open('data/papers.csv', 'w') as csvfile:
+  with open(outputFilename, 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=column_names)
     writer.writeheader()
     for d in DATA:
@@ -56,8 +57,9 @@ def export_csv():
       writer.writerow(row)
 
 def main():
-  retrieve_papers()
-  export_csv()
+  # retrieve funding acknowledgement papers
+  retrieve_papers(query=ACK_FUND_QUERY)
+  export_csv('data/papers.csv')
 
 if __name__ == "__main__":
     main()
