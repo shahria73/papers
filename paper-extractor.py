@@ -50,21 +50,33 @@ def export_csv(outputFilename, data):
         'doi': "https://doi.org/" + d['doi'],
         'title': d['title'],
         'authorString': d['authorString'],
-        'authorAffiliations': " ; ".join(authorAffiliations),
+        'authorAffiliations': "; ".join(authorAffiliations),
         'journalTitle': d['journalInfo']['journal']['title'],
         'pubYear': d['pubYear'],
         'abstract': d.get('abstractText', '')
       }
       writer.writerow(row)
 
+def merge(key, *lists):
+  import itertools
+  from collections import defaultdict
+  result = defaultdict(dict)
+  for dictionary in itertools.chain.from_iterable(lists):
+    result[dictionary[str(key)]].update(dictionary)
+  return list(result.values())
+
 def main():
   # retrieve papers with funding acknowledgement to HDR-UK
-  data = retrieve_papers(query=ACK_FUND_QUERY)
-  export_csv('data/papers.csv', data)
+  ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
+  export_csv('data/acknowledgements.csv', ack_data)
 
   # retrieve papers with author affiliation to HDR-UK
-  data = retrieve_papers(query=AFF_QUERY)
-  export_csv('data/affiliation.csv', data)
+  aff_data = retrieve_papers(query=AFF_QUERY, data=[])
+  export_csv('data/affiliation.csv', aff_data)
+
+  # export papers with author affiliation OR funding acknowledgement to HDR-UK
+  mergedData = merge('id', ack_data, aff_data)
+  export_csv('data/papers.csv', mergedData)
 
 if __name__ == "__main__":
     main()
