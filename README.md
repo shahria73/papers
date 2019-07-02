@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/HDRUK/papers.svg?branch=master)](https://travis-ci.com/HDRUK/papers?branch=master)
+[![DOI](https://zenodo.org/badge/190556842.svg)](https://zenodo.org/badge/latestdoi/190556842)
+
 # HDRUK Papers
 Publications that mention HDR-UK (or any variant thereof) in:
 - [Acknowledgements](https://hdruk.github.io/papers/acknowledgments.html)
