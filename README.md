@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/HDRUK/papers.svg?branch=master)](https://travis-ci.com/HDRUK/papers?branch=master)
+[![LICENCE](https://img.shields.io/github/license/HDRUK/papers)](https://github.com/HDRUK/papers/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/190556842.svg)](https://zenodo.org/badge/latestdoi/190556842)
 
 # HDRUK Papers
@@ -11,4 +12,4 @@ Publications that mention HDR-UK (or any variant thereof) in:
 - [Europe PMC](https://europepmc.org/)
 
 ### License
-See the [LICENSE](LICENSE).
+[![LICENCE](https://img.shields.io/github/license/HDRUK/papers)](https://github.com/HDRUK/papers/blob/master/LICENSE).
