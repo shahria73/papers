@@ -4,7 +4,7 @@
 
 # HDRUK Papers
 Publications that mention HDR-UK (or any variant thereof) in:
-- [Acknowledgements](https://hdruk.github.io/papers/acknowledgments.html)
+- [Acknowledgements](https://hdruk.github.io/papers/acknowledgements.html)
 - [Author Affiliations](https://hdruk.github.io/papers/affiliations.html)
 - [All Publications](https://hdruk.github.io/papers/)
 
