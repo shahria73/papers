@@ -18,13 +18,17 @@ AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 def request_url(URL):
   """HTTP GET request and load into json"""
   r = requests.get(URL)
-  if r.status_code == requests.codes.ok:
-    return json.loads(r.text)
-  else:
+  if r.status_code != requests.codes.ok:
     r.raise_for_status()
+  
+  return json.loads(r.text)
+    
 
-def retrieve_papers(query="", data=[], cursorMark="*"):
-  DATA=data
+def retrieve_papers(query="", data=None, cursorMark="*"):
+  if data is None:
+    DATA=[]
+  else:
+    DATA=data
   query = urllib.parse.quote_plus(query)
   URL = EPMC_BASE_URL + "&".join(["query=%s" % query, "cursorMark=%s" % cursorMark])
   d = request_url(URL)
