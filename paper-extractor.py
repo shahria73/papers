@@ -10,25 +10,25 @@ import json
 import urllib
 import requests
 
-EPMC_BASE_URL="https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
+EPMC_BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
 SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
 ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
 AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
+
 
 def request_url(URL):
   """HTTP GET request and load into json"""
   r = requests.get(URL)
   if r.status_code != requests.codes.ok:
     r.raise_for_status()
-  
   return json.loads(r.text)
-    
+
 
 def retrieve_papers(query="", data=None, cursorMark="*"):
   if data is None:
-    DATA=[]
+    DATA = []
   else:
-    DATA=data
+    DATA = data
   query = urllib.parse.quote_plus(query)
   URL = EPMC_BASE_URL + "&".join(["query=%s" % query, "cursorMark=%s" % cursorMark])
   d = request_url(URL)
@@ -37,6 +37,7 @@ def retrieve_papers(query="", data=None, cursorMark="*"):
   if numResults > 1000:
     retrieve_papers(query, DATA, cursorMark=d['nextCursorMark'])
   return DATA
+
 
 def export_csv(outputFilename, data):
   column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'abstract']
@@ -61,6 +62,7 @@ def export_csv(outputFilename, data):
       }
       writer.writerow(row)
 
+
 def merge(key, *lists):
   import itertools
   from collections import defaultdict
@@ -68,6 +70,7 @@ def merge(key, *lists):
   for dictionary in itertools.chain.from_iterable(lists):
     result[dictionary[str(key)]].update(dictionary)
   return list(result.values())
+
 
 def main():
   # retrieve papers with funding acknowledgement to HDR-UK
@@ -81,6 +84,7 @@ def main():
   # export papers with author affiliation OR funding acknowledgement to HDR-UK
   mergedData = merge('id', ack_data, aff_data)
   export_csv('data/papers.csv', mergedData)
+
 
 if __name__ == "__main__":
     main()
