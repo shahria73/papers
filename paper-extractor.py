@@ -51,13 +51,13 @@ def export_csv(outputFilename, data):
         if 'affiliation' in author.keys():
           authorAffiliations.append(author['affiliation'])
       row = {
-        'id': d['id'],
-        'doi': "https://doi.org/" + d['doi'],
-        'title': d['title'],
-        'authorString': d['authorString'],
+        'id': d.get('id', ''),
+        'doi': "https://doi.org/" + d.get('doi',''),
+        'title': d.get('title'),
+        'authorString': d.get('authorString'),
         'authorAffiliations': "; ".join(authorAffiliations),
-        'journalTitle': d['journalInfo']['journal']['title'],
-        'pubYear': d['pubYear'],
+        'journalTitle': d.get('journalInfo')['journal']['title'],
+        'pubYear': d.get('pubYear'),
         'abstract': d.get('abstractText', '')
       }
       writer.writerow(row)
