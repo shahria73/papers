@@ -31,6 +31,7 @@ def retrieve_papers(query="", data=None, cursorMark="*"):
     DATA = data
   query = urllib.parse.quote_plus(query)
   URL = EPMC_BASE_URL + "&".join(["query=%s" % query, "cursorMark=%s" % cursorMark])
+  print("Retrieving papers from", URL)
   d = request_url(URL)
   numResults = d['hitCount']
   DATA.extend(d['resultList']['result'])
