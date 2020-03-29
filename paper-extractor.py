@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # usage: paper-extractor.py
 __author__ = "Susheel Varma"
-__copyright__ = "Copyright (c) 2019 Susheel Varma All Rights Reserved."
+__copyright__ = "Copyright (c) 2019-2020 Susheel Varma All Rights Reserved."
 __email__ = "susheel.varma@ebi.ac.uk"
 __license__ = "MIT"
 
@@ -14,6 +14,8 @@ EPMC_BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultT
 SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
 ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
 AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
+
+COVID_QUERY = "(\"COVID-19\" OR Coronavirus OR \"Corona virus\" OR \"2019-nCoV\" OR \"2019nCoV\" OR \"SARS-CoV\" OR \"MERS-CoV\" OR \“Severe Acute Respiratory Syndrome\” OR \“Middle East Respiratory Syndrome\”) AND ((ACK_FUND:\"HDRUK\"+OR+ACK_FUND:\"HDR+UK\"+OR+ACK_FUND:\"HDR-UK\"+OR+ACK_FUND:\"Health+Data+Research+UK\") OR (AFF:\"HDRUK\"+OR+AFF:\"HDR+UK\"+OR+AFF:\"HDR-UK\"+OR+AFF:\"Health+Data+Research+UK\"))"
 
 
 def request_url(URL):
@@ -81,6 +83,10 @@ def main():
   # retrieve papers with author affiliation to HDR-UK
   aff_data = retrieve_papers(query=AFF_QUERY, data=[])
   export_csv('data/affiliations.csv', aff_data)
+  
+  # retrieve papers with author affiliation or funding acknowledgement to HDR-UK
+  covid_data = retrieve_papers(query=COVID_QUERY, data=[])
+  export_csv('data/covid.csv', covid_data)
 
   # export papers with author affiliation OR funding acknowledgement to HDR-UK
   mergedData = merge('id', ack_data, aff_data)
