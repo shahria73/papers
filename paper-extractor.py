@@ -86,7 +86,7 @@ def main():
   
   # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
   covid_data = retrieve_papers(query=COVID_QUERY, data=[])
-  export_csv('data/covid.csv', covid_data)
+  export_csv('data/covid-papers.csv', covid_data)
 
   # export papers with author affiliation OR funding acknowledgement to HDR-UK
   mergedData = merge('id', ack_data, aff_data)
