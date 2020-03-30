@@ -76,21 +76,21 @@ def merge(key, *lists):
 
 
 def main():
-  # # retrieve papers with funding acknowledgement to HDR-UK
-  # ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
-  # export_csv('data/acknowledgements.csv', ack_data)
+  # retrieve papers with funding acknowledgement to HDR-UK
+  ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
+  export_csv('data/acknowledgements.csv', ack_data)
 
-  # # retrieve papers with author affiliation to HDR-UK
-  # aff_data = retrieve_papers(query=AFF_QUERY, data=[])
-  # export_csv('data/affiliations.csv', aff_data)
+  # retrieve papers with author affiliation to HDR-UK
+  aff_data = retrieve_papers(query=AFF_QUERY, data=[])
+  export_csv('data/affiliations.csv', aff_data)
   
   # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
   covid_data = retrieve_papers(query=COVID_QUERY, data=[])
   export_csv('data/covid.csv', covid_data)
 
-  # # export papers with author affiliation OR funding acknowledgement to HDR-UK
-  # mergedData = merge('id', ack_data, aff_data)
-  # export_csv('data/papers.csv', mergedData)
+  # export papers with author affiliation OR funding acknowledgement to HDR-UK
+  mergedData = merge('id', ack_data, aff_data)
+  export_csv('data/papers.csv', mergedData)
 
 
 if __name__ == "__main__":
