@@ -15,7 +15,7 @@ SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
 ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
 AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 
-COVID_QUERY = "(\"COVID-19\" OR Coronavirus OR \"Corona virus\" OR \"2019-nCoV\" OR \"2019nCoV\" OR \"SARS-CoV\" OR \"MERS-CoV\" OR \“Severe Acute Respiratory Syndrome\” OR \“Middle East Respiratory Syndrome\”) AND ((ACK_FUND:\"HDRUK\"+OR+ACK_FUND:\"HDR+UK\"+OR+ACK_FUND:\"HDR-UK\"+OR+ACK_FUND:\"Health+Data+Research+UK\") OR (AFF:\"HDRUK\"+OR+AFF:\"HDR+UK\"+OR+AFF:\"HDR-UK\"+OR+AFF:\"Health+Data+Research+UK\"))"
+COVID_QUERY = "(\"COVID-19\" OR Coronavirus OR \"Corona virus\" OR \"2019-nCoV\" OR \"2019nCoV\" OR \"SARS-CoV\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\") AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\"))"
 
 
 def request_url(URL):
@@ -76,21 +76,21 @@ def merge(key, *lists):
 
 
 def main():
-  # retrieve papers with funding acknowledgement to HDR-UK
-  ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
-  export_csv('data/acknowledgements.csv', ack_data)
+  # # retrieve papers with funding acknowledgement to HDR-UK
+  # ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
+  # export_csv('data/acknowledgements.csv', ack_data)
 
-  # retrieve papers with author affiliation to HDR-UK
-  aff_data = retrieve_papers(query=AFF_QUERY, data=[])
-  export_csv('data/affiliations.csv', aff_data)
+  # # retrieve papers with author affiliation to HDR-UK
+  # aff_data = retrieve_papers(query=AFF_QUERY, data=[])
+  # export_csv('data/affiliations.csv', aff_data)
   
-  # retrieve papers with author affiliation or funding acknowledgement to HDR-UK
+  # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
   covid_data = retrieve_papers(query=COVID_QUERY, data=[])
   export_csv('data/covid.csv', covid_data)
 
-  # export papers with author affiliation OR funding acknowledgement to HDR-UK
-  mergedData = merge('id', ack_data, aff_data)
-  export_csv('data/papers.csv', mergedData)
+  # # export papers with author affiliation OR funding acknowledgement to HDR-UK
+  # mergedData = merge('id', ack_data, aff_data)
+  # export_csv('data/papers.csv', mergedData)
 
 
 if __name__ == "__main__":
