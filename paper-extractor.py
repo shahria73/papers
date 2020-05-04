@@ -9,6 +9,7 @@ import csv
 import json
 import urllib
 import requests
+from pprint import pprint
 
 EPMC_BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultType=core&pageSize=1000&format=json&"
 SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
@@ -50,9 +51,10 @@ def export_csv(outputFilename, data):
     for d in data:
       # Extracting Author affiliations
       authorAffiliations = []
-      for author in d['authorList']['author']:
-        if 'affiliation' in author.keys():
-          authorAffiliations.append(author['affiliation'])
+      if 'authorList' in d.keys():
+        for author in d['authorList']['author']:
+          if 'affiliation' in author.keys():
+            authorAffiliations.append(author['affiliation'])
       row = {
         'id': d.get('id', ''),
         'doi': "https://doi.org/" + d.get('doi',''),
