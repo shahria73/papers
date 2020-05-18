@@ -7,7 +7,7 @@ jobs:
   include:
   - stage: decrypt contacts
     script:
-      - gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output data/contacts.csv data/contacts.csv
+      - gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output data/contacts.csv data/contacts.csv.gpg
   - stage: build_pages
     python: '3.6'
     script:
