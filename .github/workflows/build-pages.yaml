@@ -11,7 +11,9 @@ jobs:
       - name: Decrypt Contacts
         env:
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
-        run: gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output $HOME/secrets/contacts.csv data/contacts.csv.gpg
+        run: |
+          mkdir $HOME/secrets
+          gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output $HOME/secrets/contacts.csv data/contacts.csv.gpg
       - name: Set up Python 3.7
         uses: actions/setup-python@v1
         with:
