@@ -39,5 +39,8 @@ jobs:
         with:
           target_branch: gh-pages
           build_dir: ./
+          keep_history: true
+          committer: Susheel Varma
+          author: Susheel Varma <susheel.varma@hdruk.ac.uk>
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
