@@ -1,6 +1,13 @@
 name: build-pages
 
-on: push
+on:
+  schedule:
+  # Run at 0 minute past every 12th hour
+    - cron:  '0 */12 * * *'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build-pages:
