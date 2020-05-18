@@ -9,7 +9,8 @@ Publications that mention HDR-UK (or any variant thereof) in:
 - [Author Affiliations](https://hdruk.github.io/papers/affiliations.html)
 - [All Publications](https://hdruk.github.io/papers/)
 
-## ![New](https://img.shields.io/badge/NEW-2020--03--29-red) [COVID-19 Papers](https://hdruk.github.io/papers/covid-19.html)
+## ![New](https://img.shields.io/badge/NEW-2020--03--29-blue) [COVID-19 Papers](https://hdruk.github.io/papers/covid-19.html)
+## ![New](https://img.shields.io/badge/NEW-2020--05--19-red) [COVID-19 Preprints](https://hdruk.github.io/papers/covid-19-preprints.html)
 
 ## Data Sources
 - [Europe PMC](https://europepmc.org/)
