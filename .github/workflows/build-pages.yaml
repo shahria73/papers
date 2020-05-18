@@ -12,6 +12,15 @@ jobs:
         env:
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
         run: gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output $HOME/secrets/contacts.csv data/contacts.csv.gpg
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Extract HDR UK Papers
         run: python3 paper-extractor.py
       - name: Extract COVID-19 Preprints
