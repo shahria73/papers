@@ -5,10 +5,13 @@ python:
 
 jobs:
   include:
+  - stage: decrypt contacts
+    script:
+      - gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output data/contacts.csv data/contacts.csv
   - stage: build_pages
     python: '3.6'
     script:
-      - python3 paper-extractor.py
+      - python3 paper-extractor.py && python3 preprint-extractor.py
     deploy:
       provider: pages
       skip_cleanup: true
