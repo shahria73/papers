@@ -3,7 +3,7 @@ name: build-pages
 on: push
 
 jobs:
-  publish:
+  build-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
