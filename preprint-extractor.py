@@ -15,7 +15,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 MEDARXIV_URL = "https://connect.medrxiv.org/relate/collection_json.php?grp=181"
-HDRUK_MEMBERS_CSV = "$HOME/secrets/contacts.csv"
+HDRUK_MEMBERS_CSV = "/home/runner/secrets/contacts.csv"
 
 def request_url(URL):
     """HTTP GET request and load into json"""
