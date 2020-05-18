@@ -1,21 +1,21 @@
 language: python
-
 python:
 - '3.6'
 
+before_install:
+- openssl aes-256-cbc -K $encrypted_7462d68a9e03_key -iv $encrypted_7462d68a9e03_iv
+  -in data/contacts.csv.enc -out data/contacts.csv -d
+
 jobs:
   include:
-  - stage: decrypt contacts
-    script:
-      - gpg --quiet --batch --yes --decrypt --passphrase="$PASSPHRASE" --output data/contacts.csv data/contacts.csv.gpg
   - stage: build_pages
     python: '3.6'
     script:
-      - python3 paper-extractor.py && python3 preprint-extractor.py
+    - python3 paper-extractor.py && python3 preprint-extractor.py
     deploy:
       provider: pages
       skip_cleanup: true
-      github_token: $GITHUB_TOKEN
+      github_token: "$GITHUB_TOKEN"
       keep_history: true
       on:
         branch: master
