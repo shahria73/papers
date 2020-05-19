@@ -37,7 +37,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4.1.6
         with:
           commit_message: Commit new papers and preprints
-          branch: gh-pages
+          branch: ${{ github.head_ref }}
           commit_user_name: Susheel Varma
           commit_user_email: susheel.varma@hdruk.ac.uk
           commit_author: Susheel Varma <susheel.varma@hdruk.ac.uk>
