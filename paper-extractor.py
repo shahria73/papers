@@ -42,33 +42,40 @@ def retrieve_papers(query="", data=None, cursorMark="*"):
     retrieve_papers(query, DATA, cursorMark=d['nextCursorMark'])
   return DATA
 
+def export_json(data, filename, indent=2):
+  with open(filename, 'w') as jsonfile:
+    json.dump(data, jsonfile, indent=indent)
 
-def export_csv(outputFilename, data):
-  column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'abstract']
+def export_csv(data, header, outputFilename):
   with open(outputFilename, 'w') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=column_names)
+    writer = csv.DictWriter(csvfile, fieldnames=header)
     writer.writeheader()
-    for d in data:
-      # Extracting Author affiliations
-      authorAffiliations = []
-      if 'authorList' in d.keys():
-        for author in d['authorList']['author']:
-          if 'authorAffiliationsList' in author.keys():
-            affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
-            authorAffiliations.append(affiliation)
-      row = {
-        'id': d.get('id', ''),
-        'doi': "https://doi.org/" + d.get('doi',''),
-        'title': d.get('title'),
-        'authorString': d.get('authorString'),
-        'authorAffiliations': "; ".join(authorAffiliations),
-        'journalTitle': d.get('journalInfo')['journal']['title'],
-        'pubYear': d.get('pubYear'),
-        'isOpenAccess': d.get('isOpenAccess'),
-        'abstract': d.get('abstractText', '')
-      }
-      writer.writerow(row)
+    writer.writerows(data)
 
+def format_data(data):
+  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'abstract']
+  DATA = []
+  for d in data:
+    # Extracting Author affiliations
+    authorAffiliations = []
+    if 'authorList' in d.keys():
+      for author in d['authorList']['author']:
+        if 'authorAffiliationsList' in author.keys():
+          affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
+          authorAffiliations.append(affiliation)
+    row = {
+      'id': d.get('id', ''),
+      'doi': "https://doi.org/" + d.get('doi',''),
+      'title': d.get('title'),
+      'authorString': d.get('authorString'),
+      'authorAffiliations': "; ".join(authorAffiliations),
+      'journalTitle': d.get('journalInfo')['journal']['title'],
+      'pubYear': d.get('pubYear'),
+      'isOpenAccess': d.get('isOpenAccess'),
+      'abstract': d.get('abstractText', '')
+    }
+    DATA.append(row)
+  return DATA, HEADER
 
 def merge(key, *lists):
   import itertools
@@ -82,19 +89,24 @@ def merge(key, *lists):
 def main():
   # retrieve papers with funding acknowledgement to HDR-UK
   ack_data = retrieve_papers(query=ACK_FUND_QUERY, data=[])
-  export_csv('data/acknowledgements.csv', ack_data)
+  data, header = format_data(ack_data)
+  export_csv(data, header, 'data/acknowledgements.csv')
 
   # retrieve papers with author affiliation to HDR-UK
   aff_data = retrieve_papers(query=AFF_QUERY, data=[])
-  export_csv('data/affiliations.csv', aff_data)
+  data, header = format_data(aff_data)
+  export_csv(data, header, 'data/affiliations.csv')
   
   # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
   covid_data = retrieve_papers(query=COVID_QUERY, data=[])
-  export_csv('data/covid-papers.csv', covid_data)
+  data, header = format_data(covid_data)
+  export_csv(data, header, 'data/covid-papers.csv')
 
   # export papers with author affiliation OR funding acknowledgement to HDR-UK
   mergedData = merge('id', ack_data, aff_data)
-  export_csv('data/papers.csv', mergedData)
+  data, header = format_data(mergedData)
+  export_csv(data, header, 'data/papers.csv')
+  export_json(data, 'data/papers.json')
 
 
 if __name__ == "__main__":

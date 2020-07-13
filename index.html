@@ -9,9 +9,8 @@
     <meta name="author" content="Susheel Varma">
     <meta content="HDR-UK Papers" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/dataTables.bootstrap.css" rel="stylesheet">
+    <!-- DataTables -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,9 +22,30 @@
   <body>
     <div class="container-fluid">
 
-      <h2>Health Data Research UK Papers</h2>
+      <h2>Health Data Research UK Papers - (<a href="/data/papers.csv">CSV</a> | <a href="/data/papers.json">JSON</a>)</h2>
 
-      <div id='table-container'></div>
+      <table id="table-container" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>DOI</th>
+                <th>Title</th>
+                <th>Authors</th>
+                <th>Journal</th>
+                <th>Year</th>
+                <th>Open Access</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <th>DOI</th>
+              <th>Title</th>
+              <th>Authors</th>
+              <th>Journal</th>
+              <th>Year</th>
+              <th>Open Access</th>
+            </tr>
+        </tfoot>
+    </table>
 
     </div><!-- /.container -->
 
@@ -36,33 +56,27 @@
       </div>
     </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.csv.min.js"></script>
-    <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
-    <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
-
-    <script type="text/javascript">
-      function format_link(link){
-        if (link)
-          return "<a href='" + link + "' target='_blank'>" + link + "</a>";
-        else
-          return "";
-      }
-
-      CsvToHtmlTable.init({
-        csv_path: 'data/papers.csv',
-        element: 'table-container',
-        allow_download: true,
-        csv_options: {separator: ',', delimiter: '"'},
-        datatables_options: {"paging": false},
-        custom_formatting: [[1, format_link]]
-      });
+    <script>
+      $(document).ready( function () {
+        $('#table-container').DataTable({
+          ajax: {
+            url: 'data/papers.json',
+            dataSrc: ''
+          },
+          columns: [
+            { data: 'doi' },
+            { data: 'title' },
+            { data: 'authorString' },
+            { data: 'journalTitle' },
+            { data: 'pubYear' },
+            { data: 'isOpenAccess' },
+          ],
+          "order": [[ 4, "desc" ]]
+        });
+    } );
     </script>
   </body>
 </html>
