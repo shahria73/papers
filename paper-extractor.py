@@ -44,7 +44,7 @@ def retrieve_papers(query="", data=None, cursorMark="*"):
 
 
 def export_csv(outputFilename, data):
-  column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'abstract']
+  column_names = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'abstract']
   with open(outputFilename, 'w') as csvfile:
     writer = csv.DictWriter(csvfile, fieldnames=column_names)
     writer.writeheader()
@@ -63,6 +63,7 @@ def export_csv(outputFilename, data):
         'authorAffiliations': "; ".join(authorAffiliations),
         'journalTitle': d.get('journalInfo')['journal']['title'],
         'pubYear': d.get('pubYear'),
+        'isOpenAccess': d.get('isOpenAccess'),
         'abstract': d.get('abstractText', '')
       }
       writer.writerow(row)
