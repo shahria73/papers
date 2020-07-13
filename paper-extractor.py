@@ -53,8 +53,9 @@ def export_csv(outputFilename, data):
       authorAffiliations = []
       if 'authorList' in d.keys():
         for author in d['authorList']['author']:
-          if 'affiliation' in author.keys():
-            authorAffiliations.append(author['affiliation'])
+          if 'authorAffiliationsList' in author.keys():
+            affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
+            authorAffiliations.append(affiliation)
       row = {
         'id': d.get('id', ''),
         'doi': "https://doi.org/" + d.get('doi',''),
