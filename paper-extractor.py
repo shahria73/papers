@@ -16,7 +16,7 @@ SEARCH_TEXT = ['HDRUK', 'HDR UK', 'HDR-UK', 'Health Data Research UK']
 ACK_FUND_QUERY = " OR ".join(["ACK_FUND:\"{}\"".format(t) for t in SEARCH_TEXT])
 AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 
-COVID_QUERY = "(\"COVID-19\" OR Coronavirus OR \"Corona virus\" OR \"2019-nCoV\" OR \"2019nCoV\" OR \"SARS-CoV\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\") AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\"))"
+COVID_QUERY = "(\"2019-nCoV\" OR \"2019nCoV\" OR \"COVID-19\" OR \"SARS-CoV-2\" OR \"COVID19\" OR \"COVID\" OR \"SARS-nCoV\" OR (\"wuhan\" AND \"coronavirus\") OR \"Coronavirus\" OR \"Corona virus\" OR \"corona-virus\" OR \"corona viruses\" OR \"coronaviruses\" OR \"SARS-CoV\" OR \"Orthocoronavirinae\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\" OR (\"SARS\" AND \"virus\") OR \"soluble ACE2\" OR (\"ACE2\" AND \"virus\") OR (\"ARDS\" AND \"virus\") or (\"angiotensin-converting enzyme 2\" AND \"virus\")) AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\"))"
 
 
 def request_url(URL):
