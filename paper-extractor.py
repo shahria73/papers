@@ -65,8 +65,8 @@ def format_data(data):
           authorAffiliations.append(affiliation)
     # Extracting Keywords
     keywords = ""
-    if 'keywordList' in author.keys():
-      keywords = keywords + "; ".join(author['keywordList']['keyword'])
+    if 'keywordList' in d.keys():
+      keywords = keywords + "; ".join(d['keywordList']['keyword'])
     row = {
       'id': d.get('id', ''),
       'doi': "https://doi.org/" + d.get('doi',''),
