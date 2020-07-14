@@ -53,7 +53,7 @@ def export_csv(data, header, outputFilename):
     writer.writerows(data)
 
 def format_data(data):
-  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'abstract']
+  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'abstract']
   DATA = []
   for d in data:
     # Extracting Author affiliations
@@ -63,6 +63,10 @@ def format_data(data):
         if 'authorAffiliationsList' in author.keys():
           affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
           authorAffiliations.append(affiliation)
+    # Extracting Keywords
+    keywords = ""
+    if 'keywordList' in author.keys():
+      keywords = keywords + "; ".join(author['keywordList']['keyword'])
     row = {
       'id': d.get('id', ''),
       'doi': "https://doi.org/" + d.get('doi',''),
@@ -72,6 +76,7 @@ def format_data(data):
       'journalTitle': d.get('journalInfo')['journal']['title'],
       'pubYear': d.get('pubYear'),
       'isOpenAccess': d.get('isOpenAccess'),
+      'keywords': keywords,
       'abstract': d.get('abstractText', '')
     }
     DATA.append(row)
