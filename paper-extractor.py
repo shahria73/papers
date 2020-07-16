@@ -58,7 +58,7 @@ def export_csv(data, header, outputFilename):
 def read_csv(filename):
   header = []
   data = []
-  with open(filename, newline='') as csvfile:
+  with open(filename, mode='r', encoding='utf-8-sig', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     header = reader.fieldnames
     for row in reader:
@@ -79,12 +79,24 @@ def get_national_priorities(d):
         'health category': ""
       }
 
+LAY_SUMMARIES, LS_HEADER = read_csv(LAY_SUMMARIES_CSV)
+
+def get_lay_summary(d):
+  doi = "https://doi.org/" + d.get('doi','')
+  for ls in LAY_SUMMARIES:
+    if ls['doi'] == doi:
+      return ls['lay summary']
+  return ""
+
 def format_data(data):
-  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract']
+  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract', 'laySummary']
   DATA = []
   for d in data:
     # Get National Priorities & Health Categories
     np = get_national_priorities(d)
+    # Get lay Summary
+    lay_summary = get_lay_summary(d)
+
     # Extracting Author affiliations
     authorAffiliations = []
     if 'authorList' in d.keys():
@@ -108,7 +120,8 @@ def format_data(data):
       'keywords': keywords,
       'nationalPriorities': np['national priority'],
       'healthCategories': np['health category'],
-      'abstract': d.get('abstractText', '')
+      'abstract': d.get('abstractText', ''),
+      'laySummary': lay_summary
     }
     DATA.append(row)
   return DATA, HEADER
