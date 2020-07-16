@@ -1,4 +1,4 @@
-![build-pages](https://github.com/HDRUK/papers/workflows/build-pages/badge.svg)
+![extract-papers](https://github.com/HDRUK/papers/workflows/extract-papers/badge.svg)
 [![DOI](https://zenodo.org/badge/190556842.svg)](https://zenodo.org/badge/latestdoi/190556842)
 [![LICENCE](https://img.shields.io/github/license/HDRUK/papers)](https://github.com/HDRUK/papers/blob/master/LICENSE)
 [![Support](https://img.shields.io/badge/Supported%20By-HDR%20UK-blue)](https://hdruk.ac.uk)
