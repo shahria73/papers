@@ -2,8 +2,8 @@ name: extract-preprints
 
 on:
   schedule:
-  # Run at 0 minute past every 12th hour
-    - cron:  '0 */12 * * *'
+  # Run at 30 minutes past 12th hour
+    - cron:  '30 */12 * * *'
   push:
     branches: [ master ]
   pull_request:

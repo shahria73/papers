@@ -2,7 +2,7 @@ name: extract-papers
 
 on:
   schedule:
-  # Run at 0 minute past every 12th hour
+  # Run at 0 minutes past 12th hour
     - cron:  '0 */12 * * *'
   push:
     branches: [ master ]
