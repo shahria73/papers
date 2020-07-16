@@ -1,4 +1,4 @@
-name: build-pages
+name: extract-preprints
 
 on:
   schedule:
@@ -10,7 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build-pages:
+  extract-papers:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,8 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Extract HDR UK Papers
-        run: python3 paper-extractor.py
       - name: Extract COVID-19 Preprints
         env:
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
