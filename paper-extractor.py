@@ -18,6 +18,9 @@ AFF_QUERY = " OR ".join(["AFF:\"{}\"".format(t) for t in SEARCH_TEXT])
 
 COVID_QUERY = "(\"2019-nCoV\" OR \"2019nCoV\" OR \"COVID-19\" OR \"SARS-CoV-2\" OR \"COVID19\" OR \"COVID\" OR \"SARS-nCoV\" OR (\"wuhan\" AND \"coronavirus\") OR \"Coronavirus\" OR \"Corona virus\" OR \"corona-virus\" OR \"corona viruses\" OR \"coronaviruses\" OR \"SARS-CoV\" OR \"Orthocoronavirinae\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\" OR (\"SARS\" AND \"virus\") OR \"soluble ACE2\" OR (\"ACE2\" AND \"virus\") OR (\"ARDS\" AND \"virus\") or (\"angiotensin-converting enzyme 2\" AND \"virus\")) AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\"))"
 
+# HDR UK Custom tags
+NATIONAL_PRIORITIES_CSV = "data/national-priorities.csv"
+LAY_SUMMARIES_CSV = "data/lay-summaries.csv"
 
 def request_url(URL):
   """HTTP GET request and load into json"""
@@ -52,10 +55,36 @@ def export_csv(data, header, outputFilename):
     writer.writeheader()
     writer.writerows(data)
 
+def read_csv(filename):
+  header = []
+  data = []
+  with open(filename, newline='') as csvfile:
+    reader = csv.DictReader(csvfile)
+    header = reader.fieldnames
+    for row in reader:
+      data.append(row)
+  return data, header
+
+NATIONAL_PRIORITIES, NP_HEADER = read_csv(NATIONAL_PRIORITIES_CSV)
+
+def get_national_priorities(d):
+  for np in NATIONAL_PRIORITIES:
+    if d.get('title') == np['title']:
+      return {
+        'national priority': np['national priority'],
+        'health category': np['health category']
+      }
+  return {
+        'national priority': "",
+        'health category': ""
+      }
+
 def format_data(data):
-  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'abstract']
+  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract']
   DATA = []
   for d in data:
+    # Get National Priorities & Health Categories
+    np = get_national_priorities(d)
     # Extracting Author affiliations
     authorAffiliations = []
     if 'authorList' in d.keys():
@@ -77,6 +106,8 @@ def format_data(data):
       'pubYear': d.get('pubYear'),
       'isOpenAccess': d.get('isOpenAccess'),
       'keywords': keywords,
+      'nationalPriorities': np['national priority'],
+      'healthCategories': np['health category'],
       'abstract': d.get('abstractText', '')
     }
     DATA.append(row)
