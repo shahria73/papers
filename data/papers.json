@@ -900,21 +900,6 @@
     "laySummary": ""
   },
   {
-    "id": "32564639",
-    "doi": "https://doi.org/10.1177/0300060520931298",
-    "title": "Mortality statistics in England and Wales: the SARS-CoV-2 paradox.",
-    "authorString": "Harrison G, Newport D, Robbins T, Arvanitis TN, Stein A.",
-    "authorAffiliations": "Warwick Medical School, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; Warwick Medical School, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; Institute of Digital Healthcare, WMG, University of Warwick, Coventry, UK.; Institute of Digital Healthcare, WMG, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.",
-    "journalTitle": "The Journal of international medical research",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Respiratory disease; United Kingdom; Mortality Rate; Paradox; Covid-19; Sars-cov-2",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "OBJECTIVE:To analyse mortality statistics in the United Kingdom during the initial phases of the severe acute respiratory coronavirus 2 (SARS-CoV-2) pandemic and to understand the impact of the pandemic on national mortality. METHODS:Retrospective review of weekly national mortality statistics in the United Kingdom over the past 5 years, including subgroup analysis of respiratory mortality rates. RESULTS:During the early phases of the SARS-CoV-2 pandemic in the first months of 2020, there were consistently fewer deaths per week compared with the preceding 5 years. This pattern was not observed at any other time within the past 5 years. We have termed this phenomenon the \"SARS-CoV-2 paradox.\" We postulate potential explanations for this seeming paradox and explore the implications of these data. CONCLUSIONS:Paradoxically, but potentially importantly, lower rather than higher weekly mortality rates were observed during the early stages of the SARS-CoV-2 pandemic. This paradox may have implications for current and future healthcare utilisation. A rebound increase in non-SARS-CoV-2 mortality later this year might coincide with the peak of SARS-CoV-2 admissions and mortality.",
-    "laySummary": ""
-  },
-  {
     "id": "32619549",
     "doi": "https://doi.org/10.1016/j.cels.2020.05.012",
     "title": "Ultra-High-Throughput Clinical Proteomics Reveals Classifiers of COVID-19 Infection.",
@@ -927,6 +912,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "The COVID-19 pandemic is an unprecedented global challenge, and point-of-care diagnostic classifiers are urgently required. Here, we present a platform for ultra-high-throughput serum and plasma proteomics that builds on ISO13485 standardization to facilitate simple implementation in regulated clinical laboratories. Our low-cost workflow handles up to 180 samples per day, enables high precision quantification, and reduces batch effects for large-scale and longitudinal studies. We use our platform on samples collected from a cohort of early hospitalized cases of the SARS-CoV-2 pandemic and identify 27 potential biomarkers that are differentially expressed depending on the WHO severity grade of COVID-19. They include complement factors, the coagulation system, inflammation modulators, and pro-inflammatory factors upstream and downstream of interleukin 6. All protocols and software for implementing our approach are freely available. In total, this work supports the development of routine proteomic assays to aid clinical decision making and generate hypotheses about potential COVID-19 therapeutic targets.",
+    "laySummary": ""
+  },
+  {
+    "id": "32564639",
+    "doi": "https://doi.org/10.1177/0300060520931298",
+    "title": "Mortality statistics in England and Wales: the SARS-CoV-2 paradox.",
+    "authorString": "Harrison G, Newport D, Robbins T, Arvanitis TN, Stein A.",
+    "authorAffiliations": "Warwick Medical School, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; Warwick Medical School, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.; Institute of Digital Healthcare, WMG, University of Warwick, Coventry, UK.; Institute of Digital Healthcare, WMG, University of Warwick, Coventry, UK.; University Hospitals Coventry & Warwickshire, NHS Trust, Coventry, UK.",
+    "journalTitle": "The Journal of international medical research",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Respiratory disease; United Kingdom; Mortality Rate; Paradox; Covid-19; Sars-cov-2",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "OBJECTIVE:To analyse mortality statistics in the United Kingdom during the initial phases of the severe acute respiratory coronavirus 2 (SARS-CoV-2) pandemic and to understand the impact of the pandemic on national mortality. METHODS:Retrospective review of weekly national mortality statistics in the United Kingdom over the past 5 years, including subgroup analysis of respiratory mortality rates. RESULTS:During the early phases of the SARS-CoV-2 pandemic in the first months of 2020, there were consistently fewer deaths per week compared with the preceding 5 years. This pattern was not observed at any other time within the past 5 years. We have termed this phenomenon the \"SARS-CoV-2 paradox.\" We postulate potential explanations for this seeming paradox and explore the implications of these data. CONCLUSIONS:Paradoxically, but potentially importantly, lower rather than higher weekly mortality rates were observed during the early stages of the SARS-CoV-2 pandemic. This paradox may have implications for current and future healthcare utilisation. A rebound increase in non-SARS-CoV-2 mortality later this year might coincide with the peak of SARS-CoV-2 admissions and mortality.",
     "laySummary": ""
   },
   {
@@ -3180,21 +3180,6 @@
     "laySummary": ""
   },
   {
-    "id": "32657853",
-    "doi": "https://doi.org/10.1097/sap.0000000000002434",
-    "title": "Making the Most of Big Data in Plastic Surgery: Improving Outcomes, Protecting Patients, Informing Service Providers.",
-    "authorString": "Gibson JAG, Dobbs TD, Kouzaris L, Lacey A, Thompson S, Akbari A, Hutchings HA, Lineaweaver WC, Lyons RA, Whitaker IS.",
-    "authorAffiliations": "From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.; From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.; Swansea University Medical School.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Swansea University Medical School.; JMS Burn and Reconstruction Center, Merit Health Central Hospital, Jackson, MS.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.",
-    "journalTitle": "Annals of plastic surgery",
-    "pubYear": "2020",
-    "isOpenAccess": "N",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "In medicine, \"big data\" refers to the interdisciplinary analysis of high-volume, diverse clinical and lifestyle information on large patient populations. Recent advancements in data storage and electronic record keeping have enabled the expansion of research in this field. In the United Kingdom, Big data has been highlighted as one of the government's \"8 Great Technologies,\" and the Medical Research Council has invested more than \u00a3100 million since 2012 in developing the Health Data Research UK infrastructure. The recent Royal College of Surgeons Commission of the Future of Surgery concluded that analysis of big data is one of the 4 most likely avenues to bring some of the most innovative changes to surgical practice in the 21st century.In this article, we provide an overview of the nascent field of big data analytics in plastic and highlight how it has the potential to improve outcomes, increase safety, and aid service planning.We outline the current resources available, the emerging role of big data within the subspecialties of burns, microsurgery, skin and breast cancer, and how these data can be used. We critically review the limitations and considerations raised with big data, offer suggestions regarding database optimization, and suggest future directions for research in this exciting field.",
-    "laySummary": ""
-  },
-  {
     "id": "31912053",
     "doi": "https://doi.org/",
     "title": "Described Practices for Assessing Fluid Resuscitation in Acute Hospital Care: A Qualitative Study.",
@@ -3207,6 +3192,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "Fluid resuscitation is a widely-used treatment in acute and emergency medicine, however, the process used to perform a fluid assessment has never been studied. This qualitative study explored how acute physicians describe their approach to assessing for fluid resuscitation. 18 clinicians of varying grades consented to a semi-structured interview. Transcripts were coded and analysed using thematic analysis. Participants described three subtypes of assessment; screening assessment, emergency assessment and formal assessment. Whether a patient was 'sick' was key to determining which assessment they would receive. Marked heterogeneity was noted in the assessment processes, particularly regarding the use of history-taking. Further research is required to determine how the information gathered in these assessments is used to decide when fluid resuscitation is indicated.",
+    "laySummary": ""
+  },
+  {
+    "id": "32657853",
+    "doi": "https://doi.org/10.1097/sap.0000000000002434",
+    "title": "Making the Most of Big Data in Plastic Surgery: Improving Outcomes, Protecting Patients, Informing Service Providers.",
+    "authorString": "Gibson JAG, Dobbs TD, Kouzaris L, Lacey A, Thompson S, Akbari A, Hutchings HA, Lineaweaver WC, Lyons RA, Whitaker IS.",
+    "authorAffiliations": "From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.; From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.; Swansea University Medical School.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; Swansea University Medical School.; JMS Burn and Reconstruction Center, Merit Health Central Hospital, Jackson, MS.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdon.; From the Reconstructive Surgery and Regenerative Medicine Research Group, Institute of Life Science, Swansea University Medical School.; The Welsh Centre for Burns and Plastic Surgery, Morriston Hospital.",
+    "journalTitle": "Annals of plastic surgery",
+    "pubYear": "2020",
+    "isOpenAccess": "N",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "In medicine, \"big data\" refers to the interdisciplinary analysis of high-volume, diverse clinical and lifestyle information on large patient populations. Recent advancements in data storage and electronic record keeping have enabled the expansion of research in this field. In the United Kingdom, Big data has been highlighted as one of the government's \"8 Great Technologies,\" and the Medical Research Council has invested more than \u00a3100 million since 2012 in developing the Health Data Research UK infrastructure. The recent Royal College of Surgeons Commission of the Future of Surgery concluded that analysis of big data is one of the 4 most likely avenues to bring some of the most innovative changes to surgical practice in the 21st century.In this article, we provide an overview of the nascent field of big data analytics in plastic and highlight how it has the potential to improve outcomes, increase safety, and aid service planning.We outline the current resources available, the emerging role of big data within the subspecialties of burns, microsurgery, skin and breast cancer, and how these data can be used. We critically review the limitations and considerations raised with big data, offer suggestions regarding database optimization, and suggest future directions for research in this exciting field.",
     "laySummary": ""
   },
   {
