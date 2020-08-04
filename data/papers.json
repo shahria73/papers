@@ -2520,21 +2520,6 @@
     "laySummary": "This population-wide study used datalinkage methods to create a matched cohort study between 1998-2016. The study estimated hazard ratios and compared the risk of major fractures and any fracture in people with and without atopic eczema. Findings suggest that people with atopic eczema have an increased fracture risk."
   },
   {
-    "id": "31109684",
-    "doi": "https://doi.org/10.1016/j.injury.2019.05.004",
-    "title": "Agreement between medical record and administrative coding of common comorbidities in orthopaedic trauma patients.",
-    "authorString": "Daly S, Nguyen TQ, Gabbe BJ, Braaf S, Simpson P, Ekegren CL.",
-    "authorAffiliations": "School of Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia; Health Data Research, UK.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia. Electronic address: christina.ekegren@monash.edu.",
-    "journalTitle": "Injury",
-    "pubYear": "2019",
-    "isOpenAccess": "N",
-    "keywords": "Trauma; Comorbidity; Agreement; Orthopaedic; Icd-10-am",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "OBJECTIVE:To i) quantify the agreement between comorbidities documented within medical records and an orthopaedic trauma dataset; and ii) compare agreement between these sources before and after the introduction of new comorbidity coding rules in Australian hospitals. STUDY DESIGN AND SETTING:A random sample of adult (\u2265 16 years) orthopaedic trauma patients (n\u2009=\u2009400) were extracted from the Victorian Orthopaedic Trauma Outcomes Registry (VOTOR). Diagnoses of obesity, arthritis, diabetes and cardiac conditions documented within patients' medical records were compared to ICD-10-AM comorbidity codes (provided by hospitals) for the same admission. Agreement was calculated (Cohen's kappa) before and after the introduction of new coding rules. RESULTS:All comorbidities had the same or higher prevalence in medical record data compared to coded data. Kappa values ranged from <0.001 (poor agreement) for coronary artery disease to 0.94 (excellent agreement) for type 2 diabetes. There was improvement in agreement between sources for most conditions following the introduction of new coding rules. CONCLUSION:There has been improvement in the coding of certain comorbidities since the introduction of new coding rules, suggesting that, since 2015, administrative data has improved capacity to capture patients' comorbidity profiles. Consideration must be taken when using the ICD-10-AM data due to its limitations.",
-    "laySummary": ""
-  },
-  {
     "id": "30120083",
     "doi": "https://doi.org/10.1016/j.ebiom.2018.08.004",
     "title": "Genome-Wide Association Study of Circadian Rhythmicity in 71,500 UK Biobank Participants and Polygenic Association with Mood Instability.",
@@ -2547,6 +2532,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "BACKGROUND:Circadian rhythms are fundamental to health and are particularly important for mental wellbeing. Disrupted rhythms of rest and activity are recognised as risk factors for major depressive disorder and bipolar disorder. METHODS:We conducted a genome-wide association study (GWAS) of low relative amplitude (RA), an objective measure of rest-activity cycles derived from the accelerometer data of 71,500 UK Biobank participants. Polygenic risk scores (PRS) for low RA were used to investigate potential associations with psychiatric phenotypes. OUTCOMES:Two independent genetic loci were associated with low RA, within genomic regions for Neurofascin (NFASC) and Solute Carrier Family 25 Member 17 (SLC25A17). A secondary GWAS of RA as a continuous measure identified a locus within Meis Homeobox 1 (MEIS1). There were no significant genetic correlations between low RA and any of the psychiatric phenotypes assessed. However, PRS for low RA was significantly associated with mood instability across multiple PRS thresholds (at PRS threshold 0\u00b705: OR\u202f=\u202f1\u00b702, 95% CI\u202f=\u202f1\u00b701-1\u00b702, p\u202f=\u202f9\u00b76\u202f\u00d7\u202f10-5), and with major depressive disorder (at PRS threshold 0\u00b71: OR\u202f=\u202f1\u00b703, 95% CI\u202f=\u202f1\u00b701-1\u00b705, p\u202f=\u202f0\u00b7025) and neuroticism (at PRS threshold 0\u00b75: Beta\u202f=\u202f0\u00b702, 95% CI\u202f=\u202f0\u00b7007-0\u00b704, p\u202f=\u202f0\u00b7021). INTERPRETATION:Overall, our findings contribute new knowledge on the complex genetic architecture of circadian rhythmicity and suggest a putative biological link between disrupted circadian function and mood disorder phenotypes, particularly mood instability, but also major depressive disorder and neuroticism. FUNDING:Medical Research Council (MR/K501335/1).",
+    "laySummary": ""
+  },
+  {
+    "id": "31109684",
+    "doi": "https://doi.org/10.1016/j.injury.2019.05.004",
+    "title": "Agreement between medical record and administrative coding of common comorbidities in orthopaedic trauma patients.",
+    "authorString": "Daly S, Nguyen TQ, Gabbe BJ, Braaf S, Simpson P, Ekegren CL.",
+    "authorAffiliations": "School of Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia; Health Data Research, UK.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia.; Department of Epidemiology and Preventive Medicine, Monash University, Melbourne, VIC, Australia. Electronic address: christina.ekegren@monash.edu.",
+    "journalTitle": "Injury",
+    "pubYear": "2019",
+    "isOpenAccess": "N",
+    "keywords": "Trauma; Comorbidity; Agreement; Orthopaedic; Icd-10-am",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "OBJECTIVE:To i) quantify the agreement between comorbidities documented within medical records and an orthopaedic trauma dataset; and ii) compare agreement between these sources before and after the introduction of new comorbidity coding rules in Australian hospitals. STUDY DESIGN AND SETTING:A random sample of adult (\u2265 16 years) orthopaedic trauma patients (n\u2009=\u2009400) were extracted from the Victorian Orthopaedic Trauma Outcomes Registry (VOTOR). Diagnoses of obesity, arthritis, diabetes and cardiac conditions documented within patients' medical records were compared to ICD-10-AM comorbidity codes (provided by hospitals) for the same admission. Agreement was calculated (Cohen's kappa) before and after the introduction of new coding rules. RESULTS:All comorbidities had the same or higher prevalence in medical record data compared to coded data. Kappa values ranged from <0.001 (poor agreement) for coronary artery disease to 0.94 (excellent agreement) for type 2 diabetes. There was improvement in agreement between sources for most conditions following the introduction of new coding rules. CONCLUSION:There has been improvement in the coding of certain comorbidities since the introduction of new coding rules, suggesting that, since 2015, administrative data has improved capacity to capture patients' comorbidity profiles. Consideration must be taken when using the ICD-10-AM data due to its limitations.",
     "laySummary": ""
   },
   {
