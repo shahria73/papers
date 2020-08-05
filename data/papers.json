@@ -270,21 +270,6 @@
     "laySummary": ""
   },
   {
-    "id": "32180562",
-    "doi": "https://doi.org/10.1016/j.molmet.2020.01.009",
-    "title": "Genome-wide association study of adipocyte lipolysis in the GENetics of adipocyte lipolysis (GENiAL) cohort.",
-    "authorString": "Kulyt\u00e9 A, Lundb\u00e4ck V, Lindgren CM, Luan J, Lotta LA, Langenberg C, Arner P, Strawbridge RJ, Dahlman I.",
-    "authorAffiliations": "Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Big Data Institute at the Li Ka Shing Center for Health Information and Discovery, University of Oxford, Oxford, UK; Wellcome Center for Human Genetics, Nuffield Department of Medicine, University of Oxford, Oxford, UK; National Institute for Health Research Oxford Biomedical Research Center, Oxford University Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK; Program in Medical and Population Genetics, Broad Institute, Cambridge, MA, USA.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK; Department of Medicine Solna, Karolinska Institute, Stockholm, Sweden; Health Data Research UK, UK.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden. Electronic address: ingrid.dahlman@ki.se.",
-    "journalTitle": "Molecular metabolism",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Adipocytes; Gene Expression; Subcutaneous; Genetic Variants; Lipolysis",
-    "nationalPriorities": "The Human Phenome",
-    "healthCategories": "",
-    "abstract": "OBJECTIVES:Lipolysis, hydrolysis of triglycerides to fatty acids in adipocytes, is tightly regulated, poorly understood, and, if perturbed, can lead to metabolic diseases including obesity and type 2 diabetes. The goal of this study was to identify the genetic regulators of lipolysis and elucidate their molecular mechanisms. METHODS:Adipocytes from abdominal subcutaneous adipose tissue biopsies were isolated and were incubated without (spontaneous lipolysis) or with a catecholamine (stimulated lipolysis) to analyze lipolysis. DNA was extracted and genome-wide genotyping and imputation conducted. After quality control, 939 samples with genetic and lipolysis data were available. Genome-wide association studies of spontaneous and stimulated lipolysis were conducted. Subsequent in\u00a0vitro gene expression analyses were used to identify candidate genes and explore their regulation of adipose tissue biology. RESULTS:One locus on chromosome 19 demonstrated genome-wide significance with spontaneous lipolysis. 60 loci showed suggestive associations with spontaneous or stimulated lipolysis, of which many influenced both traits. In the chromosome 19 locus, only HIF3A was expressed in the adipocytes and displayed genotype-dependent gene expression. HIF3A knockdown in\u00a0vitro increased lipolysis and the expression of key lipolysis-regulating genes. CONCLUSIONS:In conclusion, we identified a genetic regulator of spontaneous lipolysis and provided evidence of HIF3A as a novel key regulator of lipolysis in subcutaneous adipocytes as the mechanism through which the locus influences adipose tissue biology.",
-    "laySummary": "How the body breaks down fat is poorly understood, and, if this mechanism does not happen effiently in the body it can lead to metabolic diseases including obesity and type 2 diabetes. The goal of this study was to identify the genetic regulators of how the body break down fat and explain their molecular mechanisms."
-  },
-  {
     "id": "31783849",
     "doi": "https://doi.org/10.1186/s12911-019-0953-2",
     "title": "Developing a standardised approach to the aggregation of inpatient episodes into person-based spells in all specialties and psychiatric specialties.",
@@ -298,6 +283,21 @@
     "healthCategories": "",
     "abstract": "BACKGROUND:Electronic health record (EHR) data are available for research in all UK nations and cross-nation comparative studies are becoming more common. All UK inpatient EHRs are based around episodes, but episode-based analysis may not sufficiently capture the patient journey. There is no UK-wide method for aggregating episodes into standardised person-based spells. This study identifies two data quality issues affecting the creation of person-based spells, and tests four methods to create these spells, for implementation across all UK nations. METHODS:Welsh inpatient EHRs from 2013 to 2017 were analysed. Phase one described two data quality issues; transfers of care and episode sequencing. Phase two compared four methods for creating person spells. Measures were mean length of stay (LOS, expressed in days) and number of episodes per person spell for each method. RESULTS:3.5% of total admissions were transfers-in and 3.1% of total discharges were transfers-out. 68.7% of total transfers-in and 48.7% of psychiatric transfers-in had an identifiable preceding transfer-out, and 78.2% of total transfers-out and 59.0% of psychiatric transfers-out had an identifiable subsequent transfer-in. 0.2% of total episodes and 4.0% of psychiatric episodes overlapped with at least one other episode of any specialty. Method one (no evidence of transfer required; overlapping episodes grouped together) resulted in the longest mean LOS (4.0\u2009days for all specialties; 48.5\u2009days for psychiatric specialties) and the fewest single episode person spells (82.4% of all specialties; 69.7% for psychiatric specialties). Method three (evidence of transfer required; overlapping episodes separated) resulted in the shortest mean LOS (3.7\u2009days for all specialties; 45.8\u2009days for psychiatric specialties) and the most single episode person spells; (86.9% for all specialties; 86.3% for psychiatric specialties). CONCLUSIONS:Transfers-in appear better recorded than transfers-out. Transfer coding is incomplete, particularly for psychiatric specialties. The proportion of episodes that overlap is small but psychiatric episodes are disproportionately affected. The most successful method for grouping episodes into person spells aggregated overlapping episodes and required no evidence of transfer from admission source/method or discharge destination codes. The least successful method treated overlapping episodes as distinct and required transfer coding. The impact of all four methods was greater for psychiatric specialties.",
     "laySummary": "Rees et al used a Welsh database to examine inpatient episode/transfer coding coding for psychiatric patients. They identified deficiencies in the existing coding system for psychitatrics transfers and unexplained coding mistakes/problems, then they presesnt several different methods for constructing the inpatient spell to improve coding and avoid misclassification."
+  },
+  {
+    "id": "32180562",
+    "doi": "https://doi.org/10.1016/j.molmet.2020.01.009",
+    "title": "Genome-wide association study of adipocyte lipolysis in the GENetics of adipocyte lipolysis (GENiAL) cohort.",
+    "authorString": "Kulyt\u00e9 A, Lundb\u00e4ck V, Lindgren CM, Luan J, Lotta LA, Langenberg C, Arner P, Strawbridge RJ, Dahlman I.",
+    "authorAffiliations": "Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Big Data Institute at the Li Ka Shing Center for Health Information and Discovery, University of Oxford, Oxford, UK; Wellcome Center for Human Genetics, Nuffield Department of Medicine, University of Oxford, Oxford, UK; National Institute for Health Research Oxford Biomedical Research Center, Oxford University Hospitals NHS Foundation Trust, John Radcliffe Hospital, Oxford, UK; Program in Medical and Population Genetics, Broad Institute, Cambridge, MA, USA.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; MRC Epidemiology Unit, University of Cambridge, Cambridge, UK.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK; Department of Medicine Solna, Karolinska Institute, Stockholm, Sweden; Health Data Research UK, UK.; Lipid laboratory, Department of Medicine Huddinge, Karolinska Institute, Stockholm, Sweden. Electronic address: ingrid.dahlman@ki.se.",
+    "journalTitle": "Molecular metabolism",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Adipocytes; Gene Expression; Subcutaneous; Genetic Variants; Lipolysis",
+    "nationalPriorities": "The Human Phenome",
+    "healthCategories": "",
+    "abstract": "OBJECTIVES:Lipolysis, hydrolysis of triglycerides to fatty acids in adipocytes, is tightly regulated, poorly understood, and, if perturbed, can lead to metabolic diseases including obesity and type 2 diabetes. The goal of this study was to identify the genetic regulators of lipolysis and elucidate their molecular mechanisms. METHODS:Adipocytes from abdominal subcutaneous adipose tissue biopsies were isolated and were incubated without (spontaneous lipolysis) or with a catecholamine (stimulated lipolysis) to analyze lipolysis. DNA was extracted and genome-wide genotyping and imputation conducted. After quality control, 939 samples with genetic and lipolysis data were available. Genome-wide association studies of spontaneous and stimulated lipolysis were conducted. Subsequent in\u00a0vitro gene expression analyses were used to identify candidate genes and explore their regulation of adipose tissue biology. RESULTS:One locus on chromosome 19 demonstrated genome-wide significance with spontaneous lipolysis. 60 loci showed suggestive associations with spontaneous or stimulated lipolysis, of which many influenced both traits. In the chromosome 19 locus, only HIF3A was expressed in the adipocytes and displayed genotype-dependent gene expression. HIF3A knockdown in\u00a0vitro increased lipolysis and the expression of key lipolysis-regulating genes. CONCLUSIONS:In conclusion, we identified a genetic regulator of spontaneous lipolysis and provided evidence of HIF3A as a novel key regulator of lipolysis in subcutaneous adipocytes as the mechanism through which the locus influences adipose tissue biology.",
+    "laySummary": "How the body breaks down fat is poorly understood, and, if this mechanism does not happen effiently in the body it can lead to metabolic diseases including obesity and type 2 diabetes. The goal of this study was to identify the genetic regulators of how the body break down fat and explain their molecular mechanisms."
   },
   {
     "id": "31789939",
@@ -788,7 +788,7 @@
     "journalTitle": "Age and ageing",
     "pubYear": "2020",
     "isOpenAccess": "N",
-    "keywords": "Ageing; Data Linkage; Older People; Health Informatics; Electronic Health Records; Big Data",
+    "keywords": "Ageing; Data Linkage; Older People; Electronic Health Records; Big Data; Health Informatics",
     "nationalPriorities": "Improving Public Health",
     "healthCategories": "",
     "abstract": "The past three decades have seen a steady increase in the availability of routinely collected health and social care data and the processing power to analyse it. These developments represent a major opportunity for ageing research, especially with the integration of different datasets across traditional boundaries of health and social care, for prognostic research and novel evaluations of interventions with representative populations of older people. However, there are considerable challenges in using routine data at the level of coding, data analysis and in the application of findings to everyday care. New Horizons in applying routine data to investigate novel questions in ageing research require a collaborative approach between clinicians, data scientists, biostatisticians, epidemiologists and trial methodologists. This requires building capacity for the next generation of research leaders in this important area. There is a need to develop consensus code lists and standardised, validated algorithms for common conditions and outcomes that are relevant for older people to maximise the potential of routine data research in this group. Lastly, we must help drive the application of routine data to improve the care of older people, through the development of novel methods for evaluation of interventions using routine data infrastructure. We believe that harnessing routine data can help address knowledge gaps for older people living with multiple conditions and frailty, and design interventions and pathways of care to address the complex health issues we face in caring for older people.",
@@ -1260,21 +1260,6 @@
     "laySummary": ""
   },
   {
-    "id": "32234121",
-    "doi": "https://doi.org/10.2807/1560-7917.es.2020.25.12.2000256",
-    "title": "Estimating the infection and case fatality ratio for coronavirus disease (COVID-19) using age-adjusted data from the outbreak on the Diamond Princess cruise ship, February 2020.",
-    "authorString": "Russell TW, Hellewell J, Jarvis CI, van Zandvoort K, Abbott S, Ratnayake R, Cmmid Covid-Working Group, Flasche S, Eggo RM, Edmunds WJ, Kucharski AJ.",
-    "authorAffiliations": "Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; The members of the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) COVID-19 working group are listed at the end of the article.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.",
-    "journalTitle": "Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Coronavirus; outbreak; Severity; Asymptomatic; Case Fatality Ratio; Cruise Ship; Covid-19; Infection Fatality Ratio",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Adjusting for delay from confirmation to death, we estimated case and infection fatality ratios (CFR, IFR) for coronavirus disease (COVID-19) on the Diamond Princess ship as 2.6% (95% confidence interval (CI): 0.89-6.7) and 1.3% (95% CI: 0.38-3.6), respectively. Comparing deaths on board with expected deaths based on naive CFR estimates from China, we estimated CFR and IFR in China to be 1.2% (95% CI: 0.3-2.7) and 0.6% (95% CI: 0.2-1.3), respectively.",
-    "laySummary": ""
-  },
-  {
     "id": "31765395",
     "doi": "https://doi.org/10.1371/journal.pone.0225625",
     "title": "Semantic computational analysis of anticoagulation use in atrial fibrillation from real world data.",
@@ -1288,6 +1273,21 @@
     "healthCategories": "",
     "abstract": "Atrial fibrillation (AF) is the most common arrhythmia and significantly increases stroke risk. This risk is effectively managed by oral anticoagulation. Recent studies using national registry data indicate increased use of anticoagulation resulting from changes in guidelines and the availability of newer drugs. The aim of this study is to develop and validate an open source risk scoring pipeline for free-text electronic health record data using natural language processing. AF patients discharged from 1st January 2011 to 1st October 2017 were identified from discharge summaries (N = 10,030, 64.6% male, average age 75.3 \u00b1 12.3 years). A natural language processing pipeline was developed to identify risk factors in clinical text and calculate risk for ischaemic stroke (CHA2DS2-VASc) and bleeding (HAS-BLED). Scores were validated vs two independent experts for 40 patients. Automatic risk scores were in strong agreement with the two independent experts for CHA2DS2-VASc (average kappa 0.78 vs experts, compared to 0.85 between experts). Agreement was lower for HAS-BLED (average kappa 0.54 vs experts, compared to 0.74 between experts). In high-risk patients (CHA2DS2-VASc \u22652) OAC use has increased significantly over the last 7 years, driven by the availability of DOACs and the transitioning of patients from AP medication alone to OAC. Factors independently associated with OAC use included components of the CHA2DS2-VASc and HAS-BLED scores as well as discharging specialty and frailty. OAC use was highest in patients discharged under cardiology (69%). Electronic health record text can be used for automatic calculation of clinical risk scores at scale. Open source tools are available today for this task but require further validation. Analysis of routinely collected EHR data can replicate findings from large-scale curated registries.",
     "laySummary": "Bean et al. looked at using clinical notes to calculate risk scores: CHADSVASC and HASBLED for 10,030 AF patients from 2011 to October 2017), they\u2019ve validated their natural language processing algorithm with getting clinicians to calculate the risk in conventional manner for 40 of cases, the two scores were in higher agreement for stroke risk compared to HAS-BLED They\u2019ve concluded on usefulness of NLP method in risk calculation at the large scale."
+  },
+  {
+    "id": "32234121",
+    "doi": "https://doi.org/10.2807/1560-7917.es.2020.25.12.2000256",
+    "title": "Estimating the infection and case fatality ratio for coronavirus disease (COVID-19) using age-adjusted data from the outbreak on the Diamond Princess cruise ship, February 2020.",
+    "authorString": "Russell TW, Hellewell J, Jarvis CI, van Zandvoort K, Abbott S, Ratnayake R, Cmmid Covid-Working Group, Flasche S, Eggo RM, Edmunds WJ, Kucharski AJ.",
+    "authorAffiliations": "Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; These authors contributed equally to this work.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; The members of the Centre for the Mathematical Modelling of Infectious Diseases (CMMID) COVID-19 working group are listed at the end of the article.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, United Kingdom.",
+    "journalTitle": "Euro surveillance : bulletin Europeen sur les maladies transmissibles = European communicable disease bulletin",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Coronavirus; outbreak; Severity; Asymptomatic; Case Fatality Ratio; Cruise Ship; Covid-19; Infection Fatality Ratio",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Adjusting for delay from confirmation to death, we estimated case and infection fatality ratios (CFR, IFR) for coronavirus disease (COVID-19) on the Diamond Princess ship as 2.6% (95% confidence interval (CI): 0.89-6.7) and 1.3% (95% CI: 0.38-3.6), respectively. Comparing deaths on board with expected deaths based on naive CFR estimates from China, we estimated CFR and IFR in China to be 1.2% (95% CI: 0.3-2.7) and 0.6% (95% CI: 0.2-1.3), respectively.",
+    "laySummary": ""
   },
   {
     "id": "32119825",
@@ -1317,6 +1317,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "We evaluated effectiveness of thermal passenger screening for 2019-nCoV infection at airport exit and entry to inform public health decision-making. In our baseline scenario, we estimated that 46% (95% confidence interval: 36 to 58) of infected travellers would not be detected, depending on incubation period, sensitivity of exit and entry screening, and proportion of asymptomatic cases. Airport screening is unlikely to detect a sufficient proportion of 2019-nCoV infected travellers to avoid entry of infected travellers.",
+    "laySummary": ""
+  },
+  {
+    "id": "PMC7385442",
+    "doi": "https://doi.org/",
+    "title": "Gender differences in the presentation of fibromyalgia amongst children who have been maltreated",
+    "authorString": "Chandan J, Bandyopadhyay S, Taylor J, Nirantharakumar K.",
+    "authorAffiliations": "b Warwick Medical School, University of Warwick, Coventry, CV47HL, United Kingdom; c The Department of Economics, University of Birmingham, B152TT, United Kingdom; e Birmingham Women's and Children's Hospitals NHS Foundation Trust, Birmingham, United Kingdom; f Midlands Health Data Research UK & Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, B152TT, United Kingdom",
+    "journalTitle": "EClinicalMedicine",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "",
     "laySummary": ""
   },
   {
@@ -2175,21 +2190,6 @@
     "laySummary": ""
   },
   {
-    "id": "32023934",
-    "doi": "https://doi.org/10.3390/ijerph17030892",
-    "title": "Identifying Homogeneous Patterns of Injury in Paediatric Trauma Patients to Improve Risk-Adjusted Models of Mortality and Functional Outcomes.",
-    "authorString": "Dipnall JF, Gabbe BJ, Teague WJ, Beck B.",
-    "authorAffiliations": "School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; School of Medicine, Deakin University, Geelong, Victoria 3220, Australia.; School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea SA2 8PP, UK.; Trauma Service, The Royal Children's Hospital, Melbourne, Victoria 3052, Australia.; Department of Paediatrics, University of Melbourne, Melbourne, Victoria 3052, Australia.; Surgical Research Group, Murdoch Children's Research Institute, Melbourne, Victoria 3052, Australia.; School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; Faculty of Medicine, Laval University, Quebec City, QC G1V 0A6, Canada.",
-    "journalTitle": "International journal of environmental research and public health",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Trauma; Injury; Paediatric; Latent Class Analysis; Risk Adjustment; Mortality, Koschi, Classes",
-    "nationalPriorities": "Improving Public Health",
-    "healthCategories": "injuries and accidents",
-    "abstract": "Injury is a leading cause of morbidity and mortality in the paediatric population and exhibits complex injury patterns. This study aimed to identify homogeneous groups of paediatric major trauma patients based on their profile of injury for use in mortality and functional outcomes risk-adjusted models. Data were extracted from the population-based Victorian State Trauma Registry for patients aged 0-15 years, injured 2006-2016. Four Latent Class Analysis (LCA) models with/without covariates of age/sex tested up to six possible latent classes. Five risk-adjusted models of in-hospital mortality and 6-month functional outcomes incorporated a combination of Injury Severity Score (ISS), New ISS (NISS), and LCA classes. LCA models replicated the best log-likelihood and entropy > 0.8 for all models (N = 1281). Four latent injury classes were identified: isolated head; isolated abdominal organ; multi-trauma injuries, and other injuries. The best models, in terms of goodness of fit statistics and model diagnostics, included the LCA classes and NISS. The identification of isolated head, isolated abdominal, multi-trauma and other injuries as key latent paediatric injury classes highlights areas for emphasis in planning prevention initiatives and paediatric trauma system development. Future risk-adjusted paediatric injury models that include these injury classes with the NISS when evaluating mortality and functional outcomes is recommended.",
-    "laySummary": ""
-  },
-  {
     "id": "31408247",
     "doi": "https://doi.org/10.1002/hpja.287",
     "title": "An assessment of program evaluation methods and quality in Australian prevention agencies.",
@@ -2202,6 +2202,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "ISSUE ADDRESSED:This study aimed to examine evaluation methods and quality in Australian health promotion agencies and the factors associated with this. The evidence base for prevention strategies is limited, with the evidence generated through program evaluation by health promotion and disease prevention agencies lacking rigour. Despite the need to improve the quality of evaluation, there is limited evidence of what influences evaluation quality in the prevention field. METHODS:Data were collected using the Evaluation Practice Analysis Survey and an audit and appraisal of evaluation reports. Descriptive analysis was used to examine evaluation characteristics and multivariable regression was used to explore the association between evaluation and organisational attributes and evaluation quality. RESULTS:In total, 392 evaluation reports were reviewed from 78 government and non-government agencies. Process evaluation was conducted most frequently, followed by impact evaluation. Overall evaluation quality was low (median 24.5%). In multivariable regression analysis, only two factors were associated with evaluation quality: health promotion budget (ratio of geometric means 1.53 [95% CI 1.02-2.29]); and, conducting statewide or national prevention programs (1.38 [95% CI 1.05-1.82]). CONCLUSIONS:The findings show that the\u00a0potential to improve evaluation quality is greatest\u00a0in smaller organisations that deliver health promotion at a local or regional scale. SO WHAT?: By improving the rigour of existing evaluation, there is opportunity to build the evidence base for prevention strategies, which highlights the importance of embedding the enablers of program learning and evidence generation within health promotion and prevention organisations.",
+    "laySummary": ""
+  },
+  {
+    "id": "32023934",
+    "doi": "https://doi.org/10.3390/ijerph17030892",
+    "title": "Identifying Homogeneous Patterns of Injury in Paediatric Trauma Patients to Improve Risk-Adjusted Models of Mortality and Functional Outcomes.",
+    "authorString": "Dipnall JF, Gabbe BJ, Teague WJ, Beck B.",
+    "authorAffiliations": "School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; School of Medicine, Deakin University, Geelong, Victoria 3220, Australia.; School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea SA2 8PP, UK.; Trauma Service, The Royal Children's Hospital, Melbourne, Victoria 3052, Australia.; Department of Paediatrics, University of Melbourne, Melbourne, Victoria 3052, Australia.; Surgical Research Group, Murdoch Children's Research Institute, Melbourne, Victoria 3052, Australia.; School of Public Health and Preventive Medicine, Monash University, Melbourne, Victoria 3004, Australia.; Faculty of Medicine, Laval University, Quebec City, QC G1V 0A6, Canada.",
+    "journalTitle": "International journal of environmental research and public health",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Trauma; Injury; Paediatric; Latent Class Analysis; Risk Adjustment; Mortality, Koschi, Classes",
+    "nationalPriorities": "Improving Public Health",
+    "healthCategories": "injuries and accidents",
+    "abstract": "Injury is a leading cause of morbidity and mortality in the paediatric population and exhibits complex injury patterns. This study aimed to identify homogeneous groups of paediatric major trauma patients based on their profile of injury for use in mortality and functional outcomes risk-adjusted models. Data were extracted from the population-based Victorian State Trauma Registry for patients aged 0-15 years, injured 2006-2016. Four Latent Class Analysis (LCA) models with/without covariates of age/sex tested up to six possible latent classes. Five risk-adjusted models of in-hospital mortality and 6-month functional outcomes incorporated a combination of Injury Severity Score (ISS), New ISS (NISS), and LCA classes. LCA models replicated the best log-likelihood and entropy > 0.8 for all models (N = 1281). Four latent injury classes were identified: isolated head; isolated abdominal organ; multi-trauma injuries, and other injuries. The best models, in terms of goodness of fit statistics and model diagnostics, included the LCA classes and NISS. The identification of isolated head, isolated abdominal, multi-trauma and other injuries as key latent paediatric injury classes highlights areas for emphasis in planning prevention initiatives and paediatric trauma system development. Future risk-adjusted paediatric injury models that include these injury classes with the NISS when evaluating mortality and functional outcomes is recommended.",
     "laySummary": ""
   },
   {
@@ -2415,21 +2430,6 @@
     "laySummary": ""
   },
   {
-    "id": "PMC7292602",
-    "doi": "https://doi.org/",
-    "title": "The effects of physical distancing on population mobility during the COVID-19 pandemic in the UK",
-    "authorString": "Drake T, Docherty A, Weiser T, Yule S, Sheikh A, Harrison E.",
-    "authorAffiliations": "a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; c Department of Surgery, Stanford University, Stanford, CA, USA; d Department of Surgery, Brigham & Women's Hospital, Harvard Medical School, Boston, MA 02115, USA; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK",
-    "journalTitle": "The Lancet. Digital health",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "",
-    "laySummary": ""
-  },
-  {
     "id": "30909231",
     "doi": "https://doi.org/10.3233/jad-181085",
     "title": "A Meta-Analysis of Alzheimer's Disease Brain Transcriptomic Data.",
@@ -2442,6 +2442,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "BACKGROUND:Microarray technologies have identified imbalances in the expression of specific genes and biological pathways in Alzheimer's disease (AD) brains. However, there is a lack of reproducibility across individual AD studies, and many related neurodegenerative and mental health disorders exhibit similar perturbations. OBJECTIVE:Meta-analyze publicly available transcriptomic data from multiple brain-related disorders to identify robust transcriptomic changes specific to AD brains. METHODS:Twenty-two AD, eight schizophrenia, five bipolar disorder, four Huntington's disease, two major depressive disorder, and one Parkinson's disease dataset totaling 2,667 samples and mapping to four different brain regions (temporal lobe, frontal lobe, parietal lobe, and cerebellum) were analyzed. Differential expression analysis was performed independently in each dataset, followed by meta-analysis using a combining p-value method known as Adaptively Weighted with One-sided Correction. RESULTS:Meta-analysis identified 323, 435, 1,023, and 828 differentially expressed genes specific to the AD temporal lobe, frontal lobe, parietal lobe, and cerebellum brain regions, respectively. Seven of these genes were consistently perturbed across all AD brain regions with SPCS1 gene expression pattern replicating in RNA-Seq data. A further nineteen genes were perturbed specifically in AD brain regions affected by both plaques and tangles, suggesting possible involvement in AD neuropathology. In addition, biological pathways involved in the \"metabolism of proteins\" and viral components were significantly enriched across AD brains. CONCLUSION:This study identified transcriptomic changes specific to AD brains, which could make a significant contribution toward the understanding of AD disease mechanisms and may also provide new therapeutic targets.",
+    "laySummary": ""
+  },
+  {
+    "id": "PMC7292602",
+    "doi": "https://doi.org/",
+    "title": "The effects of physical distancing on population mobility during the COVID-19 pandemic in the UK",
+    "authorString": "Drake T, Docherty A, Weiser T, Yule S, Sheikh A, Harrison E.",
+    "authorAffiliations": "a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; c Department of Surgery, Stanford University, Stanford, CA, USA; d Department of Surgery, Brigham & Women's Hospital, Harvard Medical School, Boston, MA 02115, USA; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK; a Centre for Medical Informatics, Usher Institute, University of Edinburgh, Edinburgh, EH16 4UX, UK",
+    "journalTitle": "The Lancet. Digital health",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "",
     "laySummary": ""
   },
   {
@@ -2670,21 +2685,6 @@
     "laySummary": ""
   },
   {
-    "id": "32255392",
-    "doi": "https://doi.org/10.1080/09273948.2019.1709650",
-    "title": "Non-invasive Instrument-Based Tests for Quantifying Anterior Chamber Flare in Uveitis: A Systematic Review. ",
-    "authorString": "Liu X, McNally TW, Beese S, Downie LE, Solebo AL, Faes L, Husain S, Keane PA, Moore DJ, Denniston AK.",
-    "authorAffiliations": "Ophthalmology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Department of Optometry and Vision Sciences, The University of Melbourne, Parkville, Australia.; Institute of Child Health, University College London, London, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Eye Clinic, Cantonal Hospital of Lucerne, Lucerne, Switzerland.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Health Data Research UK, London, UK.; Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Ophthalmology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Health Data Research UK, London, UK.",
-    "journalTitle": "Ocular immunology and inflammation",
-    "pubYear": "2020",
-    "isOpenAccess": "N",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Purpose: Anterior chamber (AC) flare is a key sign for anterior uveitis. New instrument-based techniques for measuring AC flare can offer automation and objectivity. This review aims to identify objective instrument-based measures for AC flare.Methods: In this systematic review, we identified studies reporting correlation between instrument-based tests versus clinician AC flare grading, and/or aqueous protein concentration, as well as test reliability.Results: Four index tests were identified in 11 studies: laser-flare photometry (LFP), optical coherence tomography, ocular flare analysis meter (OFAM) and the double-pass technique. The correlation between LFP and clinician grading was 0.40-0.93 and 0.87-0.94 for LFP and protein concentration. The double-pass technique showed no correlation with clinician grading and insufficient information was available for OFAM.Conclusion: LFP shows moderate to strong correlation with clinician grading and aqueous protein concentration. LFP could be a superior reference test compared to clinician AC flare grading for validating new index tests.",
-    "laySummary": ""
-  },
-  {
     "id": "31500613",
     "doi": "https://doi.org/10.1186/s12911-019-0908-7",
     "title": "A validated natural language processing algorithm for brain imaging phenotypes from radiology reports in UK electronic health records.",
@@ -2697,6 +2697,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "BACKGROUND:Manual coding of phenotypes in brain radiology reports is time consuming. We developed a natural language processing (NLP) algorithm to enable automatic identification of brain imaging in radiology reports performed in routine clinical practice in the UK National Health Service (NHS). METHODS:We used anonymized text brain imaging reports from a cohort study of stroke/TIA patients and from a regional hospital to develop and test an NLP algorithm. Two experts marked up text in 1692 reports for 24 cerebrovascular and other neurological phenotypes. We developed and tested a rule-based NLP algorithm first within the cohort study, and further evaluated it in the reports from the regional hospital. RESULTS:The agreement between expert readers was excellent (Cohen's \u03ba =0.93) in both datasets. In the final test dataset (n\u00a0=\u2009700) in unseen regional hospital reports, the algorithm had very good performance for a report of any ischaemic stroke [sensitivity 89% (95% CI:81-94); positive predictive value (PPV) 85% (76-90); specificity 100% (95% CI:0.99-1.00)]; any haemorrhagic stroke [sensitivity 96% (95% CI: 80-99), PPV 72% (95% CI:55-84); specificity 100% (95% CI:0.99-1.00)]; brain tumours [sensitivity 96% (CI:87-99); PPV 84% (73-91); specificity: 100% (95% CI:0.99-1.00)] and cerebral small vessel disease and cerebral atrophy (sensitivity, PPV and specificity all >\u200997%). We obtained few reports of subarachnoid haemorrhage, microbleeds or subdural haematomas. In 110,695 reports from NHS Tayside, atrophy (n\u00a0=\u200928,757, 26%), small vessel disease (15,015, 14%) and old, deep ischaemic strokes (10,636, 10%) were the commonest findings. CONCLUSIONS:An NLP algorithm can be developed in UK NHS radiology records to allow identification of cohorts of patients with important brain imaging phenotypes at a scale that would otherwise not be possible.",
+    "laySummary": ""
+  },
+  {
+    "id": "32255392",
+    "doi": "https://doi.org/10.1080/09273948.2019.1709650",
+    "title": "Non-invasive Instrument-Based Tests for Quantifying Anterior Chamber Flare in Uveitis: A Systematic Review. ",
+    "authorString": "Liu X, McNally TW, Beese S, Downie LE, Solebo AL, Faes L, Husain S, Keane PA, Moore DJ, Denniston AK.",
+    "authorAffiliations": "Ophthalmology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Department of Optometry and Vision Sciences, The University of Melbourne, Parkville, Australia.; Institute of Child Health, University College London, London, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Eye Clinic, Cantonal Hospital of Lucerne, Lucerne, Switzerland.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Health Data Research UK, London, UK.; Institute of Applied Health Research, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; Ophthalmology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, UK.; Academic Unit of Ophthalmology, Institute of Inflammation & Ageing, College of Medical and Dental Sciences, University of Birmingham, Birmingham, UK.; NIHR Biomedical Research Centre for Ophthalmology, Moorfields Eye Hospital NHS Foundation Trust and UCL Institute of Ophthalmology, London, UK.; Health Data Research UK, London, UK.",
+    "journalTitle": "Ocular immunology and inflammation",
+    "pubYear": "2020",
+    "isOpenAccess": "N",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Purpose: Anterior chamber (AC) flare is a key sign for anterior uveitis. New instrument-based techniques for measuring AC flare can offer automation and objectivity. This review aims to identify objective instrument-based measures for AC flare.Methods: In this systematic review, we identified studies reporting correlation between instrument-based tests versus clinician AC flare grading, and/or aqueous protein concentration, as well as test reliability.Results: Four index tests were identified in 11 studies: laser-flare photometry (LFP), optical coherence tomography, ocular flare analysis meter (OFAM) and the double-pass technique. The correlation between LFP and clinician grading was 0.40-0.93 and 0.87-0.94 for LFP and protein concentration. The double-pass technique showed no correlation with clinician grading and insufficient information was available for OFAM.Conclusion: LFP shows moderate to strong correlation with clinician grading and aqueous protein concentration. LFP could be a superior reference test compared to clinician AC flare grading for validating new index tests.",
     "laySummary": ""
   },
   {
@@ -2940,21 +2955,6 @@
     "laySummary": "This study which includes over 40 thousant adults in the UK, aims to assess whether there are links between different levels of physical activity and educational achievements. It found that lower educational achievement was associated with higher travel and work related physical activity, but not leisure time activity. They found this difference to be larger in men than in women, and also in white compared to black individuals."
   },
   {
-    "id": "32505923",
-    "doi": "https://doi.org/10.1016/j.ebiom.2020.102818",
-    "title": "Children first, or last?",
-    "authorString": "Modi N.",
-    "authorAffiliations": "Professor of Neonatal Medicine, Imperial College London, London, UK. Electronic address: n.modi@imperial.ac.uk.",
-    "journalTitle": "EBioMedicine",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "",
-    "laySummary": ""
-  },
-  {
     "id": "31912232",
     "doi": "https://doi.org/10.1007/s00394-019-02170-7",
     "title": "Adherence to the Dutch dietary guidelines and 15-year incidence of heart failure in the EPIC-NL cohort.",
@@ -2967,6 +2967,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "PURPOSE:A healthy diet may contribute to the primary prevention of heart failure (HF), but evidence is still inconclusive. We aimed to study the association between adherence to the Dutch dietary guidelines and incidence of HF. METHODS:We studied 37,468 participants aged 20-70\u00a0years and free of HF at baseline from the EPIC-NL cohort. At baseline (1993-1997), data were collected on demographics, lifestyle, and presence of chronic diseases. Dietary intake was assessed using a 178-item validated food frequency questionnaire. Dietary intake data were used to calculate scores on the Dutch Healthy Diet 2015 Index (DHD15-index) measuring adherence to the Dutch dietary guidelines. The DHD15-index is based on the average daily intake of 14 food groups resulting in a total score ranging between 0 and 140, with higher scores indicating better adherence. HF morbidity and mortality during follow-up were ascertained through linkage with national registries. Cox proportional hazards analysis was used to estimate hazard ratios (HRs) and 95% confidence intervals (95% CIs) for the association between DHD15 adherence and HF risk, adjusting for sociodemographic and lifestyle characteristics. RESULTS:The average score on the DHD15-index was 71 (SD\u2009=\u200915). During a median follow-up of 15.2\u00a0years (IQR 14.1-16.5), 674 HF events occurred. After adjustment for demographic and lifestyle characteristics, higher scores on the DHD15-index were associated with lower risk of HF (HRQ4vsQ1 0.73; 95% CI 0.58-0.93; Ptrend 0.001). CONCLUSION:In a large Dutch population of middle-aged adults, higher adherence to the Dutch dietary guidelines was associated with lower risk of HF.",
+    "laySummary": ""
+  },
+  {
+    "id": "32505923",
+    "doi": "https://doi.org/10.1016/j.ebiom.2020.102818",
+    "title": "Children first, or last?",
+    "authorString": "Modi N.",
+    "authorAffiliations": "Professor of Neonatal Medicine, Imperial College London, London, UK. Electronic address: n.modi@imperial.ac.uk.",
+    "journalTitle": "EBioMedicine",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "",
     "laySummary": ""
   },
   {
@@ -3045,21 +3060,6 @@
     "laySummary": ""
   },
   {
-    "id": "31055854",
-    "doi": "https://doi.org/10.5694/mja2.50143",
-    "title": "Traumatic spinal cord injury in Victoria, 2007-2016.",
-    "authorString": "Beck B, Cameron PA, Braaf S, Nunn A, Fitzgerald MC, Judson RT, Teague WJ, Lennox A, Middleton JW, Harrison JE, Gabbe BJ.",
-    "authorAffiliations": "Monash University, Melbourne, VIC.; Monash University, Melbourne, VIC.; The Alfred Hospital, Melbourne, VIC.; Monash University, Melbourne, VIC.; Monash University, Melbourne, VIC.; Victorian Spinal Cord Service, Austin Hospital, Melbourne, VIC.; The Alfred Hospital, Melbourne, VIC.; National Trauma Research Institute, Melbourne, VIC.; Royal Melbourne Hospital, Melbourne, VIC.; University of Melbourne, Melbourne, VIC.; University of Melbourne, Melbourne, VIC.; Royal Children's Hospital, Melbourne, VIC.; Murdoch Children's Research Institute, Melbourne, VIC.; Monash University, Melbourne, VIC.; Kolling Institute, University of Sydney, Sydney, NSW.; Agency for Clinical Innovation, Sydney, NSW.; Research Centre for Injury Studies, Flinders University, Adelaide, SA.; Monash University, Melbourne, VIC.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdom.",
-    "journalTitle": "The Medical journal of Australia",
-    "pubYear": "2019",
-    "isOpenAccess": "N",
-    "keywords": "Spinal cord injuries; epidemiology; Traumatology; Trauma, Nervous System",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "OBJECTIVE:To investigate trends in the incidence and causes of traumatic spinal cord injury (TSCI) in Victoria over a 10-year period. DESIGN, SETTING, PARTICIPANTS:Retrospective cohort study: analysis of Victorian State Trauma Registry (VSTR) data for people who sustained TSCIs during 2007-2016. MAIN OUTCOMES AND MEASURES:Temporal trends in population-based incidence rates of TSCI (injury to the spinal cord with an Abbreviated Injury Scale [AIS] score of 4 or more). RESULTS:There were 706 cases of TSCI, most the result of transport events (269 cases, 38%) or low falls (197 cases, 28%). The overall crude incidence of TSCI was 1.26 cases per 100\u00a0000 population (95% CI, 1.17-1.36 per 100\u00a0000 population), and did not change over the study period (incidence rate ratio [IRR], 1.01; 95% CI, 0.99-1.04). However, the incidence of TSCI resulting from low falls increased by 9% per year (95% CI, 4-15%). The proportion of TSCI cases classified as incomplete tetraplegia increased from 41% in 2007 to 55% in 2016 (P\u00a0<\u00a00.001). Overall in-hospital mortality was 15% (104 deaths), and was highest among people aged 65 years or more (31%, 70 deaths). CONCLUSIONS:Given the devastating consequences of TSCI, improved primary prevention strategies are needed, particularly as the incidence of TSCI did not decline over the study period. The epidemiologic profile of TSCI has shifted, with an increasing number of TSCI events in older adults. This change has implications for prevention, acute and post-discharge care, and support.",
-    "laySummary": ""
-  },
-  {
     "id": "31053412",
     "doi": "https://doi.org/10.1016/j.burns.2019.04.006",
     "title": "Severe burns in Australian and New Zealand adults: Epidemiology and burn centre care.",
@@ -3072,6 +3072,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "INTRODUCTION:Studies describing the epidemiology of severe burns (>20% total body surface area) in adults are limited despite the extensive associated morbidity and mortality. This study aimed to describe the epidemiology of severe burn injuries admitted to burn centres in Australia and New Zealand. MATERIALS AND METHODS:Data from the Burns Registry of Australia and New Zealand (BRANZ) were used in this study. Patients were eligible for inclusion if they were admitted between August 2009 and June 2013, were adults (18-years or older), and had burns of 20% total body surface area (TBSA) or greater. Demographics, burn characteristics and in-hospital mortality risk factors were investigated using multivariable Cox proportional hazards analysis. RESULTS:There were 496 BRANZ registered patients who met the inclusion criteria. Over half of the patients were aged 18-40 years and most were male. The median (IQR) TBSA was 31 (25-47). Most (75%) patients had burns involving <50% TBSA, 58% sustained their burn injury at home, and 86% had sustained flame burns. Leisure activities, working for income and preparing food together accounted for over 48% of the activities undertaken at the time of injury. The in-hospital mortality rate was 17% and the median (IQR) length of stay was 24 (12-44) days. Seventy-two percent were admitted to an intensive care unit (ICU) and 40% of patients had an associated inhalation injury. Alcohol and/or drug involvement was suspected in 25% of cases. CONCLUSION:This study describes the demographics, burn injury characteristics and in-hospital outcomes of severe burn injuries in adults whilst also identifying key predictors of inpatient mortality. Key findings included the over-representation of young males, intentional self-harm injuries and flame as a cause of burns and highlights high risk groups to help aid in the development of targeted prevention strategies.",
+    "laySummary": ""
+  },
+  {
+    "id": "31055854",
+    "doi": "https://doi.org/10.5694/mja2.50143",
+    "title": "Traumatic spinal cord injury in Victoria, 2007-2016.",
+    "authorString": "Beck B, Cameron PA, Braaf S, Nunn A, Fitzgerald MC, Judson RT, Teague WJ, Lennox A, Middleton JW, Harrison JE, Gabbe BJ.",
+    "authorAffiliations": "Monash University, Melbourne, VIC.; Monash University, Melbourne, VIC.; The Alfred Hospital, Melbourne, VIC.; Monash University, Melbourne, VIC.; Monash University, Melbourne, VIC.; Victorian Spinal Cord Service, Austin Hospital, Melbourne, VIC.; The Alfred Hospital, Melbourne, VIC.; National Trauma Research Institute, Melbourne, VIC.; Royal Melbourne Hospital, Melbourne, VIC.; University of Melbourne, Melbourne, VIC.; University of Melbourne, Melbourne, VIC.; Royal Children's Hospital, Melbourne, VIC.; Murdoch Children's Research Institute, Melbourne, VIC.; Monash University, Melbourne, VIC.; Kolling Institute, University of Sydney, Sydney, NSW.; Agency for Clinical Innovation, Sydney, NSW.; Research Centre for Injury Studies, Flinders University, Adelaide, SA.; Monash University, Melbourne, VIC.; Health Data Research UK, Swansea University Medical School, Swansea University, Swansea, United Kingdom.",
+    "journalTitle": "The Medical journal of Australia",
+    "pubYear": "2019",
+    "isOpenAccess": "N",
+    "keywords": "Spinal cord injuries; epidemiology; Traumatology; Trauma, Nervous System",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "OBJECTIVE:To investigate trends in the incidence and causes of traumatic spinal cord injury (TSCI) in Victoria over a 10-year period. DESIGN, SETTING, PARTICIPANTS:Retrospective cohort study: analysis of Victorian State Trauma Registry (VSTR) data for people who sustained TSCIs during 2007-2016. MAIN OUTCOMES AND MEASURES:Temporal trends in population-based incidence rates of TSCI (injury to the spinal cord with an Abbreviated Injury Scale [AIS] score of 4 or more). RESULTS:There were 706 cases of TSCI, most the result of transport events (269 cases, 38%) or low falls (197 cases, 28%). The overall crude incidence of TSCI was 1.26 cases per 100\u00a0000 population (95% CI, 1.17-1.36 per 100\u00a0000 population), and did not change over the study period (incidence rate ratio [IRR], 1.01; 95% CI, 0.99-1.04). However, the incidence of TSCI resulting from low falls increased by 9% per year (95% CI, 4-15%). The proportion of TSCI cases classified as incomplete tetraplegia increased from 41% in 2007 to 55% in 2016 (P\u00a0<\u00a00.001). Overall in-hospital mortality was 15% (104 deaths), and was highest among people aged 65 years or more (31%, 70 deaths). CONCLUSIONS:Given the devastating consequences of TSCI, improved primary prevention strategies are needed, particularly as the incidence of TSCI did not decline over the study period. The epidemiologic profile of TSCI has shifted, with an increasing number of TSCI events in older adults. This change has implications for prevention, acute and post-discharge care, and support.",
     "laySummary": ""
   },
   {
@@ -3210,21 +3225,6 @@
     "laySummary": "This article looks at risk assessment for hospital admission in patients with Chronic Obstructive Pulmonary Disease (COPD), which is a group of lung conditions that make it difficult to empty air out of the lungs. The objective of the risk assessment was to eventually aid in clinical decision making and prioritising healthcare resources."
   },
   {
-    "id": "31196949",
-    "doi": "https://doi.org/10.1183/13993003.02309-2018",
-    "title": "Educational and health outcomes of children treated for asthma: Scotland-wide record linkage study of 683\u200a716 children.",
-    "authorString": "Fleming M, Fitton CA, Steiner MFC, McLay JS, Clark D, King A, Mackay DF, Pell JP.",
-    "authorAffiliations": "Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK michael.fleming@glasgow.ac.uk.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Information Services Division, National Services Scotland, NHS Scotland, Edinburgh, UK.; ScotXed, Scottish Government, Edinburgh, UK.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK.",
-    "journalTitle": "The European respiratory journal",
-    "pubYear": "2019",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "BACKGROUND:The global prevalence of childhood asthma is increasing. The condition impacts physical and psychosocial morbidity; therefore, wide-ranging effects on health and education outcomes are plausible. METHODS:Linkage of eight Scotland-wide databases, covering dispensed prescriptions, hospital admissions, maternity records, death certificates, annual pupil census, examinations, school absences/exclusions and unemployment, provided data on 683\u200a716 children attending Scottish schools between 2009 and 2013. We compared schoolchildren on medication for asthma with peers, adjusting for sociodemographic, maternity and comorbidity confounders, and explored effect modifiers and mediators. RESULTS:The 45\u200a900 (6.0%) children treated for asthma had an increased risk of hospitalisation, particularly within the first year of treatment (incidence rate ratio 1.98, 95% CI 1.93-2.04), and increased mortality (HR 1.77, 95% CI 1.30-2.40). They were more likely to have special educational need for mental (OR 1.76, 95% CI 1.49-2.08) and physical (OR 2.76, 95% CI 2.57-2.95) health reasons, and performed worse in school exams (OR 1.11, 95% CI 1.06-1.16). Higher absenteeism (incidence rate ratio 1.25, 95% CI 1.24-1.26) partially explained their poorer attainment. CONCLUSIONS:Children with treated asthma have poorer education and health outcomes than their peers. Educational interventions that mitigate the adverse effects of absenteeism should be considered.",
-    "laySummary": ""
-  },
-  {
     "id": "30862657",
     "doi": "https://doi.org/10.2337/dc18-2004",
     "title": "Risk of Incident Obstructive Sleep Apnea Among Patients With Type 2 Diabetes.",
@@ -3237,6 +3237,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "OBJECTIVE:This study compared the incidence of obstructive sleep apnea (OSA) in patients with and without type 2 diabetes and investigated risk factors for OSA in patients with type 2 diabetes. RESEARCH DESIGN AND METHODS:A retrospective cohort study was performed to compare OSA incidence between adult patients with and without type 2 diabetes matched for age, sex, and BMI. Patients with a prevalent OSA diagnosis were excluded. The study cohort was derived from The Health Improvement Network (THIN), a U.K. primary care database, from 1 January 2005 to 31 December 2017. RESULTS:There were 3,110 (0.88%) and 5,968 (0.46%) incident OSA cases identified in the 360,250 exposed and 1,296,489 unexposed patient cohorts, respectively. Adjusted incidence rate ratio (aIRR) of OSA in patients with type 2 diabetes compared with those without was 1.48 (95% CI 1.42-1.55; P < 0.001). In a multivariate regression analysis of patients with type 2 diabetes, significant predictors of OSA were diabetes-related foot disease (1.23 [1.06-1.42]; P = 0.005), being prescribed insulin in the last 60 days (1.58 [1.42-1.75]; P < 0.001), male sex (2.27 [2.09-2.46]; P < 0.001), being overweight (2.02 [1.54-2.64]; P < 0.001) or obese (8.29 [6.42-10.69]; P < 0.001), heart failure (1.41 [1.18-1.70]; P < 0.001), ischemic heart disease (1.22 [1.11-1.34]; P < 0.001), atrial fibrillation (1.23 [1.04-1.46]; P = 0.015), hypertension (1.32 [1.23-1.43]; P < 0.001), and depression (1.75 [1.61-1.91]; P < 0.001). CONCLUSIONS:When considered alongside previous evidence, this study indicates that the association between type 2 diabetes and OSA is bidirectional. In addition to known predictors of OSA, diabetes-related foot disease and insulin treatment were identified as risk factors in patients with type 2 diabetes.",
+    "laySummary": ""
+  },
+  {
+    "id": "31196949",
+    "doi": "https://doi.org/10.1183/13993003.02309-2018",
+    "title": "Educational and health outcomes of children treated for asthma: Scotland-wide record linkage study of 683\u200a716 children.",
+    "authorString": "Fleming M, Fitton CA, Steiner MFC, McLay JS, Clark D, King A, Mackay DF, Pell JP.",
+    "authorAffiliations": "Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK michael.fleming@glasgow.ac.uk.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Dept of Child Health, University of Aberdeen, Aberdeen, UK.; Information Services Division, National Services Scotland, NHS Scotland, Edinburgh, UK.; ScotXed, Scottish Government, Edinburgh, UK.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK.; Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK.",
+    "journalTitle": "The European respiratory journal",
+    "pubYear": "2019",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "BACKGROUND:The global prevalence of childhood asthma is increasing. The condition impacts physical and psychosocial morbidity; therefore, wide-ranging effects on health and education outcomes are plausible. METHODS:Linkage of eight Scotland-wide databases, covering dispensed prescriptions, hospital admissions, maternity records, death certificates, annual pupil census, examinations, school absences/exclusions and unemployment, provided data on 683\u200a716 children attending Scottish schools between 2009 and 2013. We compared schoolchildren on medication for asthma with peers, adjusting for sociodemographic, maternity and comorbidity confounders, and explored effect modifiers and mediators. RESULTS:The 45\u200a900 (6.0%) children treated for asthma had an increased risk of hospitalisation, particularly within the first year of treatment (incidence rate ratio 1.98, 95% CI 1.93-2.04), and increased mortality (HR 1.77, 95% CI 1.30-2.40). They were more likely to have special educational need for mental (OR 1.76, 95% CI 1.49-2.08) and physical (OR 2.76, 95% CI 2.57-2.95) health reasons, and performed worse in school exams (OR 1.11, 95% CI 1.06-1.16). Higher absenteeism (incidence rate ratio 1.25, 95% CI 1.24-1.26) partially explained their poorer attainment. CONCLUSIONS:Children with treated asthma have poorer education and health outcomes than their peers. Educational interventions that mitigate the adverse effects of absenteeism should be considered.",
     "laySummary": ""
   },
   {
@@ -3390,6 +3405,21 @@
     "laySummary": ""
   },
   {
+    "id": "31820220",
+    "doi": "https://doi.org/10.1007/s10926-019-09867-w",
+    "title": "The Association Between Fault Attribution and Work Participation After Road Traffic Injury: A Registry-Based Observational Study.",
+    "authorString": "Lau G, Gabbe BJ, Collie A, Ponsford J, Ameratunga S, Cameron PA, Harrison JE, Giummarra MJ.",
+    "authorAffiliations": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Health Data Research UK, Swansea University Medical School, Swansea University, Singleton Park, Swansea, Wales, SA2 8PP, UK.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; School of Psychological Sciences, Monash University, Clayton, VIC, Australia.; Monash-Epworth Rehabilitation Research Centre, Epworth Hospital, Richmond, VIC, Australia.; School of Population Health, University of Auckland, Auckland, New Zealand.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Research Centre for Injury Studies, Flinders University, Adelaide, SA, Australia.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia. melita.giummarra@monash.edu.; Caulfield Pain Management and Research Centre, Caulfield Hospital, Caulfield, VIC, Australia. melita.giummarra@monash.edu.",
+    "journalTitle": "Journal of occupational rehabilitation",
+    "pubYear": "2020",
+    "isOpenAccess": "N",
+    "keywords": "Trauma; Injury; Recovery; Traffic; Accidents; Return To Work",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Purpose To characterise associations between fault attribution and work participation and capacity after road traffic injury. Methods People aged 15-65\u00a0years, working pre-injury, without serious brain injury, who survived to 12\u00a0months after road traffic injury were included from two Victorian trauma registries (n\u2009=\u20092942). Fault profiles from linked compensation claims were defined as no other at fault, another at fault, denied another at fault, claimed another at fault, and unknown. Claimant reports in the denied and claimed another at fault groups contradicted police reports. Patients reported work capacity (Glasgow outcome scale-extended) and return to work (RTW) at 6, 12 and 24\u2009months post-injury (early and sustained RTW, delayed RTW (\u2265\u200912\u2009months), failed RTW attempts, no RTW attempts). Analyses adjusted for demographic, clinical and injury covariates. Results The risk of not returning to work was higher if another was at fault [adjusted relative risk ratio (aRRR)\u2009=\u20091.67, 95% confidence interval (CI) 1.29, 2.17] or was claimed to be at fault (aRRR\u2009=\u20091.58, 95% CI 1.04, 2.41), and lower for those who denied that another was at fault (aRRR\u2009=\u20090.51, 95% CI 0.29, 0.91), compared to cases with no other at fault. Similarly, people had higher odds of work capacity limitations if another was at fault (12m: AOR\u2009=\u20091.49, 95% CI 1.24, 1.80; 24m: 1.63, 95% CI 1.35, 1.97) or was claimed to be at fault (12m: AOR\u2009=\u20091.54, 95% CI 1.16, 2.05; 24m: AOR\u2009=\u20091.80, 95% CI 1.34, 2.41), and lower odds if they denied another was at fault (6m: AOR\u2009=\u20090.67, 95% CI 0.48, 0.95), compared to cases with no other at fault. Conclusion Targeted interventions are needed to support work participation in people at risk of poor RTW post-injury. While interventions targeting fault and justice-related attributions are currently lacking, these may be beneficial for people who believe that another caused their injury.",
+    "laySummary": ""
+  },
+  {
     "id": "32514173",
     "doi": "https://doi.org/10.1038/s41591-020-0941-1",
     "title": "Developing specific reporting guidelines for diagnostic accuracy studies assessing AI interventions: The STARD-AI Steering Group.",
@@ -3417,21 +3447,6 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "",
-    "laySummary": ""
-  },
-  {
-    "id": "31820220",
-    "doi": "https://doi.org/10.1007/s10926-019-09867-w",
-    "title": "The Association Between Fault Attribution and Work Participation After Road Traffic Injury: A Registry-Based Observational Study.",
-    "authorString": "Lau G, Gabbe BJ, Collie A, Ponsford J, Ameratunga S, Cameron PA, Harrison JE, Giummarra MJ.",
-    "authorAffiliations": "Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Health Data Research UK, Swansea University Medical School, Swansea University, Singleton Park, Swansea, Wales, SA2 8PP, UK.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; School of Psychological Sciences, Monash University, Clayton, VIC, Australia.; Monash-Epworth Rehabilitation Research Centre, Epworth Hospital, Richmond, VIC, Australia.; School of Population Health, University of Auckland, Auckland, New Zealand.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia.; Research Centre for Injury Studies, Flinders University, Adelaide, SA, Australia.; Department of Epidemiology and Preventive Medicine, School of Public Health and Preventive Medicine, Monash University, 553 St Kilda Road, Melbourne, VIC, 3004, Australia. melita.giummarra@monash.edu.; Caulfield Pain Management and Research Centre, Caulfield Hospital, Caulfield, VIC, Australia. melita.giummarra@monash.edu.",
-    "journalTitle": "Journal of occupational rehabilitation",
-    "pubYear": "2020",
-    "isOpenAccess": "N",
-    "keywords": "Trauma; Injury; Recovery; Traffic; Accidents; Return To Work",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Purpose To characterise associations between fault attribution and work participation and capacity after road traffic injury. Methods People aged 15-65\u00a0years, working pre-injury, without serious brain injury, who survived to 12\u00a0months after road traffic injury were included from two Victorian trauma registries (n\u2009=\u20092942). Fault profiles from linked compensation claims were defined as no other at fault, another at fault, denied another at fault, claimed another at fault, and unknown. Claimant reports in the denied and claimed another at fault groups contradicted police reports. Patients reported work capacity (Glasgow outcome scale-extended) and return to work (RTW) at 6, 12 and 24\u2009months post-injury (early and sustained RTW, delayed RTW (\u2265\u200912\u2009months), failed RTW attempts, no RTW attempts). Analyses adjusted for demographic, clinical and injury covariates. Results The risk of not returning to work was higher if another was at fault [adjusted relative risk ratio (aRRR)\u2009=\u20091.67, 95% confidence interval (CI) 1.29, 2.17] or was claimed to be at fault (aRRR\u2009=\u20091.58, 95% CI 1.04, 2.41), and lower for those who denied that another was at fault (aRRR\u2009=\u20090.51, 95% CI 0.29, 0.91), compared to cases with no other at fault. Similarly, people had higher odds of work capacity limitations if another was at fault (12m: AOR\u2009=\u20091.49, 95% CI 1.24, 1.80; 24m: 1.63, 95% CI 1.35, 1.97) or was claimed to be at fault (12m: AOR\u2009=\u20091.54, 95% CI 1.16, 2.05; 24m: AOR\u2009=\u20091.80, 95% CI 1.34, 2.41), and lower odds if they denied another was at fault (6m: AOR\u2009=\u20090.67, 95% CI 0.48, 0.95), compared to cases with no other at fault. Conclusion Targeted interventions are needed to support work participation in people at risk of poor RTW post-injury. While interventions targeting fault and justice-related attributions are currently lacking, these may be beneficial for people who believe that another caused their injury.",
     "laySummary": ""
   },
   {
@@ -3675,6 +3690,21 @@
     "laySummary": ""
   },
   {
+    "id": "32724858",
+    "doi": "https://doi.org/10.1136/bmjophth-2020-000481",
+    "title": "Outcomes important to patients with non-infectious posterior segment-involving uveitis: a qualitative study.",
+    "authorString": "Tallouzi MO, Moore DJ, Bucknall N, Murray PI, Calvert MJ, Denniston AK, Mathers JM.",
+    "authorAffiliations": "Institute of Applied Health Research, University of Birmingham, Birmingham, West Midlands, UK.; Birmingham and Midland Eye Centre, Sandwell and West Birmingham Hospitals NHS Trust, Birmingham, West Midlands, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, West Midlands, UK.; Patient Involvement Group in Uveitis (PInGU), Birmingham, West Midlands, UK.; Birmingham and Midland Eye Centre, Sandwell and West Birmingham Hospitals NHS Trust, Birmingham, West Midlands, UK.; Academic Unit of Ophthalmology, Institute of Inflammation and Ageing, University of Birmingham College of Medical and Dental Sciences, Birmingham, West Midlands, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, West Midlands, UK.; NIHR Birmingham Biomedical Research Centre, NIHR Surgical Reconstruction and Microbiology Research Centre and NIHR Applied Research Collaboration (ARC) West Midlands at the University Hospitals Birmingham NHS Foundation Trust and the University of Birmingham, Birmingham, West Midlands, UK.; Ophthalmology Department, University Hospitals Birmingham NHS Foundation Trust, Birmingham, West Midlands, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, West Midlands, UK.",
+    "journalTitle": "BMJ open ophthalmology",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Inflammation; Public Health; Treatment Other",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Objective:Uveitis, a group of disorders characterised by intraocular inflammation, causes 10%-15% of total blindness in the developed world. The most sight-threatening forms of non-infectious uveitis are those affecting the posterior segment of the eye, collectively known as posterior segment-involving uveitis (PSIU). Numerous different clinical outcomes have been used in trials evaluating treatments for PSIU, but these may not represent patients' and carers' concerns. Therefore, the aims of this study were to understand the impact of PSIU on adult patients' and carers' lives and to explore what outcomes of treatment are important to them. Methods and Analysis:Four focus group discussions were undertaken to understand the perspectives of adult patients (=18) and carers (10) with PSIU. Participants were grouped according to whether or not their uveitis was complicated by the sight-threatening condition uveitic macular oedema. Discussions were audio-recorded, transcribed and analysed using the framework analytical approach. Outcomes were identified and grouped into outcome domains. Results:Eleven core domains were identified as important to patients and carers undergoing treatment for PSIU, comprising (1) visual function, (2) symptoms, (3) functional ability, (4) impact on relationships, (5) financial impact, (6) psychological morbidity and emotional well-being, (7) psychosocial adjustment to uveitis, (8) doctor/patient/interprofessional relationships and access to healthcare, (9) treatment burden, (10) treatment side effects, and (11) disease control. Conclusion:The domains identified represent patients' and carers' experience and perspectives and can be used to reflect on outcomes assessed in PSIU. They will directly inform the development of a core outcome set for PSIU clinical trials.",
+    "laySummary": ""
+  },
+  {
     "id": "30102210",
     "doi": "https://doi.org/10.1016/s1470-2045(18)30425-x",
     "title": "A roadmap for restoring trust in Big Data.",
@@ -3762,6 +3792,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "BACKGROUND & AIMS:MRI-based corrected T1 (cT1) is a non-invasive method to grade the severity of steatohepatitis and liver fibrosis. We aimed to identify genetic variants influencing liver cT1 and use genetics to understand mechanisms underlying liver fibroinflammatory disease and its link with other metabolic traits and diseases. METHODS:First, we performed a genome-wide association study (GWAS) in 14,440 Europeans, with liver cT1 measures, from the UK Biobank. Second, we explored the effects of the cT1 variants on liver blood tests, and a range of metabolic traits and diseases. Third, we used Mendelian randomisation to test the causal effects of 24 predominantly metabolic traits on liver cT1 measures. RESULTS:We identified 6 independent genetic variants associated with liver cT1 that reached the GWAS significance threshold (p\u00a0<5\u00d710-8). Four of the variants (rs759359281 in SLC30A10, rs13107325 in SLC39A8, rs58542926 in TM6SF2, rs738409 in PNPLA3) were also associated with elevated aminotransferases and had variable effects on liver fat and other metabolic traits. Insulin resistance, type 2 diabetes, non-alcoholic fatty liver and body mass index were causally associated with elevated cT1, whilst favourable adiposity (instrumented by variants associated with higher adiposity but lower risk of cardiometabolic disease and lower liver fat) was found to be protective. CONCLUSION:The association between 2 metal ion transporters and cT1 indicates an important new mechanism in steatohepatitis. Future studies are needed to determine whether interventions targeting the identified transporters might prevent liver disease in at-risk individuals. LAY SUMMARY:We estimated levels of liver inflammation and scarring based on magnetic resonance imaging of 14,440 UK Biobank participants. We performed a genetic study and identified variations in 6 genes associated with levels of liver inflammation and scarring. Participants with variations in 4 of these genes also had higher levels of markers of liver cell injury in blood samples, further validating their role in liver health. Two identified genes are involved in the transport of metal ions in our body. Further investigation of these variations may lead to better detection, assessment, and/or treatment of liver inflammation and scarring.",
+    "laySummary": ""
+  },
+  {
+    "id": "32706893",
+    "doi": "https://doi.org/10.1182/bloodadvances.2020002230",
+    "title": "Artificial intelligence-based morphological fingerprinting of megakaryocytes: a new tool for assessing disease in MPN patients.",
+    "authorString": "Sirinukunwattana K, Aberdeen A, Theissen H, Sousos N, Psaila B, Mead AJ, Turner GDH, Rees G, Rittscher J, Royston D.",
+    "authorAffiliations": "Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford, Oxford, United Kingdom.; Ground Truth Labs, Oxford, United Kingdom.; Big Data Institute/Li Ka Shing Centre for Health Information and Discovery, University of Oxford, Oxford, United Kingdom.; NIHR Oxford Biomedical Research Centre, Oxford University NHS Foundation Trust, Oxford, United Kingdom.; Ground Truth Labs, Oxford, United Kingdom.; Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford, Oxford, United Kingdom.; Big Data Institute/Li Ka Shing Centre for Health Information and Discovery, University of Oxford, Oxford, United Kingdom.; Medical Research Council (MRC) Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, and.; Haematopoietic Stem Cell Biology Laboratory, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom.; NIHR Oxford Biomedical Research Centre, Oxford University NHS Foundation Trust, Oxford, United Kingdom.; Medical Research Council (MRC) Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, and.; Haematopoietic Stem Cell Biology Laboratory, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom.; NIHR Oxford Biomedical Research Centre, Oxford University NHS Foundation Trust, Oxford, United Kingdom.; Medical Research Council (MRC) Molecular Haematology Unit, MRC Weatherall Institute of Molecular Medicine, and.; Haematopoietic Stem Cell Biology Laboratory, MRC Weatherall Institute of Molecular Medicine, University of Oxford, Oxford, United Kingdom.; Department of Cellular Pathology, John Radcliffe Hospital, Oxford University NHS Foundation Trust, Oxford, United Kingdom; and.; Nuffield Division of Clinical Laboratory Sciences, Radcliffe Department of Medicine, John Radcliffe Hospital, and.; Department of Cellular Pathology, John Radcliffe Hospital, Oxford University NHS Foundation Trust, Oxford, United Kingdom; and.; Institute of Biomedical Engineering, Department of Engineering Science, University of Oxford, Oxford, United Kingdom.; Ground Truth Labs, Oxford, United Kingdom.; Big Data Institute/Li Ka Shing Centre for Health Information and Discovery, University of Oxford, Oxford, United Kingdom.; NIHR Oxford Biomedical Research Centre, Oxford University NHS Foundation Trust, Oxford, United Kingdom.; Ludwig Institute for Cancer Research/Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom.; Department of Cellular Pathology, John Radcliffe Hospital, Oxford University NHS Foundation Trust, Oxford, United Kingdom; and.; Nuffield Division of Clinical Laboratory Sciences, Radcliffe Department of Medicine, John Radcliffe Hospital, and.",
+    "journalTitle": "Blood advances",
+    "pubYear": "2020",
+    "isOpenAccess": "N",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Accurate diagnosis and classification of myeloproliferative neoplasms (MPNs) requires integration of clinical, morphological, and genetic findings. Despite major advances in our understanding of the molecular and genetic basis of MPNs, the morphological assessment of bone marrow trephines (BMT) is critical in differentiating MPN subtypes and their reactive mimics. However, morphological assessment is heavily constrained by a reliance on subjective, qualitative, and poorly reproducible criteria. To improve the morphological assessment of MPNs, we have developed a machine learning approach for the automated identification, quantitative analysis, and abstract representation of megakaryocyte features using reactive/nonneoplastic BMT samples (n = 43) and those from patients with established diagnoses of essential thrombocythemia (n = 45), polycythemia vera (n = 18), or myelofibrosis (n = 25). We describe the application of an automated workflow for the identification and delineation of relevant histological features from routinely prepared BMTs. Subsequent analysis enabled the tissue diagnosis of MPN with a high predictive accuracy (area under the curve = 0.95) and revealed clear evidence of the potential to discriminate between important MPN subtypes. Our method of visually representing abstracted megakaryocyte features in the context of analyzed patient cohorts facilitates the interpretation and monitoring of samples in a manner that is beyond conventional approaches. The automated BMT phenotyping approach described here has significant potential as an adjunct to standard genetic and molecular testing in established or suspected MPN patients, either as part of the routine diagnostic pathway or in the assessment of disease progression/response to treatment.",
     "laySummary": ""
   },
   {
@@ -4290,6 +4335,21 @@
     "laySummary": "This study looked at 6562 people with severe heart failure and whether there was an association between taking beta-blockers (a drug to control heart rate) and heart disease. They used a national Swedish registry of patients with heart failure and compared those who were taking beta blockers (866 patients) to those not taking beta blockers (866 patients). The study found that patients who were taking beta blockers tended also to have lower risk of heart complications and were more likely to survive."
   },
   {
+    "id": "32724860",
+    "doi": "https://doi.org/10.12688/wellcomeopenres.15651.1",
+    "title": "Using a knowledge exchange event to assess study participants' attitudes to research in a rapidly evolving research context.",
+    "authorString": "Beange I, Kirkham EJ, Fletcher-Watson S, Iveson MH, Lawrie SM, Batty GD, Boardman JP, Deary IJ, Black C, Porteous DJ, McIntosh AM.",
+    "authorAffiliations": "Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Department of Epidemiology and Public Health, University College London Medical School, London, WC1E 7HB, UK.; School of Biological and Population Health Sciences, Oregon State University, Corvallis, Oregon, USA.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, EH16 4TJ, UK.; The Lothian Birth Cohorts, Division of Psychology, University of Edinburgh, Edinburgh, EH8 9JZ, UK.; Institute of Applied Health Sciences, University of Aberdeen, Aberdeen, AB25 2ZD, UK.; MRC Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, EH4 2XU, UK.; Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK.; The Lothian Birth Cohorts, Division of Psychology, University of Edinburgh, Edinburgh, EH8 9JZ, UK.",
+    "journalTitle": "Wellcome open research",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Health; Cohort; Scotland; Data Linkage; Public Engagement; Opinion; Knowledge Exchange; Big Data; Data Science; Guthrie",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Background: The UK hosts some of the world's longest-running longitudinal cohort studies, who make repeated observations of their participants and use these data to explore health outcomes. An alternative method for data collection is record linkage; the linking together of electronic health and administrative records. Applied nationally, this could provide unrivalled opportunities to follow a large number of people in perpetuity. However, public attitudes to the use of data in research are currently unclear. Here we report on an event where we collected attitudes towards recent opportunities and controversies within health data science. Methods: The event was attended by ~250 individuals (cohort members and their guests), who had been invited through the offices of their participating cohort studies. There were a series of presentations describing key research results and the audience participated in 15 multiple-choice questions using interactive voting pads. Results: Our participants showed a high level of trust in researchers (87% scoring them 4/5 or 5/5) and doctors (81%); but less trust in commercial companies (35%). They supported the idea of researchers using information from both neonatal blood spots (Guthrie spots) (97% yes) and from electronic health records (95% yes). Our respondents were willing to wear devices like a 'Fit-bit' (78% agreed) or take a brain scan that might predict later mental illness (73%). However, they were less willing to take a new drug for research purposes (45%). They were keen to encourage others to take part in research; whether that be offering the opportunity to pregnant mothers (97% agreed) or extending invitations to their own children and grandchildren (98%). Conclusions: Our participants were broadly supportive of research access to data, albeit less supportive when commercial interests were involved. Public engagement events that facilitate two-way interactions can influence and support future research and public engagement efforts.",
+    "laySummary": ""
+  },
+  {
     "id": "31197928",
     "doi": "https://doi.org/10.1002/pds.4811",
     "title": "Methods to generate and validate a Pregnancy Register in the UK Clinical Practice Research Datalink primary care database.",
@@ -4348,36 +4408,6 @@
     "healthCategories": "",
     "abstract": "The origin and fate of new mutations within species is the fundamental process underlying evolution. However, while much attention has been focused on characterizing the presence, frequency, and phenotypic impact of genetic variation, the evolutionary histories of most variants are largely unexplored. We have developed a nonparametric approach for estimating the date of origin of genetic variants in large-scale sequencing data sets. The accuracy and robustness of the approach is demonstrated through simulation. Using data from two publicly available human genomic diversity resources, we estimated the age of more than 45 million single-nucleotide polymorphisms (SNPs) in the human genome and release the Atlas of Variant Age as a public online database. We characterize the relationship between variant age and frequency in different geographical regions and demonstrate the value of age information in interpreting variants of functional and selective importance. Finally, we use allele age estimates to power a rapid approach for inferring the ancestry shared between individual genomes and to quantify genealogical relationships at different points in the past, as well as to describe and explore the evolutionary history of modern human populations.",
     "laySummary": " "
-  },
-  {
-    "id": "PMC7375431",
-    "doi": "https://doi.org/",
-    "title": "Outcomes important to patients with non-infectious posterior segment-involving uveitis: a qualitative study",
-    "authorString": "Tallouzi M, Moore D, Bucknall N, Murray P, Calvert M, Denniston A, Mathers J.",
-    "authorAffiliations": "2 Birmingham and Midland Eye Centre ,  Sandwell and West Birmingham Hospitals NHS Trust ,  Birmingham ,  West Midlands ,; 1 Institute of Applied Health Research ,  University of Birmingham ,  Birmingham ,  West Midlands ,; 3 Patient Involvement Group in Uveitis (PInGU) ,  Birmingham ,  West Midlands ,; 4 Academic Unit of Ophthalmology, Institute of Inflammation and Ageing ,  University of Birmingham College of Medical and Dental Sciences ,  Birmingham ,  West Midlands ,; 5 NIHR Birmingham Biomedical Research Centre, NIHR Surgical Reconstruction and Microbiology Research Centre and NIHR Applied Research Collaboration (ARC) West Midlands at the University Hospitals Birmingham NHS Foundation Trust and the University of Birmingham ,  Birmingham ,  West Midlands ,; 6 Ophthalmology Department ,  University Hospitals Birmingham NHS Foundation Trust ,  Birmingham ,  West Midlands ,; 1 Institute of Applied Health Research ,  University of Birmingham ,  Birmingham ,  West Midlands ,",
-    "journalTitle": "BMJ open ophthalmology",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Inflammation; Public Health; Treatment Other",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Objective Uveitis, a group of disorders characterised by intraocular inflammation, causes 10%\u201315% of total blindness in the developed world. The most sight-threatening forms of non-infectious uveitis are those affecting the posterior segment of the eye, collectively known as posterior segment-involving uveitis (PSIU). Numerous different clinical outcomes have been used in trials evaluating treatments for PSIU, but these may not represent patients\u2019 and carers\u2019 concerns. Therefore, the aims of this study were to understand the impact of PSIU on adult patients\u2019 and carers\u2019 lives and to explore what outcomes of treatment are important to them. Methods and Analysis Four focus group discussions were undertaken to understand the perspectives of adult patients (=18) and carers (10) with PSIU. Participants were grouped according to whether or not their uveitis was complicated by the sight-threatening condition uveitic macular oedema. Discussions were audio-recorded, transcribed and analysed using the framework analytical approach. Outcomes were identified and grouped into outcome domains. Results Eleven core domains were identified as important to patients and carers undergoing treatment for PSIU, comprising (1) visual function, (2) symptoms, (3) functional ability, (4) impact on relationships, (5) financial impact, (6) psychological morbidity and emotional well-being, (7) psychosocial adjustment to uveitis, (8) doctor/patient/interprofessional relationships and access to healthcare, (9) treatment burden, (10) treatment side effects, and (11) disease control. Conclusion The domains identified represent patients\u2019 and carers\u2019 experience and perspectives and can be used to reflect on outcomes assessed in PSIU. They will directly inform the development of a core outcome set for PSIU clinical trials.",
-    "laySummary": ""
-  },
-  {
-    "id": "PMC7361507",
-    "doi": "https://doi.org/",
-    "title": "Using a knowledge exchange event to assess study participants\u2019 attitudes to research in a rapidly evolving research context [version 1; peer review: 3 approved]",
-    "authorString": "Beange I, Kirkham E, Fletcher-Watson S, Iveson M, Lawrie S, Batty G, Boardman J, Deary I, Black C, Porteous D, McIntosh A.",
-    "authorAffiliations": "1 Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK; 1 Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK; 1 Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK; 1 Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK; 1 Division of Psychiatry, Centre for Clinical Brain Sciences, University of Edinburgh, Edinburgh, EH10 5HF, UK; 3 School of Biological and Population Health Sciences, Oregon State University, Corvallis, Oregon, USA; 4 Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, EH16 4TJ, UK; 5 The Lothian Birth Cohorts, Division of Psychology, University of Edinburgh, Edinburgh, EH8 9JZ, UK; 6 Institute of Applied Health Sciences, University of Aberdeen, Aberdeen, AB25 2ZD, UK; 7 MRC Institute of Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, EH4 2XU, UK; 5 The Lothian Birth Cohorts, Division of Psychology, University of Edinburgh, Edinburgh, EH8 9JZ, UK",
-    "journalTitle": "Wellcome open research",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Health; Cohort; Scotland; Data Linkage; Public Engagement; Opinion; Knowledge Exchange; Big Data; Data Science; Guthrie",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Background: The UK hosts some of the world\u2019s longest-running longitudinal cohort studies, who make repeated observations of their participants and use these data to explore health outcomes. An alternative method for data collection is record linkage; the linking together of electronic health and administrative records. Applied nationally, this could provide unrivalled opportunities to follow a large number of people in perpetuity. However, public attitudes to the use of data in research are currently unclear. Here we report on an event where we collected attitudes towards recent opportunities and controversies within health data science. Methods: The event was attended by ~250 individuals (cohort members and their guests), who had been invited through the offices of their participating cohort studies. There were a series of presentations describing key research results and the audience participated in 15 multiple-choice questions using interactive voting pads. Results: Our participants showed a high level of trust in researchers (87% scoring them 4/5 or 5/5) and doctors (81%); but less trust in commercial companies (35%). They supported the idea of researchers using information from both neonatal blood spots (Guthrie spots) (97% yes) and from electronic health records (95% yes). Our respondents were willing to wear devices like a \u2019Fit-bit\u2019 (78% agreed) or take a brain scan that might predict later mental illness (73%). However, they were less willing to take a new drug for research purposes (45%). They were keen to encourage others to take part in research; whether that be offering the opportunity to pregnant mothers (97% agreed) or extending invitations to their own children and grandchildren (98%). Conclusions: Our participants were broadly supportive of research access to data, albeit less supportive when commercial interests were involved. Public engagement events that facilitate two-way interactions can influence and support future research and public engagement efforts.",
-    "laySummary": ""
   },
   {
     "id": "31134468",
@@ -5018,7 +5048,7 @@
     "journalTitle": "NeuroImage",
     "pubYear": "2020",
     "isOpenAccess": "Y",
-    "keywords": "Functional Connectivity; Connectome; Deep Learning; Riemannian Geometry; Convolutional Neural Networks; Netmat",
+    "keywords": "Functional Connectivity; Connectome; Deep Learning; Riemannian Geometry; Netmat; Convolutional Neural Networks",
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "A major goal of neuroimaging studies is to develop predictive models to analyze the relationship between whole brain functional connectivity patterns and behavioural traits. However, there is no single widely-accepted standard pipeline for analyzing functional connectivity. The common procedure for designing functional connectivity based predictive models entails three main steps: parcellating the brain, estimating the interaction between defined parcels, and lastly, using these integrated associations between brain parcels as features fed to a classifier for predicting non-imaging variables e.g., behavioural traits, demographics, emotional measures, etc. There are also additional considerations when using correlation-based measures of functional connectivity, resulting in three supplementary steps: utilising Riemannian geometry tangent space parameterization to preserve the geometry of functional connectivity; penalizing the connectivity estimates with shrinkage approaches to handle challenges related to short time-series (and noisy) data; and removing confounding variables from brain-behaviour data. These six steps are contingent on each-other, and to optimise a general framework one should ideally examine these various methods simultaneously. In this paper, we investigated strengths and short-comings, both independently and jointly, of the following measures: parcellation techniques of four kinds (categorized further depending upon number of parcels), five measures of functional connectivity, the decision of staying in the ambient space of connectivity matrices or in tangent space, the choice of applying shrinkage estimators, six alternative techniques for handling confounds and finally four novel classifiers/predictors. For performance evaluation, we have selected two of the largest datasets, UK Biobank and the Human Connectome Project resting state fMRI data, and have run more than 9000 different pipeline variants on a total of \u223c14000 individuals to determine the optimum pipeline. For independent performance validation, we have run some best-performing pipeline variants on ABIDE and ACPI datasets (\u223c1000 subjects) to evaluate the generalisability of proposed network modelling methods.",
@@ -5460,21 +5490,6 @@
     "laySummary": ""
   },
   {
-    "id": "31243008",
-    "doi": "https://doi.org/10.1136/archdischild-2018-316693",
-    "title": "Origins of disparities in preventable child mortality in England and Sweden: a birth cohort study.",
-    "authorString": "Zylbersztejn A, Gilbert R, Hjern A, Hardelid P.",
-    "authorAffiliations": "Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Farr Institute of Health Informatics Research, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.; Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.; Centre for Health Equity Studies (CHESS), Stockholm University, Stockholm, Sweden.; Clinical Epidemiology Unit, Department of Medicine, Karolinska Institutet, Stockholm, Sweden.; Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.",
-    "journalTitle": "Archives of disease in childhood",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Respiratory tract infection; Sweden; England; Child Mortality; Sudden Unexpected Death In Infancy",
-    "nationalPriorities": "Improving Public Health",
-    "healthCategories": "",
-    "abstract": "OBJECTIVE:To compare mortality in children aged <5 years from two causes amenable to healthcare prevention in England and Sweden: respiratory tract infection (RTI) and sudden unexpected death in infancy (SUDI). DESIGN:Birth cohort study using linked administrative health databases from England and Sweden. SETTING AND PARTICIPANTS:Singleton live births between 2003 and 2012 in England and Sweden, followed up from age 31 days until the fifth birthday, death or 31 December 2013. MAIN OUTCOME MEASURES:The main outcome measures were HR for RTI-related mortality at 31-364 days and at 1-4 years and SUDI mortality at 31-364 days in England versus Sweden estimated using Cox proportional hazards models. We calculated unadjusted HRs and HRs adjusted for birth characteristics (gestational age, birth weight, sex and congenital anomalies) and socioeconomic factors (maternal age and socioeconomic status). RESULTS:The English cohort comprised 3 928 483 births, 768 RTI-related deaths at 31-364 days, 691 RTI-related deaths at 1-4 years and 1166 SUDIs; the corresponding figures for the Swedish cohort were 1 012 682, 131, 118 and 189. At 31-364 days, unadjusted HR for RTI-related death in England versus Sweden was 1.52 (95% CI 1.26 to 1.82). After adjusting for birth characteristics, the HR reduced to 1.16 (95% CI 0.96 to 1.40) and for socioeconomic factors to 1.11 (95% CI 0.92 to 1.34). At 1-4 years, unadjusted HR was 1.58 (95% CI 1.30 to 1.92) and decreased to 1.32 (95% CI 1.09 to 1.61) after adjusting for birth characteristics and to 1.30 (95% CI 1.07 to 1.59) after further adjustment for socioeconomic factors. For SUDI, the respective HRs were 1.59 (95% CI 1.36 to 1.85) in the unadjusted model, and 1.40 (95% CI 1.20 to 1.63) after accounting for birth characteristics and 1.19 (95% CI 1.02 to 1.39) in the fully adjusted model. CONCLUSION:Interventions that improve maternal health before and during pregnancy to reduce the prevalence of adverse birth characteristics and address poverty could reduce child mortality due to RTIs and SUDIs in England.",
-    "laySummary": "Zylbersztejn et al. shown that helping mothers to have a healthier pregnancy: better mental health before and during pregnancy, reducing birth complications and addressing poverty are the potential areas which can affect reduction of child mortality at birth. "
-  },
-  {
     "id": "31013802",
     "doi": "https://doi.org/10.3390/ijerph16081325",
     "title": "Using Patient-Reported Outcomes to Predict Revision Arthroplasty Following Femoral Neck Fracture: Enhancing the Value of Clinical Registries through Data Linkage.",
@@ -5488,6 +5503,21 @@
     "healthCategories": "",
     "abstract": "The aim of this study was to determine the association between patient-reported outcome measures (PROMs) six months following femoral neck fracture after a low fall and future arthroplasty, and the factors associated with this. Six-month post-fracture PROMs were collected from the Victorian Orthopaedic Trauma Outcomes Registry (VOTOR) for patients aged >55 years who were admitted for a femoral neck fracture after a low fall between March 2007 and June 2015. These cases were linked with those registered by Australian Orthopaedic Association National Joint Replacement Registry (AOANJRR) up to October 2016. Multivariable analysis was performed using a Cox proportional hazards model to determine factors associated with future arthroplasty, including six-month PROMs. Of the 7077 hip fracture patients registered by VOTOR during the study period, 2325 met the inclusion criteria. Internal fixation being used for the initial hip fracture surgery, being younger and having no pre-injury disability were all independently associated with future revision or conversion to arthroplasty. Out of all PROMs, reporting pain and discomfort six months post-fracture was associated with a 9.5-fold increase in the risk of future arthroplasty (95% CI: 3.81, 23.67). The value of clinical registries can be enhanced via data linkage, in this case by using PROMs to predict arthroplasty following femoral neck fracture.",
     "laySummary": ""
+  },
+  {
+    "id": "31243008",
+    "doi": "https://doi.org/10.1136/archdischild-2018-316693",
+    "title": "Origins of disparities in preventable child mortality in England and Sweden: a birth cohort study.",
+    "authorString": "Zylbersztejn A, Gilbert R, Hjern A, Hardelid P.",
+    "authorAffiliations": "Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Farr Institute of Health Informatics Research, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.; Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.; Centre for Health Equity Studies (CHESS), Stockholm University, Stockholm, Sweden.; Clinical Epidemiology Unit, Department of Medicine, Karolinska Institutet, Stockholm, Sweden.; Population, Policy and Practice, University College London Great Ormond Street Institute of Child Health, London, UK.; Children and Families Policy Research Unit, University College London Great Ormond Street Institute of Child Health, London, UK.",
+    "journalTitle": "Archives of disease in childhood",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Respiratory tract infection; Sweden; England; Child Mortality; Sudden Unexpected Death In Infancy",
+    "nationalPriorities": "Improving Public Health",
+    "healthCategories": "",
+    "abstract": "OBJECTIVE:To compare mortality in children aged <5 years from two causes amenable to healthcare prevention in England and Sweden: respiratory tract infection (RTI) and sudden unexpected death in infancy (SUDI). DESIGN:Birth cohort study using linked administrative health databases from England and Sweden. SETTING AND PARTICIPANTS:Singleton live births between 2003 and 2012 in England and Sweden, followed up from age 31 days until the fifth birthday, death or 31 December 2013. MAIN OUTCOME MEASURES:The main outcome measures were HR for RTI-related mortality at 31-364 days and at 1-4 years and SUDI mortality at 31-364 days in England versus Sweden estimated using Cox proportional hazards models. We calculated unadjusted HRs and HRs adjusted for birth characteristics (gestational age, birth weight, sex and congenital anomalies) and socioeconomic factors (maternal age and socioeconomic status). RESULTS:The English cohort comprised 3 928 483 births, 768 RTI-related deaths at 31-364 days, 691 RTI-related deaths at 1-4 years and 1166 SUDIs; the corresponding figures for the Swedish cohort were 1 012 682, 131, 118 and 189. At 31-364 days, unadjusted HR for RTI-related death in England versus Sweden was 1.52 (95% CI 1.26 to 1.82). After adjusting for birth characteristics, the HR reduced to 1.16 (95% CI 0.96 to 1.40) and for socioeconomic factors to 1.11 (95% CI 0.92 to 1.34). At 1-4 years, unadjusted HR was 1.58 (95% CI 1.30 to 1.92) and decreased to 1.32 (95% CI 1.09 to 1.61) after adjusting for birth characteristics and to 1.30 (95% CI 1.07 to 1.59) after further adjustment for socioeconomic factors. For SUDI, the respective HRs were 1.59 (95% CI 1.36 to 1.85) in the unadjusted model, and 1.40 (95% CI 1.20 to 1.63) after accounting for birth characteristics and 1.19 (95% CI 1.02 to 1.39) in the fully adjusted model. CONCLUSION:Interventions that improve maternal health before and during pregnancy to reduce the prevalence of adverse birth characteristics and address poverty could reduce child mortality due to RTIs and SUDIs in England.",
+    "laySummary": "Zylbersztejn et al. shown that helping mothers to have a healthier pregnancy: better mental health before and during pregnancy, reducing birth complications and addressing poverty are the potential areas which can affect reduction of child mortality at birth. "
   },
   {
     "id": "31844048",
