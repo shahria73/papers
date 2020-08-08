@@ -1530,21 +1530,6 @@
     "laySummary": "The authors of this paper estimate the number of cases and spread of COVID-19 using data on critical care admissions within the UK, from a period of February to March 2020. Their results suggest that the UK had hundreds of thousands of COVID-19 cases by the time the national lockdown was implemented. They highlight the usefulness of surveilling critical care data to better understand the dynamics of the epidemic and better inform the response measures."
   },
   {
-    "id": "32352158",
-    "doi": "https://doi.org/10.1002/bjs.11580",
-    "title": "Author response to: Comment on: Impact of bariatric surgery on cardiovascular outcomes and mortality: a population-based cohort study.",
-    "authorString": "Adderley N, Singh P, Tahrani AA, Nirantharakumar K.",
-    "authorAffiliations": "Institute of Applied Health Research, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Department of Surgery, University Hospitals Birmingham NHS Foundation Trust.; Institute of Applied Health Research, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Health Data Research UK, London, UK.",
-    "journalTitle": "The British journal of surgery",
-    "pubYear": "2020",
-    "isOpenAccess": "N",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "",
-    "laySummary": ""
-  },
-  {
     "id": "30999919",
     "doi": "https://doi.org/10.1186/s12911-019-0805-0",
     "title": "Identifying clinically important COPD sub-types using data-driven approaches in primary care population based electronic health records.",
@@ -1557,6 +1542,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "BACKGROUND:COPD is a highly heterogeneous disease composed of different phenotypes with different aetiological and prognostic profiles and current classification systems do not fully capture this heterogeneity. In this study we sought to discover, describe and validate COPD subtypes using cluster analysis on data derived from electronic health records. METHODS:We applied two unsupervised learning algorithms (k-means and hierarchical clustering) in 30,961 current and former smokers diagnosed with COPD, using linked national structured electronic health records in England available through the CALIBER resource. We used 15 clinical features, including risk factors and comorbidities and performed dimensionality reduction using multiple correspondence analysis. We compared the association between cluster membership and COPD exacerbations and respiratory and cardiovascular death with 10,736 deaths recorded over 146,466 person-years of follow-up. We also implemented and tested a process to assign unseen patients into clusters using a decision tree classifier. RESULTS:We identified and characterized five COPD patient clusters with distinct patient characteristics with respect to demographics, comorbidities, risk of death and exacerbations. The four subgroups were associated with 1) anxiety/depression; 2) severe airflow obstruction and frailty; 3) cardiovascular disease and diabetes and 4) obesity/atopy. A fifth cluster was associated with low prevalence of most comorbid conditions. CONCLUSIONS:COPD patients can be sub-classified into groups with differing risk factors, comorbidities, and prognosis, based on data included in their primary care records. The identified clusters confirm findings of previous clustering studies and draw attention to anxiety and depression as important drivers of the disease in young, female patients.",
+    "laySummary": ""
+  },
+  {
+    "id": "32352158",
+    "doi": "https://doi.org/10.1002/bjs.11580",
+    "title": "Author response to: Comment on: Impact of bariatric surgery on cardiovascular outcomes and mortality: a population-based cohort study.",
+    "authorString": "Adderley N, Singh P, Tahrani AA, Nirantharakumar K.",
+    "authorAffiliations": "Institute of Applied Health Research, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Department of Surgery, University Hospitals Birmingham NHS Foundation Trust.; Institute of Applied Health Research, Birmingham, UK.; Department of Endocrinology and Diabetes, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Health Data Research UK, London, UK.",
+    "journalTitle": "The British journal of surgery",
+    "pubYear": "2020",
+    "isOpenAccess": "N",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "",
     "laySummary": ""
   },
   {
@@ -3165,21 +3165,6 @@
     "laySummary": "The objective of this paper was to construct individualised dynamic predictive probabilities to monitor rapid Cystic Fibrosis (CF) disease progression. The results demonstrated how individualised rate of change estimates can be coupled with probabilitic predictive inference and implementation for a useful medical-monitoring approach."
   },
   {
-    "id": "32546850",
-    "doi": "https://doi.org/10.1038/s41598-020-66737-9",
-    "title": "Genetic aetiology of self-harm ideation and behaviour.",
-    "authorString": "Campos AI, Verweij KJH, Statham DJ, Madden PAF, Maciejewski DF, Davis KAS, John A, Hotopf M, Heath AC, Martin NG, Renter\u00eda ME.",
-    "authorAffiliations": "Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. adrian.campos@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. adrian.campos@qimrberghofer.edu.au.; Department of Psychiatry, Amsterdam UMC, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, the Netherlands.; Discipline of Psychology, School of Health and Life Sciences, Federation University, Ballarat, VIC, 3550, Australia.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Developmental Psychopathology, Behavioural Science Institute, Nijmegen, the Netherlands.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; HDRUK, Swansea University Medical School, Swansea, UK.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. miguel.renteria@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. miguel.renteria@qimrberghofer.edu.au.",
-    "journalTitle": "Scientific reports",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Family studies have identified a heritable component to self-harm that is partially independent from comorbid psychiatric disorders. However, the genetic aetiology of broad sense (non-suicidal and suicidal) self-harm has not been characterised on the molecular level. In addition, controversy exists about the degree to which suicidal and non-suicidal self-harm share a common genetic aetiology. In the present study, we conduct genome-wide association studies (GWAS) on lifetime self-harm ideation and self-harm behaviour (i.e. any lifetime self-harm act regardless of suicidal intent) using data from the UK Biobank (n\u2009>\u2009156,000). We also perform genome wide gene-based tests and characterize the SNP heritability and genetic correlations between these traits. Finally, we test whether polygenic risk scores (PRS) for self-harm ideation and self-harm behaviour predict suicide attempt, suicide thoughts and non-suicidal self-harm (NSSH) in an independent target sample of 8,703 Australian adults. Our GWAS results identified one genome-wide significant locus associated with each of the two phenotypes. SNP heritability (hsnp2) estimates were ~10%, and both traits were highly genetically correlated (LDSC rg\u2009>\u20090.8). Gene-based tests identified seven genes associated with self-harm ideation and four with self-harm behaviour. Furthermore, in the target sample, PRS for self-harm ideation were significantly associated with suicide thoughts and NSSH, and PRS for self-harm behaviour predicted suicide thoughts and suicide attempt. Follow up regressions identified a shared genetic aetiology between NSSH and suicide thoughts, and between suicide thoughts and suicide attempt. Evidence for shared genetic aetiology between NSSH and suicide attempt was not statistically significant.",
-    "laySummary": ""
-  },
-  {
     "id": "32430455",
     "doi": "https://doi.org/10.1136/bmjopen-2020-038530",
     "title": "Evaluating the real-world implementation of the Family Nurse Partnership in England: protocol for a data linkage study.",
@@ -3238,6 +3223,21 @@
     "healthCategories": "",
     "abstract": "In chronic obstructive pulmonary disease (COPD), acute exacerbation of COPD requiring hospital admission is associated with mortality and healthcare costs. The ERICA study assessed multiple clinical measures in people with COPD, including the short physical performance battery (SPPB), a simple test of physical function with 3 components (gait speed, balance and sit-to-stand). We tested the hypothesis that SPPB score would relate to risk of hospital admissions and length of hospital stay. Data were analysed from 714 of the total 729 participants (434 men and 280 women) with COPD. Data from this prospective observational longitudinal study were obtained from 4 secondary and 1 tertiary centres from England, Scotland, and Wales. The main outcome measures were to estimate the risk of hospitalisation with acute exacerbation of COPD (AECOPD and length of hospital stay derived from hospital episode statistics (HES). In total, 291 of 714 individuals experienced 762 hospitalised AECOPD during five-year follow up. Poorer performance of SPPB was associated with both higher rate (IRR 1.08 per 1 point decrease, 95% CI 1.01 to 1.14) and increased length of stay (IRR 1.18 per 1 point decrease, 95% CI 1.10 to 1.27) for hospitalised AECOPD. For the individual sit-to-stand component of the SPPB, the association was even stronger (IRR 1.14, 95% CI 1.02 to 1.26 for rate and IRR 1.32, 95% CI 1.16 to 1.49 for length of stay for hospitalised AECOPD). The SPPB, and in particular the sit-to-stand component can both evaluate the risk of H-AECOPD and length of hospital stay in COPD. The SPPB can aid in clinical decision making and when prioritising healthcare resources.",
     "laySummary": "This article looks at risk assessment for hospital admission in patients with Chronic Obstructive Pulmonary Disease (COPD), which is a group of lung conditions that make it difficult to empty air out of the lungs. The objective of the risk assessment was to eventually aid in clinical decision making and prioritising healthcare resources."
+  },
+  {
+    "id": "32546850",
+    "doi": "https://doi.org/10.1038/s41598-020-66737-9",
+    "title": "Genetic aetiology of self-harm ideation and behaviour.",
+    "authorString": "Campos AI, Verweij KJH, Statham DJ, Madden PAF, Maciejewski DF, Davis KAS, John A, Hotopf M, Heath AC, Martin NG, Renter\u00eda ME.",
+    "authorAffiliations": "Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. adrian.campos@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. adrian.campos@qimrberghofer.edu.au.; Department of Psychiatry, Amsterdam UMC, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, the Netherlands.; Discipline of Psychology, School of Health and Life Sciences, Federation University, Ballarat, VIC, 3550, Australia.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Developmental Psychopathology, Behavioural Science Institute, Nijmegen, the Netherlands.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; HDRUK, Swansea University Medical School, Swansea, UK.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. miguel.renteria@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. miguel.renteria@qimrberghofer.edu.au.",
+    "journalTitle": "Scientific reports",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Family studies have identified a heritable component to self-harm that is partially independent from comorbid psychiatric disorders. However, the genetic aetiology of broad sense (non-suicidal and suicidal) self-harm has not been characterised on the molecular level. In addition, controversy exists about the degree to which suicidal and non-suicidal self-harm share a common genetic aetiology. In the present study, we conduct genome-wide association studies (GWAS) on lifetime self-harm ideation and self-harm behaviour (i.e. any lifetime self-harm act regardless of suicidal intent) using data from the UK Biobank (n\u2009>\u2009156,000). We also perform genome wide gene-based tests and characterize the SNP heritability and genetic correlations between these traits. Finally, we test whether polygenic risk scores (PRS) for self-harm ideation and self-harm behaviour predict suicide attempt, suicide thoughts and non-suicidal self-harm (NSSH) in an independent target sample of 8,703 Australian adults. Our GWAS results identified one genome-wide significant locus associated with each of the two phenotypes. SNP heritability (hsnp2) estimates were ~10%, and both traits were highly genetically correlated (LDSC rg\u2009>\u20090.8). Gene-based tests identified seven genes associated with self-harm ideation and four with self-harm behaviour. Furthermore, in the target sample, PRS for self-harm ideation were significantly associated with suicide thoughts and NSSH, and PRS for self-harm behaviour predicted suicide thoughts and suicide attempt. Follow up regressions identified a shared genetic aetiology between NSSH and suicide thoughts, and between suicide thoughts and suicide attempt. Evidence for shared genetic aetiology between NSSH and suicide attempt was not statistically significant.",
+    "laySummary": ""
   },
   {
     "id": "32656368",
@@ -3345,21 +3345,6 @@
     "laySummary": ""
   },
   {
-    "id": "31653530",
-    "doi": "https://doi.org/10.1016/j.echo.2019.08.015",
-    "title": "A Practical Guide to Assess the Reproducibility of Echocardiographic Measurements.",
-    "authorString": "Bunting KV, Steeds RP, Slater LT, Rogers JK, Gkoutos GV, Kotecha D.",
-    "authorAffiliations": "Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom.; Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom.; Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom.; PHASTAR Statistical Research, London, United Kingdom.; Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom; Biomedical Research Centre, National Institute for Health Research, Birmingham, United Kingdom; Medical Research Council Health Data Research UK, Birmingham, United Kingdom.; Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom. Electronic address: d.kotecha@bham.ac.uk.",
-    "journalTitle": "Journal of the American Society of Echocardiography : official publication of the American Society of Echocardiography",
-    "pubYear": "2019",
-    "isOpenAccess": "N",
-    "keywords": "Reproducibility; Echocardiography; Repeatability; reliability",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Echocardiography plays an essential role in the diagnosis and assessment of cardiovascular disease. Measurements derived from echocardiography are also used to determine the severity of disease, its progression over time, and to aid in the choice of optimal therapy. It is therefore clinically important that echocardiographic measurements be reproducible, repeatable, and reliable. There are a variety of statistical tests available to assess these parameters, and in this article the authors summarize those available for use by echocardiographers to improve their clinical practice. Correlation coefficients, linear regression, Bland-Altman plots, and the coefficient of variation are explored, along with their limitations. The authors also provide an online tool for the easy calculation of these statistics in the clinical environment (www.birmingham.ac.uk/echo). Quantifying and enhancing the reproducibility of echocardiography has important potential to improve the value of echocardiography as the basis for good clinical decision-making.",
-    "laySummary": ""
-  },
-  {
     "id": "31650125",
     "doi": "https://doi.org/10.1016/s2589-7500(19)30012-3",
     "title": "A chronological map of 308 physical and mental health conditions from 4 million individuals in the English National Health Service.",
@@ -3375,18 +3360,18 @@
     "laySummary": ""
   },
   {
-    "id": "32591531",
-    "doi": "https://doi.org/10.1038/s41467-020-16969-0",
-    "title": "Genetic drug target validation using Mendelian randomisation.",
-    "authorString": "Schmidt AF, Finan C, Gordillo-Mara\u00f1\u00f3n M, Asselbergs FW, Freitag DF, Patel RS, Tyl B, Chopade S, Faraway R, Zwierzyna M, Hingorani AD.",
-    "authorAffiliations": "Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK. amand.schmidt@ucl.ac.uk.; UCL BHF Research Accelerator Centre, London, UK. amand.schmidt@ucl.ac.uk.; Department of Cardiology, Division Heart and Lungs, University Medical Center Utrecht, Heidelberglaan 100, 3584 CX, Utrecht, The Netherlands. amand.schmidt@ucl.ac.uk.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; Department of Cardiology, Division Heart and Lungs, University Medical Center Utrecht, Heidelberglaan 100, 3584 CX, Utrecht, The Netherlands.; Health Data Research UK, 222 Euston Road, London, UK.; Bayer AG Pharmaceuticals, Open Innovation & Digital Technologies, Aprather Weg 18a, Wuppertal, 42096, Germany.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Center for Therapeutic Innovation, Cardiovascular and Metabolic Disease, Institut de Recherches Internationales Servier, 50 Rue Carnot, 92284, Suresnes Cedex, France.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; The Francis Crick Institute, 1 Midland Rd, London, NW1 1AT, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Health Data Research UK, 222 Euston Road, London, UK.",
-    "journalTitle": "Nature communications",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
+    "id": "31653530",
+    "doi": "https://doi.org/10.1016/j.echo.2019.08.015",
+    "title": "A Practical Guide to Assess the Reproducibility of Echocardiographic Measurements.",
+    "authorString": "Bunting KV, Steeds RP, Slater LT, Rogers JK, Gkoutos GV, Kotecha D.",
+    "authorAffiliations": "Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom.; Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom.; Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom.; PHASTAR Statistical Research, London, United Kingdom.; Institute of Cancer and Genomic Sciences, University of Birmingham, Birmingham, United Kingdom; Biomedical Research Centre, National Institute for Health Research, Birmingham, United Kingdom; Medical Research Council Health Data Research UK, Birmingham, United Kingdom.; Institute of Cardiovascular Sciences, University of Birmingham, Birmingham, United Kingdom; University Hospitals Birmingham NHS Foundation Trust, Birmingham, United Kingdom. Electronic address: d.kotecha@bham.ac.uk.",
+    "journalTitle": "Journal of the American Society of Echocardiography : official publication of the American Society of Echocardiography",
+    "pubYear": "2019",
+    "isOpenAccess": "N",
+    "keywords": "Reproducibility; Echocardiography; Repeatability; reliability",
     "nationalPriorities": "",
     "healthCategories": "",
-    "abstract": "Mendelian randomisation (MR) analysis is an important tool to elucidate the causal relevance of environmental and biological risk factors for disease. However, causal inference is undermined if genetic variants used to instrument a risk factor also influence alternative disease-pathways (horizontal pleiotropy). Here we report how the 'no horizontal pleiotropy assumption' is strengthened when proteins are the risk factors of interest. Proteins are typically the proximal effectors of biological processes encoded in the genome. Moreover, proteins are the targets of most medicines, so MR studies of drug targets are becoming a fundamental tool in drug development. To enable such studies, we introduce a mathematical framework that contrasts MR analysis of proteins with that of risk factors located more distally in the causal chain from gene to disease. We illustrate key model decisions and introduce an analytical framework for maximising power and evaluating the robustness of analyses.",
+    "abstract": "Echocardiography plays an essential role in the diagnosis and assessment of cardiovascular disease. Measurements derived from echocardiography are also used to determine the severity of disease, its progression over time, and to aid in the choice of optimal therapy. It is therefore clinically important that echocardiographic measurements be reproducible, repeatable, and reliable. There are a variety of statistical tests available to assess these parameters, and in this article the authors summarize those available for use by echocardiographers to improve their clinical practice. Correlation coefficients, linear regression, Bland-Altman plots, and the coefficient of variation are explored, along with their limitations. The authors also provide an online tool for the easy calculation of these statistics in the clinical environment (www.birmingham.ac.uk/echo). Quantifying and enhancing the reproducibility of echocardiography has important potential to improve the value of echocardiography as the basis for good clinical decision-making.",
     "laySummary": ""
   },
   {
@@ -3403,6 +3388,21 @@
     "healthCategories": "",
     "abstract": "Optical coherence tomography angiography (OCTA) is a non-invasive retinal imaging innovation that has been gaining popularity for the evaluation of the retinal vasculature. Of clinical importance is its current use either as an alternative or in conjunction with conventional dye-based angiography in neovascular age-related macular degeneration. OCTA is not without limitations and these include image artefact, a relatively small field of view and failure of the segmentation algorithms, which can confound the interpretation of findings. While there are numerous publications on OCTA in neovascular AMD, few have examined the diagnostic accuracy of this new technology compared with the accepted gold standard of fundus fluorescein angiography (FFA). In this review, we summarise the literature on the clinical application of OCTA in nAMD. In particular, we have reviewed the published articles that have reported the sensitivity and specificity of OCTA in the diagnosis of nAMD, and those that have described and or correlated the morphological findings and compared them to dye-based angiography.",
     "laySummary": "Perrott et al. reviewed strengths and limitations of an eye (retinal) imagining method for diagnosis of a condition affecting the central part of the retina (the macula). This degenerative condition may result in loss of central vision in older adults. Perrott et al. concluded that diagnostic accuracy depends on both method and equipment. "
+  },
+  {
+    "id": "32591531",
+    "doi": "https://doi.org/10.1038/s41467-020-16969-0",
+    "title": "Genetic drug target validation using Mendelian randomisation.",
+    "authorString": "Schmidt AF, Finan C, Gordillo-Mara\u00f1\u00f3n M, Asselbergs FW, Freitag DF, Patel RS, Tyl B, Chopade S, Faraway R, Zwierzyna M, Hingorani AD.",
+    "authorAffiliations": "Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK. amand.schmidt@ucl.ac.uk.; UCL BHF Research Accelerator Centre, London, UK. amand.schmidt@ucl.ac.uk.; Department of Cardiology, Division Heart and Lungs, University Medical Center Utrecht, Heidelberglaan 100, 3584 CX, Utrecht, The Netherlands. amand.schmidt@ucl.ac.uk.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; Department of Cardiology, Division Heart and Lungs, University Medical Center Utrecht, Heidelberglaan 100, 3584 CX, Utrecht, The Netherlands.; Health Data Research UK, 222 Euston Road, London, UK.; Bayer AG Pharmaceuticals, Open Innovation & Digital Technologies, Aprather Weg 18a, Wuppertal, 42096, Germany.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Center for Therapeutic Innovation, Cardiovascular and Metabolic Disease, Institut de Recherches Internationales Servier, 50 Rue Carnot, 92284, Suresnes Cedex, France.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; The Francis Crick Institute, 1 Midland Rd, London, NW1 1AT, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Institute of Cardiovascular Science, Faculty of Population Health, University College London, London, WC1E 6BT, UK.; UCL BHF Research Accelerator Centre, London, UK.; Health Data Research UK, 222 Euston Road, London, UK.",
+    "journalTitle": "Nature communications",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Mendelian randomisation (MR) analysis is an important tool to elucidate the causal relevance of environmental and biological risk factors for disease. However, causal inference is undermined if genetic variants used to instrument a risk factor also influence alternative disease-pathways (horizontal pleiotropy). Here we report how the 'no horizontal pleiotropy assumption' is strengthened when proteins are the risk factors of interest. Proteins are typically the proximal effectors of biological processes encoded in the genome. Moreover, proteins are the targets of most medicines, so MR studies of drug targets are becoming a fundamental tool in drug development. To enable such studies, we introduce a mathematical framework that contrasts MR analysis of proteins with that of risk factors located more distally in the causal chain from gene to disease. We illustrate key model decisions and introduce an analytical framework for maximising power and evaluating the robustness of analyses.",
+    "laySummary": ""
   },
   {
     "id": "32548911",
@@ -4815,21 +4815,6 @@
     "laySummary": ""
   },
   {
-    "id": "32488134",
-    "doi": "https://doi.org/10.1038/s41598-020-65855-8",
-    "title": "The Human Leukocyte Antigen Locus and Rheumatic Heart Disease Susceptibility in South Asians and Europeans.",
-    "authorString": "Auckland K, Mittal B, Cairns BJ, Garg N, Kumar S, Mentzer AJ, Kado J, Perman ML, Steer AC, Hill AVS, Parks T.",
-    "authorAffiliations": "The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Lucknow, 226025, Uttar Pradesh, India.; MRC Population Health Research Unit, Clinical Trial Service Unit and Epidemiological Studies Unit, Nuffield Department of Population Health, University of Oxford, Oxford, Oxfordshire, OX3 7LF, UK.; Department of Cardiology, Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow, 226014, Uttar Pradesh, India.; Department of Cytogenetics/Anatomy, All India Institute of Medical Sciences, New Delhi, 110029, Delhi, India.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Tropical Infectious Diseases, Murdoch Children's Research Institute, Melbourne, Victoria, 3052, Australia.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK. tom.parks@well.ox.ac.uk.; Department of Clinical Research, London School of Hygiene & Tropical Medicine, London, Greater London, WC1E 7HT, UK. tom.parks@well.ox.ac.uk.",
-    "journalTitle": "Scientific reports",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Rheumatic heart disease (RHD), an autoinflammatory heart disease, was recently declared a global health priority by the World Health Organization. Here we report a genome-wide association study (GWAS) of RHD susceptibility in 1,163 South Asians (672 cases; 491 controls) recruited in India and Fiji. We analysed directly obtained and imputed genotypes, and followed-up associated loci in 1,459 Europeans (150 cases; 1,309 controls) from the UK Biobank study. We identify a novel susceptibility signal in the class III region of the human leukocyte antigen (HLA) complex in the South Asian dataset that clearly replicates in the Europeans (rs201026476; combined odds ratio 1.81, 95% confidence intervals 1.51-2.18, P\u2009=\u20093.48\u00d710-10). Importantly, this signal remains despite conditioning on the lead class I and class II variants (P\u2009=\u20090.00033). These findings suggest the class III region is a key determinant of RHD susceptibility offering important new insight into pathogenesis while partly explaining the inconsistency of earlier reports.",
-    "laySummary": ""
-  },
-  {
     "id": "31317072",
     "doi": "https://doi.org/10.1002/lrh2.10191",
     "title": "Our data, our society, our health: A vision for inclusive and transparent health data science in the United Kingdom and beyond.",
@@ -4842,6 +4827,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "The last 6\u00a0years have seen sustained investment in health data science in the United Kingdom and beyond, which should result in a data science community that is inclusive of all stakeholders, working together to use data to benefit society through the improvement of public health and well-being. However, opportunities made possible through the innovative use of data are still not being fully realised, resulting in research inefficiencies and avoidable health harms. In this paper, we identify the most important barriers to achieving higher productivity in health data science. We then draw on previous research, domain expertise, and theory to outline how to go about overcoming these barriers, applying our core values of inclusivity and transparency. We believe a step change can be achieved through meaningful stakeholder involvement at every stage of research planning, design, and execution and team-based data science, as well as harnessing novel and secure data technologies. Applying these values to health data science will safeguard a social licence for health data research and ensure transparent and secure data usage for public benefit.",
+    "laySummary": ""
+  },
+  {
+    "id": "32488134",
+    "doi": "https://doi.org/10.1038/s41598-020-65855-8",
+    "title": "The Human Leukocyte Antigen Locus and Rheumatic Heart Disease Susceptibility in South Asians and Europeans.",
+    "authorString": "Auckland K, Mittal B, Cairns BJ, Garg N, Kumar S, Mentzer AJ, Kado J, Perman ML, Steer AC, Hill AVS, Parks T.",
+    "authorAffiliations": "The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Lucknow, 226025, Uttar Pradesh, India.; MRC Population Health Research Unit, Clinical Trial Service Unit and Epidemiological Studies Unit, Nuffield Department of Population Health, University of Oxford, Oxford, Oxfordshire, OX3 7LF, UK.; Department of Cardiology, Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow, 226014, Uttar Pradesh, India.; Department of Cytogenetics/Anatomy, All India Institute of Medical Sciences, New Delhi, 110029, Delhi, India.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Tropical Infectious Diseases, Murdoch Children's Research Institute, Melbourne, Victoria, 3052, Australia.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK. tom.parks@well.ox.ac.uk.; Department of Clinical Research, London School of Hygiene & Tropical Medicine, London, Greater London, WC1E 7HT, UK. tom.parks@well.ox.ac.uk.",
+    "journalTitle": "Scientific reports",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Rheumatic heart disease (RHD), an autoinflammatory heart disease, was recently declared a global health priority by the World Health Organization. Here we report a genome-wide association study (GWAS) of RHD susceptibility in 1,163 South Asians (672 cases; 491 controls) recruited in India and Fiji. We analysed directly obtained and imputed genotypes, and followed-up associated loci in 1,459 Europeans (150 cases; 1,309 controls) from the UK Biobank study. We identify a novel susceptibility signal in the class III region of the human leukocyte antigen (HLA) complex in the South Asian dataset that clearly replicates in the Europeans (rs201026476; combined odds ratio 1.81, 95% confidence intervals 1.51-2.18, P\u2009=\u20093.48\u00d710-10). Importantly, this signal remains despite conditioning on the lead class I and class II variants (P\u2009=\u20090.00033). These findings suggest the class III region is a key determinant of RHD susceptibility offering important new insight into pathogenesis while partly explaining the inconsistency of earlier reports.",
     "laySummary": ""
   },
   {
@@ -4935,21 +4935,6 @@
     "laySummary": ""
   },
   {
-    "id": "32543438",
-    "doi": "https://doi.org/10.1016/j.healthplace.2020.102355",
-    "title": "Impact of air pollution on educational attainment for respiratory health treated students: A cross sectional data linkage study.",
-    "authorString": "Mizen A, Lyons J, Milojevic A, Doherty R, Wilkinson P, Carruthers D, Akbari A, Lake I, Davies GA, Al Sallakh M, Fry R, Dearden L, Rodgers SE.",
-    "authorAffiliations": "Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Department of Social and Environmental Health Research, London School of Hygiene and Tropical Medicine, London, UK.; School of GeoSciences, The University of Edinburgh, Edinburgh, UK.; Department of Social and Environmental Health Research, London School of Hygiene and Tropical Medicine, London, UK.; Cambridge Environmental Research Consultants, Cambridge, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; School of Environmental Sciences, University of East Anglia, Norwich, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; The Institute for Fiscal Studies, 7 Ridgmount Street, London, WC1E 7AE, UK.; Department of Public Health and Policy, University of Liverpool, Liverpool, UK. Electronic address: Sarah.Rodgers@liverpool.ac.uk.",
-    "journalTitle": "Health & place",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Air pollution; Asthma; poLLen; Data Linkage; Seasonal Allergic Rhinitis; Educational Attainment",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "INTRODUCTION:There is some evidence that exam results are worse when students are acutely exposed to air pollution. Studies investigating the association between air pollution and academic attainment have been constrained by small sample sizes. METHODS:Cross sectional educational attainment data (2009-2015) from students aged 15-16 years in Cardiff, Wales were linked to primary health care data, modelled air pollution and measured pollen data, and analysed using multilevel linear regression models. Annual cohort, school and individual level confounders were adjusted for in single and multi-pollutant/pollen models. We stratified by treatment of asthma and/or Seasonal Allergic Rhinitis (SAR). RESULTS:A unit (10\u03bcg/m3) increase of short-term exposure to NO2 was associated with 0.044 (95% CI: -0.079, -0.008) reduction of standardised Capped Point Score (CPS) after adjusting for individual and household risk factors for 18,241 students. This association remained statistically significant after controlling for other pollutants and pollen. There was no association of PM2.5, O3, or Pollen with standardised CPS remaining after adjustment. We found no evidence that treatment for asthma or SAR modified the observed NO2 effect on educational attainment. CONCLUSION:Our study showed that short-term exposure to traffic-related air pollution, specifically NO2, was associated with detrimental educational attainment for students aged 15-16. Longitudinal investigations in different settings are required to confirm this possible impact and further work may uncover the long-term economic implications, and degree to which impacts are cumulative and permanent.",
-    "laySummary": ""
-  },
-  {
     "id": "31289267",
     "doi": "https://doi.org/10.1038/s41467-019-10724-w",
     "title": "Mapping the drivers of within-host pathogen evolution using massive data sets.",
@@ -4962,6 +4947,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "Differences among hosts, resulting from genetic variation in the immune system or heterogeneity in drug treatment, can impact within-host pathogen evolution. Genetic association studies can potentially identify such interactions. However, extensive and correlated genetic population structure in hosts and pathogens presents a substantial risk of confounding analyses. Moreover, the multiple testing burden of interaction scanning can potentially limit power. We present a Bayesian approach for detecting host influences on pathogen evolution that exploits vast existing data sets of pathogen diversity to improve power and control for stratification. The approach models key processes, including recombination and selection, and identifies regions of the pathogen genome affected by host factors. Our simulations and empirical analysis of drug-induced selection on the HIV-1 genome show that the method recovers known associations\u00a0and has superior precision-recall characteristics compared to other approaches. We build a high-resolution map of HLA-induced selection in the HIV-1 genome, identifying novel epitope-allele combinations.",
+    "laySummary": ""
+  },
+  {
+    "id": "32543438",
+    "doi": "https://doi.org/10.1016/j.healthplace.2020.102355",
+    "title": "Impact of air pollution on educational attainment for respiratory health treated students: A cross sectional data linkage study.",
+    "authorString": "Mizen A, Lyons J, Milojevic A, Doherty R, Wilkinson P, Carruthers D, Akbari A, Lake I, Davies GA, Al Sallakh M, Fry R, Dearden L, Rodgers SE.",
+    "authorAffiliations": "Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Department of Social and Environmental Health Research, London School of Hygiene and Tropical Medicine, London, UK.; School of GeoSciences, The University of Edinburgh, Edinburgh, UK.; Department of Social and Environmental Health Research, London School of Hygiene and Tropical Medicine, London, UK.; Cambridge Environmental Research Consultants, Cambridge, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; School of Environmental Sciences, University of East Anglia, Norwich, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; Swansea University Medical School, Singleton Park, Swansea, UK.; The Institute for Fiscal Studies, 7 Ridgmount Street, London, WC1E 7AE, UK.; Department of Public Health and Policy, University of Liverpool, Liverpool, UK. Electronic address: Sarah.Rodgers@liverpool.ac.uk.",
+    "journalTitle": "Health & place",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Air pollution; Asthma; poLLen; Data Linkage; Seasonal Allergic Rhinitis; Educational Attainment",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "INTRODUCTION:There is some evidence that exam results are worse when students are acutely exposed to air pollution. Studies investigating the association between air pollution and academic attainment have been constrained by small sample sizes. METHODS:Cross sectional educational attainment data (2009-2015) from students aged 15-16 years in Cardiff, Wales were linked to primary health care data, modelled air pollution and measured pollen data, and analysed using multilevel linear regression models. Annual cohort, school and individual level confounders were adjusted for in single and multi-pollutant/pollen models. We stratified by treatment of asthma and/or Seasonal Allergic Rhinitis (SAR). RESULTS:A unit (10\u03bcg/m3) increase of short-term exposure to NO2 was associated with 0.044 (95% CI: -0.079, -0.008) reduction of standardised Capped Point Score (CPS) after adjusting for individual and household risk factors for 18,241 students. This association remained statistically significant after controlling for other pollutants and pollen. There was no association of PM2.5, O3, or Pollen with standardised CPS remaining after adjustment. We found no evidence that treatment for asthma or SAR modified the observed NO2 effect on educational attainment. CONCLUSION:Our study showed that short-term exposure to traffic-related air pollution, specifically NO2, was associated with detrimental educational attainment for students aged 15-16. Longitudinal investigations in different settings are required to confirm this possible impact and further work may uncover the long-term economic implications, and degree to which impacts are cumulative and permanent.",
     "laySummary": ""
   },
   {
@@ -5400,21 +5400,6 @@
     "laySummary": ""
   },
   {
-    "id": "32207686",
-    "doi": "https://doi.org/10.7554/elife.54363",
-    "title": "Characterising a healthy adult with a rare HAO1 knockout to support a therapeutic strategy for primary hyperoxaluria.",
-    "authorString": "McGregor TL, Hunt KA, Yee E, Mason D, Nioi P, Ticau S, Pelosi M, Loken PR, Finer S, Lawlor DA, Fauman EB, Huang QQ, Griffiths CJ, MacArthur DG, Trembath RC, Oglesbee D, Lieske JC, Erbe DV, Wright J, van Heel DA.",
-    "authorAffiliations": "Alnylam Pharmaceuticals, Cambridge, United States.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; Alnylam Pharmaceuticals, Cambridge, United States.; Bradford Institute for Health Research, Bradford Teaching Hospitals National Health Service (NHS) Foundation Trust, Bradford, United Kingdom.; Alnylam Pharmaceuticals, Cambridge, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; MRC Integrative Epidemiology Unit at the University of Bristol, Oakfield House, Oakfield Grove, Bristol, United Kingdom.; Population Health Science, Bristol Medical School, Bristol University, Bristol, United Kingdom.; Bristol NIHR Biomedical Research Centre, Bristol, United Kingdom.; Internal Medicine Research Unit, Pfizer Worldwide Research, Development and Medical, Cambridge, United States.; Wellcome Sanger Institute, Hinxton, United Kingdom.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston, United States.; Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, United States.; School of Basic and Medical Biosciences, Faculty of Life Sciences and Medicine, King's College London, London, United Kingdom.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Bradford Institute for Health Research, Bradford Teaching Hospitals National Health Service (NHS) Foundation Trust, Bradford, United Kingdom.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.",
-    "journalTitle": "eLife",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Human; Genetics; Glycolate; Genomics; Hyperoxaluria; Knockouts; Rnai Theraputic",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "By sequencing autozygous human populations, we identified a healthy adult woman with lifelong complete knockout of HAO1 (expected ~1 in 30 million outbred people). HAO1 (glycolate oxidase) silencing is the mechanism of lumasiran, an investigational RNA interference therapeutic for primary hyperoxaluria type 1. Her plasma glycolate levels were 12 times, and urinary glycolate 6 times, the upper limit of normal observed in healthy reference individuals (n = 67). Plasma metabolomics and lipidomics (1871 biochemicals) revealed 18 markedly elevated biochemicals (>5 sd outliers versus n = 25 controls) suggesting additional HAO1 effects. Comparison with lumasiran preclinical and clinical trial data suggested she has <2% residual glycolate oxidase activity. Cell line p.Leu333SerfsTer4 expression showed markedly reduced HAO1 protein levels and cellular protein mis-localisation. In this woman, lifelong HAO1 knockout is safe and without clinical phenotype, de-risking a therapeutic approach and informing therapeutic mechanisms. Unlocking evidence from the diversity of human genetic variation can facilitate drug development.",
-    "laySummary": ""
-  },
-  {
     "id": "32080354",
     "doi": "https://doi.org/10.1038/s41397-020-0165-2",
     "title": "Genome-wide association study of angioedema induced by angiotensin-converting enzyme inhibitor and angiotensin receptor blocker treatment.",
@@ -5427,6 +5412,21 @@
     "nationalPriorities": "",
     "healthCategories": "",
     "abstract": "Angioedema in the mouth or upper airways is a feared adverse reaction to angiotensin-converting enzyme inhibitor (ACEi) and angiotensin receptor blocker (ARB) treatment, which is used for hypertension, heart failure and diabetes complications. This candidate gene and genome-wide association study aimed to identify genetic variants predisposing to angioedema induced by these drugs. The discovery cohort consisted of 173 cases and 4890 controls recruited in Sweden. In the candidate gene analysis, ETV6, BDKRB2, MME, and PRKCQ were nominally associated with angioedema (p\u2009<\u20090.05), but did not pass Bonferroni correction for multiple testing (p\u2009<\u20092.89\u2009\u00d7\u200910-5). In the genome-wide analysis, intronic variants in the calcium-activated potassium channel subunit alpha-1 (KCNMA1) gene on chromosome 10 were significantly associated with angioedema (p\u2009<\u20095\u2009\u00d7\u200910-8). Whilst the top KCNMA1 hit was not significant in the replication cohort (413 cases and 599 ACEi-exposed controls from the US and Northern Europe), a meta-analysis of the replication and discovery cohorts (in total 586 cases and 1944 ACEi-exposed controls) revealed that each variant allele increased the odds of experiencing angioedema 1.62 times (95% confidence interval 1.05-2.50, p\u2009=\u20090.030). Associated KCNMA1 variants are not known to be functional, but are in linkage disequilibrium with variants in transcription factor binding sites active in relevant tissues. In summary, our data suggest that common variation in KCNMA1 is associated with risk of angioedema induced by ACEi or ARB treatment. Future whole exome or genome sequencing studies will show whether rare variants in KCNMA1 or other genes contribute to the risk of ACEi- and ARB-induced angioedema.",
+    "laySummary": ""
+  },
+  {
+    "id": "32207686",
+    "doi": "https://doi.org/10.7554/elife.54363",
+    "title": "Characterising a healthy adult with a rare HAO1 knockout to support a therapeutic strategy for primary hyperoxaluria.",
+    "authorString": "McGregor TL, Hunt KA, Yee E, Mason D, Nioi P, Ticau S, Pelosi M, Loken PR, Finer S, Lawlor DA, Fauman EB, Huang QQ, Griffiths CJ, MacArthur DG, Trembath RC, Oglesbee D, Lieske JC, Erbe DV, Wright J, van Heel DA.",
+    "authorAffiliations": "Alnylam Pharmaceuticals, Cambridge, United States.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; Alnylam Pharmaceuticals, Cambridge, United States.; Bradford Institute for Health Research, Bradford Teaching Hospitals National Health Service (NHS) Foundation Trust, Bradford, United Kingdom.; Alnylam Pharmaceuticals, Cambridge, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; MRC Integrative Epidemiology Unit at the University of Bristol, Oakfield House, Oakfield Grove, Bristol, United Kingdom.; Population Health Science, Bristol Medical School, Bristol University, Bristol, United Kingdom.; Bristol NIHR Biomedical Research Centre, Bristol, United Kingdom.; Internal Medicine Research Unit, Pfizer Worldwide Research, Development and Medical, Cambridge, United States.; Wellcome Sanger Institute, Hinxton, United Kingdom.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.; Analytic and Translational Genetics Unit, Massachusetts General Hospital, Boston, United States.; Program in Medical and Population Genetics, Broad Institute of MIT and Harvard, Cambridge, United States.; School of Basic and Medical Biosciences, Faculty of Life Sciences and Medicine, King's College London, London, United Kingdom.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Mayo Clinic, Division of Nephrology and Hypertension, Rochester, United States.; Alnylam Pharmaceuticals, Cambridge, United States.; Bradford Institute for Health Research, Bradford Teaching Hospitals National Health Service (NHS) Foundation Trust, Bradford, United Kingdom.; Blizard Institute and Institute for Population Health Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom.",
+    "journalTitle": "eLife",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Human; Genetics; Glycolate; Genomics; Hyperoxaluria; Knockouts; Rnai Theraputic",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "By sequencing autozygous human populations, we identified a healthy adult woman with lifelong complete knockout of HAO1 (expected ~1 in 30 million outbred people). HAO1 (glycolate oxidase) silencing is the mechanism of lumasiran, an investigational RNA interference therapeutic for primary hyperoxaluria type 1. Her plasma glycolate levels were 12 times, and urinary glycolate 6 times, the upper limit of normal observed in healthy reference individuals (n = 67). Plasma metabolomics and lipidomics (1871 biochemicals) revealed 18 markedly elevated biochemicals (>5 sd outliers versus n = 25 controls) suggesting additional HAO1 effects. Comparison with lumasiran preclinical and clinical trial data suggested she has <2% residual glycolate oxidase activity. Cell line p.Leu333SerfsTer4 expression showed markedly reduced HAO1 protein levels and cellular protein mis-localisation. In this woman, lifelong HAO1 knockout is safe and without clinical phenotype, de-risking a therapeutic approach and informing therapeutic mechanisms. Unlocking evidence from the diversity of human genetic variation can facilitate drug development.",
     "laySummary": ""
   },
   {
