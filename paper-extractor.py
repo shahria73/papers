@@ -15,6 +15,7 @@ EPMC_BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?resultT
 
 HDRUK_PAPERS_QUERY = "((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\")) AND NOT (SRC:PPR)"
 COVID_PAPERS_QUERY = "(\"2019-nCoV\" OR \"2019nCoV\" OR \"COVID-19\" OR \"SARS-CoV-2\" OR \"COVID19\" OR \"COVID\" OR \"SARS-nCoV\" OR (\"wuhan\" AND \"coronavirus\") OR \"Coronavirus\" OR \"Corona virus\" OR \"corona-virus\" OR \"corona viruses\" OR \"coronaviruses\" OR \"SARS-CoV\" OR \"Orthocoronavirinae\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\" OR (\"SARS\" AND \"virus\") OR \"soluble ACE2\" OR (\"ACE2\" AND \"virus\") OR (\"ARDS\" AND \"virus\") or (\"angiotensin-converting enzyme 2\" AND \"virus\")) AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\")) AND NOT (SRC:PPR)"
+COVID_PREPRINTS_QUERY = "(\"2019-nCoV\" OR \"2019nCoV\" OR \"COVID-19\" OR \"SARS-CoV-2\" OR \"COVID19\" OR \"COVID\" OR \"SARS-nCoV\" OR (\"wuhan\" AND \"coronavirus\") OR \"Coronavirus\" OR \"Corona virus\" OR \"corona-virus\" OR \"corona viruses\" OR \"coronaviruses\" OR \"SARS-CoV\" OR \"Orthocoronavirinae\" OR \"MERS-CoV\" OR \"Severe Acute Respiratory Syndrome\" OR \"Middle East Respiratory Syndrome\" OR (\"SARS\" AND \"virus\") OR \"soluble ACE2\" OR (\"ACE2\" AND \"virus\") OR (\"ARDS\" AND \"virus\") or (\"angiotensin-converting enzyme 2\" AND \"virus\")) AND ((ACK_FUND:\"HDRUK\" OR ACK_FUND:\"HDR UK\" OR ACK_FUND:\"HDR-UK\" OR ACK_FUND:\"Health Data Research UK\") OR (AFF:\"HDRUK\" OR AFF:\"HDR UK\" OR AFF:\"HDR-UK\" OR AFF:\"Health Data Research UK\")) AND (SRC:PPR)"
 
 # HDR UK Custom tags
 NATIONAL_PRIORITIES_CSV = "data/national-priorities.csv"
@@ -87,7 +88,7 @@ def get_lay_summary(d):
   return ""
 
 def format_data(data):
-  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract', 'laySummary']
+  HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract', 'laySummary', 'urls']
   DATA = []
   for d in data:
     # Get National Priorities & Health Categories
@@ -102,17 +103,27 @@ def format_data(data):
         if 'authorAffiliationsList' in author.keys():
           affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
           authorAffiliations.append(affiliation)
+    # Extracting URLS
+    URLS = []
+    if d.get('fullTextUrlList', None) is not None:
+      for url in d.get('fullTextUrlList')['fullTextUrl']:
+        URLS.append("{}:{}".format(url['documentStyle'], url['url']))
+    
     # Extracting Keywords
     keywords = ""
     if 'keywordList' in d.keys():
       keywords = keywords + "; ".join(d['keywordList']['keyword'])
+    if d.get('journalInfo', None) is None:
+      journalTitle = "No Journal Info"
+    else:
+      journalTitle = d.get('journalInfo')['journal']['title']
     row = {
       'id': d.get('id', ''),
       'doi': "https://doi.org/" + d.get('doi',''),
       'title': d.get('title'),
       'authorString': d.get('authorString'),
       'authorAffiliations': "; ".join(authorAffiliations),
-      'journalTitle': d.get('journalInfo')['journal']['title'],
+      'journalTitle': journalTitle,
       'pubYear': d.get('pubYear'),
       'isOpenAccess': d.get('isOpenAccess'),
       'keywords': keywords,
@@ -121,6 +132,10 @@ def format_data(data):
       'abstract': d.get('abstractText', ''),
       'laySummary': lay_summary
     }
+    if len(URLS):
+      row['urls'] = "; ".join(URLS)
+    else:
+      row['urls'] = ""
     DATA.append(row)
   return DATA, HEADER
 
@@ -144,6 +159,11 @@ def main():
   covid_papers = retrieve_papers(query=COVID_PAPERS_QUERY, data=[])
   data, header = format_data(covid_papers)
   export_csv(data, header, 'data/covid-papers.csv')
+
+  # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
+  covid_preprints = retrieve_papers(query=COVID_PREPRINTS_QUERY, data=[])
+  data, header = format_data(covid_preprints)
+  export_csv(data, header, 'data/covid-ack-papers.csv')
 
 
 if __name__ == "__main__":
