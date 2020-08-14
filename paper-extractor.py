@@ -158,12 +158,12 @@ def main():
   # retrieve COVID-19 papers with author affiliation or funding acknowledgement to HDR-UK
   covid_papers = retrieve_papers(query=COVID_PAPERS_QUERY, data=[])
   data, header = format_data(covid_papers)
-  export_csv(data, header, 'data/covid-papers.csv')
+  export_csv(data, header, 'data/covid/papers.csv')
 
   # retrieve COVID-19 preprints with author affiliation or funding acknowledgement to HDR-UK
   covid_preprints = retrieve_papers(query=COVID_PREPRINTS_QUERY, data=[])
   data, header = format_data(covid_preprints)
-  export_csv(data, header, 'data/covid-ack-preprints.csv')
+  export_csv(data, header, 'data/covid/ack-preprints.csv')
 
 
 if __name__ == "__main__":
