@@ -65,7 +65,7 @@ def retrieve_preprints(BASE_URL, data=None, page=0):
     DATA.extend(d['collection'])
 
     if page < total:
-        time.sleep(0.1)
+        time.sleep(0.2)
         retrieve_preprints(BIORXIV_COVID_API_URL, DATA, page)
     return DATA
 
@@ -147,11 +147,11 @@ def generate_summary(preprints):
 
 def main():
     # read old preprint extract
-    old_data = read_json('data/raw-preprints.json')
+    old_data = read_json('data/covid/raw-preprints.json')
 
     # retrieve new preprint extract
     data = retrieve_preprints(BIORXIV_COVID_API_URL)
-    write_json(data, 'data/raw-preprints.json')
+    write_json(data, 'data/covid/raw-preprints.json')
 
     # check if length of new extract is more than old extract. fail if not.
     if len(old_data) >= len(data):
