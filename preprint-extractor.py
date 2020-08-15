@@ -19,7 +19,7 @@ from fuzzywuzzy import process
 
 # Based on https://api.biorxiv.org/covid19/help
 BIORXIV_COVID_API_URL = "https://api.biorxiv.org/covid19/{}"
-HDRUK_MEMBERS_CSV = "data/contacts.csv"
+HDRUK_MEMBERS_CSV = "/home/runner/secrets/contacts.csv"
 
 def request_url(URL):
     """HTTP GET request and load into json"""
