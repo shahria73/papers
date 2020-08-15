@@ -94,10 +94,12 @@ def filter_preprints(preprints):
             doi_max_author_match = 0
             doi_max_affiliation_match = 0
             print("{}/{} ({}) Processing authors and affiliations for doi:{}".format(i+1, num_preprints, found, doi))
+            # Fuzzy match author
             for preprint_author in preprint_authors:
                 matches = process.extract(preprint_author, authors, scorer=fuzz.token_set_ratio)
                 match_value = max(matches, key = itemgetter(1))[1]
                 if int(match_value) > int(doi_max_author_match): doi_max_author_match = match_value
+            # Fuzzy match affilaition
             for preprint_affiliation in preprint_affiliations:
                 matches = process.extract(preprint_affiliation, affiliations, scorer=fuzz.token_set_ratio)
                 match_value = max(matches, key = itemgetter(1))[1]
