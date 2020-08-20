@@ -1,8 +1,8 @@
-Total,pathology,surgery,infectious diseases,emergency medicine,cardiovascular medicine,genomics,month,health policy,pharmacology and toxicology,nephrology,urology,biochemistry,health systems and quality improvement,allergy and immunology,intensive care and critical care medicine,health informatics,cancer biology,systems biology,radiology and imaging,epidemiology,molecular biology,nursing,geriatric medicine,addiction medicine,medical ethics,cell biology,evolutionary biology,pharmacology and therapeutics,bioinformatics,gastroenterology,genetics,sexual and reproductive health,occupational and environmental health,obstetrics and gynecology,respiratory medicine,biophysics,hiv aids,nutrition,toxicology,medical education,immunology,health economics,public and global health,psychiatry and clinical psychology,genetic and genomic medicine,microbiology,hematology,oncology,pediatrics,zoology,ophthalmology,rheumatology,neurology,neuroscience
-68,,,25,,,,Aug-20,,,,,,1,,1,,,1,1,18,,,,,1,,,,3,,,,1,1,2,,,,,,3,,4,1,,4,,,,1,,,,
-110,2,1,31,,,2,Jul-20,2,2,,,2,,,1,,,,1,25,,,,,,1,,,2,1,1,,1,1,2,,1,,,,4,,14,3,1,5,,,1,,,1,1,1
-190,2,,52,2,4,,Jun-20,4,1,,,4,1,3,7,3,1,,,33,2,1,1,1,,1,1,,8,,2,1,2,,3,1,,1,1,1,5,,10,5,4,19,1,1,,,,,,1
-119,,,32,1,2,,May-20,3,,,,,6,,1,6,,1,3,36,,,,,,,,1,4,,,,1,1,2,,1,,,,,1,12,2,,,,1,1,,1,,,
-100,2,,20,,1,2,Apr-20,1,1,1,,,2,,2,1,,,4,38,1,,,,,,,1,1,,,,2,,,,,,,,1,1,10,1,3,3,,1,,,,,,
-16,,,3,,,,Mar-20,,1,,,,,,,1,,,,5,,,,,,,,,,,,,1,,,,,,,,,1,3,,,1,,,,,,,,
-12,,,4,,,,Feb-20,,,,1,,,,,,,,,5,,,,,,,,,,,,,,,,,,,,,,,2,,,,,,,,,,,
+cardiovascular medicine,addiction medicine,month,Total,systems biology,gastroenterology,pharmacology and therapeutics,public and global health,scientific communication and education,epidemiology,occupational and environmental health,pediatrics,nephrology,neuroscience,health informatics,biochemistry,cancer biology,health policy,evolutionary biology,zoology,rheumatology,pharmacology and toxicology,intensive care and critical care medicine,geriatric medicine,neurology,toxicology,pathology,genetic and genomic medicine,hiv aids,molecular biology,genomics,medical education,ophthalmology,biophysics,health economics,radiology and imaging,surgery,nutrition,medical ethics,psychiatry and clinical psychology,genetics,infectious diseases,allergy and immunology,urology,bioinformatics,health systems and quality improvement,obstetrics and gynecology,cell biology,hematology,oncology,nursing,emergency medicine,microbiology,immunology,respiratory medicine
+,,Aug-20,64,1,,,4,,18,1,,,,,,,,,1,,,1,,,,,,,,,,,,,,,,1,1,,24,,,3,1,1,,,,,,4,3,
+1,,Jul-20,128,,1,,11,1,25,1,1,,1,1,5,,3,,,1,2,1,,2,,2,2,1,2,2,,,1,1,1,1,,,3,1,31,,,3,,1,1,,,,,5,10,3
+3,1,Jun-20,182,,,,11,,29,2,,,1,6,4,1,4,1,,,1,6,1,,1,2,3,,1,,1,,1,,,,1,,5,2,56,3,,8,1,,1,1,1,1,2,14,4,2
+2,,May-20,137,1,,1,15,,33,2,1,,,7,,,4,,,,,1,1,1,,,,1,1,1,,1,,1,2,,,,2,,33,,,7,7,1,,,2,,1,5,1,2
+,,Apr-20,81,,,1,6,,40,2,,1,,,,,,,,,1,2,,,,2,2,,,1,,,,,3,,,,1,,11,,,1,2,,,,1,,1,2,1,
+,,Mar-20,16,,,,3,,5,1,,,,1,,,,,,,1,,,,,,,,,,,,,1,,,,,,,3,,,,,,,,,,,1,,
+,,Feb-20,11,,,,2,,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,,1,,,,,,,,,,,
