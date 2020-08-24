@@ -272,22 +272,6 @@
     "urls": "html:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7201389/?tool=EBI; html:https://europepmc.org/articles/PMC7201389"
   },
   {
-    "id": "31462651",
-    "doi": "https://doi.org/10.1038/s41598-019-48927-2",
-    "title": "Hierarchical Template Matching for 3D Myocardial Tracking and Cardiac Strain Estimation.",
-    "authorString": "Bhalodiya JM, Palit A, Ferrante E, Tiwari MK, Bhudia SK, Arvanitis TN, Williams MA.",
-    "authorAffiliations": "Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom. j.bhalodiya@warwick.ac.uk.; Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom.; Instituto de Investigaci\u00f3n en Se\u00f1ales, Sistemas e Inteligencia Computacional, sinc(i), FICH-UNL/CONICET, Santa Fe, Argentina.; Indian Institute of Technology Kharagpur, 721302, Kharagpur, West Bengal, India.; Royal Brompton and Harefield NHS Foundation Trust, SW3 6NP, London, United Kingdom.; Institute of Digital Healthcare, WMG, University of Warwick, CV4 7AL, Coventry, United Kingdom.; Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom.",
-    "journalTitle": "Scientific reports",
-    "pubYear": "2019",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Myocardial tracking and strain estimation can non-invasively assess cardiac functioning using subject-specific MRI. As the left-ventricle does not have a uniform shape and functioning from base to apex, the development of 3D MRI has provided opportunities for simultaneous 3D tracking, and 3D strain estimation. We have extended a Local Weighted Mean (LWM) transformation function for 3D, and incorporated in a Hierarchical Template Matching model to solve 3D myocardial tracking and strain estimation problem. The LWM does not need to solve a large system of equations, provides smooth displacement of myocardial points, and adapt local geometric differences in images. Hence, 3D myocardial tracking can be performed with 1.49\u2009mm median error, and without large error outliers. The maximum error of tracking is up to 24% reduced compared to benchmark methods. Moreover, the estimated strain can be insightful to improve 3D imaging protocols, and the computer code of LWM could also be useful for geo-spatial and manufacturing image analysis researchers.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1038/s41598-019-48927-2; html:https://europepmc.org/articles/PMC6713749; pdf:https://europepmc.org/articles/PMC6713749?pdf=render"
-  },
-  {
     "id": "32723851",
     "doi": "https://doi.org/10.1136/bmjhci-2019-100122",
     "title": "HDR UK supporting mobilising computable biomedical knowledge in the UK.",
@@ -302,6 +286,22 @@
     "abstract": "Computable biomedical knowledge (CBK) represents an evolving area of health informatics, with potential for rapid translational patient benefit. Health Data Research UK (HDR UK) is the national Institute for Health Data Science, whose aim is to unite the UK's health data to enable discoveries that improve people's lives. The three main components include the UK HDR Alliance of data custodians, committed to making health data available for research and innovation purposes for public benefit while ensuring safe use of data and building public trust, the HDR Hubs, as centres of expertise for curating data and providing expert domain-specific services, and the HDR Innovation Gateway ('Gateway'), providing discovery, accessibility, security and interoperability services. To support CBK developments, HDR UK is encouraging use of open data standards for research purposes, with guidance around areas in which standards are emerging, aims to work closely with the international CBK community to support initiatives and aid with evaluation and collaboration, and has established a phenomics workstream to create a national platform for dissemination of machine readable and computable phenotypical algorithms to reduce duplication of effort and improve reproducibility in clinical studies.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1136/bmjhci-2019-100122"
+  },
+  {
+    "id": "31462651",
+    "doi": "https://doi.org/10.1038/s41598-019-48927-2",
+    "title": "Hierarchical Template Matching for 3D Myocardial Tracking and Cardiac Strain Estimation.",
+    "authorString": "Bhalodiya JM, Palit A, Ferrante E, Tiwari MK, Bhudia SK, Arvanitis TN, Williams MA.",
+    "authorAffiliations": "Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom. j.bhalodiya@warwick.ac.uk.; Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom.; Instituto de Investigaci\u00f3n en Se\u00f1ales, Sistemas e Inteligencia Computacional, sinc(i), FICH-UNL/CONICET, Santa Fe, Argentina.; Indian Institute of Technology Kharagpur, 721302, Kharagpur, West Bengal, India.; Royal Brompton and Harefield NHS Foundation Trust, SW3 6NP, London, United Kingdom.; Institute of Digital Healthcare, WMG, University of Warwick, CV4 7AL, Coventry, United Kingdom.; Warwick Manufacturing Group (WMG), University of Warwick, CV4 7AL, Coventry, United Kingdom.",
+    "journalTitle": "Scientific reports",
+    "pubYear": "2019",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Myocardial tracking and strain estimation can non-invasively assess cardiac functioning using subject-specific MRI. As the left-ventricle does not have a uniform shape and functioning from base to apex, the development of 3D MRI has provided opportunities for simultaneous 3D tracking, and 3D strain estimation. We have extended a Local Weighted Mean (LWM) transformation function for 3D, and incorporated in a Hierarchical Template Matching model to solve 3D myocardial tracking and strain estimation problem. The LWM does not need to solve a large system of equations, provides smooth displacement of myocardial points, and adapt local geometric differences in images. Hence, 3D myocardial tracking can be performed with 1.49\u2009mm median error, and without large error outliers. The maximum error of tracking is up to 24% reduced compared to benchmark methods. Moreover, the estimated strain can be insightful to improve 3D imaging protocols, and the computer code of LWM could also be useful for geo-spatial and manufacturing image analysis researchers.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1038/s41598-019-48927-2; html:https://europepmc.org/articles/PMC6713749; pdf:https://europepmc.org/articles/PMC6713749?pdf=render"
   },
   {
     "id": "31799783",
@@ -888,7 +888,7 @@
     "journalTitle": "Age and ageing",
     "pubYear": "2020",
     "isOpenAccess": "N",
-    "keywords": "Ageing; Data Linkage; Older People; Health Informatics; Big Data; Electronic Health Records",
+    "keywords": "Ageing; Data Linkage; Older People; Health Informatics; Electronic Health Records; Big Data",
     "nationalPriorities": "Improving Public Health",
     "healthCategories": "",
     "abstract": "The past three decades have seen a steady increase in the availability of routinely collected health and social care data and the processing power to analyse it. These developments represent a major opportunity for ageing research, especially with the integration of different datasets across traditional boundaries of health and social care, for prognostic research and novel evaluations of interventions with representative populations of older people. However, there are considerable challenges in using routine data at the level of coding, data analysis and in the application of findings to everyday care. New Horizons in applying routine data to investigate novel questions in ageing research require a collaborative approach between clinicians, data scientists, biostatisticians, epidemiologists and trial methodologists. This requires building capacity for the next generation of research leaders in this important area. There is a need to develop consensus code lists and standardised, validated algorithms for common conditions and outcomes that are relevant for older people to maximise the potential of routine data research in this group. Lastly, we must help drive the application of routine data to improve the care of older people, through the development of novel methods for evaluation of interventions using routine data infrastructure. We believe that harnessing routine data can help address knowledge gaps for older people living with multiple conditions and frailty, and design interventions and pathways of care to address the complex health issues we face in caring for older people.",
@@ -1136,22 +1136,6 @@
     "urls": "doi:https://doi.org/10.1111/opo.12685"
   },
   {
-    "id": "32355555",
-    "doi": "https://doi.org/10.7189/jogh.10.010104",
-    "title": "COVID-19 must catalyse key global natural experiments.",
-    "authorString": "Been JV, Sheikh A.",
-    "authorAffiliations": "Division of Neonatology, Department of Paediatrics, Erasmus MC - Sophia Children's Hospital, University Medical Centre Rotterdam, Rotterdam, Netherlands.; Centre of Medical Informatics, Usher Institute, The University of Edinburgh, Edinburgh, UK.; Centre of Medical Informatics, Usher Institute, The University of Edinburgh, Edinburgh, UK.; Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital/Harvard Medical School, Boston, Massachusetts, USA.",
-    "journalTitle": "Journal of global health",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "",
-    "laySummary": "\"Been and Sheikh\u2019s editorial about COVID-19, outlines the importance of two natural experiments: a- how different countries responded to the pandemic and its effects and b- impact of improvements in air quality on human and planetary health.\"",
-    "urls": "doi:https://doi.org/10.7189/jogh.10.010104; html:https://europepmc.org/articles/PMC7179980; pdf:https://europepmc.org/articles/PMC7179980?pdf=render"
-  },
-  {
     "id": "31611193",
     "doi": "https://doi.org/10.1136/archdischild-2019-317248",
     "title": "Self-harm presentation across healthcare settings by sex in young people: an e-cohort study using routinely collected linked healthcare data in Wales, UK.",
@@ -1166,6 +1150,22 @@
     "abstract": "BACKGROUND:This study used individual-level linked data across general practice, emergency departments (EDs), outpatients and hospital admissions to examine contacts across settings and time by sex for self-harm in individuals aged 10-24 years old in Wales, UK. METHODS:A whole population-based e-cohort study of routinely collected healthcare data was conducted. Rates of self-harm across settings over time by sex were examined. Individuals were categorised based on the service(s) to which they presented. RESULTS:A total of 937 697 individuals aged 10-24 years contributed 5 369 794 person years of data from 1 January 2003 to 30 September 2015. Self-harm incidence was highest in primary care but remained stable over time (incident rate ratio (IRR)=1.0; 95% CI 0.9 to 1.1). Incidence of ED attendance increased over time (IRR=1.3; 95% CI 1.2 to 1.5) as did hospital admissions (IRR=1.4; 95% CI 1.1 to 1.6). Incidence in the 15-19 years age group was the highest across all settings. The largest increases were seen in the youngest age group. There were increases in ED attendances for both sexes; however, females are more likely than males to be admitted following this. This was most evident in individuals 10-15 years old, where 76% of females were admitted compared with just 49% of males. The majority of associated outpatient appointments were under a mental health specialty. CONCLUSIONS:This is the first study to compare self-harm in people aged 10-24 years across primary care, EDs and hospital settings in the UK. The high rates of self-harm in primary care and for young men in EDs highlight these as important settings for intervention.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1136/archdischild-2019-317248; html:https://europepmc.org/articles/PMC7146921; pdf:https://europepmc.org/articles/PMC7146921?pdf=render"
+  },
+  {
+    "id": "32355555",
+    "doi": "https://doi.org/10.7189/jogh.10.010104",
+    "title": "COVID-19 must catalyse key global natural experiments.",
+    "authorString": "Been JV, Sheikh A.",
+    "authorAffiliations": "Division of Neonatology, Department of Paediatrics, Erasmus MC - Sophia Children's Hospital, University Medical Centre Rotterdam, Rotterdam, Netherlands.; Centre of Medical Informatics, Usher Institute, The University of Edinburgh, Edinburgh, UK.; Centre of Medical Informatics, Usher Institute, The University of Edinburgh, Edinburgh, UK.; Division of General Internal Medicine and Primary Care, Brigham and Women's Hospital/Harvard Medical School, Boston, Massachusetts, USA.",
+    "journalTitle": "Journal of global health",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "",
+    "laySummary": "\"Been and Sheikh\u2019s editorial about COVID-19, outlines the importance of two natural experiments: a- how different countries responded to the pandemic and its effects and b- impact of improvements in air quality on human and planetary health.\"",
+    "urls": "doi:https://doi.org/10.7189/jogh.10.010104; html:https://europepmc.org/articles/PMC7179980; pdf:https://europepmc.org/articles/PMC7179980?pdf=render"
   },
   {
     "id": "31194737",
@@ -1568,22 +1568,6 @@
     "urls": "doi:https://doi.org/10.1111/ijpo.12505; html:https://europepmc.org/articles/PMC6563186; pdf:https://europepmc.org/articles/PMC6563186?pdf=render"
   },
   {
-    "id": "29457906",
-    "doi": "https://doi.org/10.1021/acs.jproteome.7b00879",
-    "title": "Optimized Phenotypic Biomarker Discovery and Confounder Elimination via Covariate-Adjusted Projection to Latent Structures from Metabolic Spectroscopy Data.",
-    "authorString": "Posma JM, Garcia-Perez I, Ebbels TMD, Lindon JC, Stamler J, Elliott P, Holmes E, Nicholson JK.",
-    "authorAffiliations": "Investigative Medicine, Department of Medicine, Faculty of Medicine , Imperial College London , W12 0NN London , United Kingdom.; Department of Preventive Medicine, Feinberg School of Medicine , Northwestern University , Chicago , Illinois 60611 , United States.",
-    "journalTitle": "Journal of proteome research",
-    "pubYear": "2018",
-    "isOpenAccess": "Y",
-    "keywords": "Chemometrics; multivariate data analysis; Biomarker Discovery; Sampling Bias; Covariate Adjustment; Metabolic Phenotyping; Random Matrix Theory; Reanalysis; Monte Carlo Cross-validation; Confounder Elimination",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Metabolism is altered by genetics, diet, disease status, environment, and many other factors. Modeling either one of these is often done without considering the effects of the other covariates. Attributing differences in metabolic profile to one of these factors needs to be done while controlling for the metabolic influence of the rest. We describe here a data analysis framework and novel confounder-adjustment algorithm for multivariate analysis of metabolic profiling data. Using simulated data, we show that similar numbers of true associations and significantly less false positives are found compared to other commonly used methods. Covariate-adjusted projections to latent structures (CA-PLS) are exemplified here using a large-scale metabolic phenotyping study of two Chinese populations at different risks for cardiovascular disease. Using CA-PLS, we find that some previously reported differences are actually associated with external factors and discover a number of previously unreported biomarkers linked to different metabolic pathways. CA-PLS can be applied to any multivariate data where confounding may be an issue and the confounder-adjustment procedure is translatable to other multivariate regression techniques.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1021/acs.jproteome.7b00879; html:https://europepmc.org/articles/PMC5891819; pdf:https://europepmc.org/articles/PMC5891819?pdf=render"
-  },
-  {
     "id": "32685698",
     "doi": "https://doi.org/10.12688/wellcomeopenres.15842.2",
     "title": "Estimating the overdispersion in COVID-19 transmission using outbreak sizes outside China. ",
@@ -1598,6 +1582,22 @@
     "abstract": "Background: A novel coronavirus disease (COVID-19) outbreak has now spread to a number of countries worldwide. While sustained transmission chains of human-to-human transmission suggest high basic reproduction number R0, variation in the number of secondary transmissions (often characterised by so-called superspreading events) may be large as some countries have observed fewer local transmissions than others. Methods: We quantified individual-level variation in COVID-19 transmission by applying a mathematical model to observed outbreak sizes in affected countries. We extracted the number of imported and local cases in the affected countries from the\u00a0World Health Organization situation report and applied a branching process model where the number of secondary transmissions was assumed to follow a negative-binomial distribution. Results: Our model suggested a high degree of individual-level variation in the transmission of COVID-19. Within the current consensus range of R0 (2-3), the overdispersion parameter k of a negative-binomial distribution was estimated to be around 0.1 (median estimate 0.1; 95% CrI: 0.05-0.2 for R0 = 2.5), suggesting that 80% of secondary transmissions may have been caused by a small fraction of infectious individuals (~10%). A joint estimation yielded likely ranges for R0 and k (95% CrIs: R0 1.4-12; k 0.04-0.2); however, the upper bound of R0 was not well informed by the model and data, which did not notably differ from that of the prior distribution. Conclusions: Our finding of a highly-overdispersed offspring distribution highlights a potential benefit to focusing intervention efforts on superspreading. As most infected individuals do not contribute to the expansion of an epidemic, the effective reproduction number could be drastically reduced by preventing relatively rare superspreading events.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.12688/wellcomeopenres.15842.2; html:https://europepmc.org/articles/PMC7338915; pdf:https://europepmc.org/articles/PMC7338915?pdf=render"
+  },
+  {
+    "id": "29457906",
+    "doi": "https://doi.org/10.1021/acs.jproteome.7b00879",
+    "title": "Optimized Phenotypic Biomarker Discovery and Confounder Elimination via Covariate-Adjusted Projection to Latent Structures from Metabolic Spectroscopy Data.",
+    "authorString": "Posma JM, Garcia-Perez I, Ebbels TMD, Lindon JC, Stamler J, Elliott P, Holmes E, Nicholson JK.",
+    "authorAffiliations": "Investigative Medicine, Department of Medicine, Faculty of Medicine , Imperial College London , W12 0NN London , United Kingdom.; Department of Preventive Medicine, Feinberg School of Medicine , Northwestern University , Chicago , Illinois 60611 , United States.",
+    "journalTitle": "Journal of proteome research",
+    "pubYear": "2018",
+    "isOpenAccess": "Y",
+    "keywords": "Chemometrics; multivariate data analysis; Biomarker Discovery; Sampling Bias; Covariate Adjustment; Metabolic Phenotyping; Random Matrix Theory; Reanalysis; Monte Carlo Cross-validation; Confounder Elimination",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Metabolism is altered by genetics, diet, disease status, environment, and many other factors. Modeling either one of these is often done without considering the effects of the other covariates. Attributing differences in metabolic profile to one of these factors needs to be done while controlling for the metabolic influence of the rest. We describe here a data analysis framework and novel confounder-adjustment algorithm for multivariate analysis of metabolic profiling data. Using simulated data, we show that similar numbers of true associations and significantly less false positives are found compared to other commonly used methods. Covariate-adjusted projections to latent structures (CA-PLS) are exemplified here using a large-scale metabolic phenotyping study of two Chinese populations at different risks for cardiovascular disease. Using CA-PLS, we find that some previously reported differences are actually associated with external factors and discover a number of previously unreported biomarkers linked to different metabolic pathways. CA-PLS can be applied to any multivariate data where confounding may be an issue and the confounder-adjustment procedure is translatable to other multivariate regression techniques.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1021/acs.jproteome.7b00879; html:https://europepmc.org/articles/PMC5891819; pdf:https://europepmc.org/articles/PMC5891819?pdf=render"
   },
   {
     "id": "32626822",
@@ -2384,22 +2384,6 @@
     "urls": "doi:https://doi.org/10.1177/0300060520931298; html:https://europepmc.org/articles/PMC7307394; pdf:https://europepmc.org/articles/PMC7307394?pdf=render"
   },
   {
-    "id": "30742608",
-    "doi": "https://doi.org/10.1371/journal.pcbi.1006785",
-    "title": "Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15.",
-    "authorString": "Funk S, Camacho A, Kucharski AJ, Lowe R, Eggo RM, Edmunds WJ.",
-    "authorAffiliations": "Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Epicentre, Paris, France.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Barcelona Institute for Global Health (ISGlobal), Barcelona, Spain.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.",
-    "journalTitle": "PLoS computational biology",
-    "pubYear": "2019",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Real-time forecasts based on mathematical models can inform critical decision-making during infectious disease outbreaks. Yet, epidemic forecasts are rarely evaluated during or after the event, and there is little guidance on the best metrics for assessment. Here, we propose an evaluation approach that disentangles different components of forecasting ability using metrics that separately assess the calibration, sharpness and bias of forecasts. This makes it possible to assess not just how close a forecast was to reality but also how well uncertainty has been quantified. We used this approach to analyse the performance of weekly forecasts we generated in real time for Western Area, Sierra Leone, during the 2013-16 Ebola epidemic in West Africa. We investigated a range of forecast model variants based on the model fits generated at the time with a semi-mechanistic model, and found that good probabilistic calibration was achievable at short time horizons of one or two weeks ahead but model predictions were increasingly unreliable at longer forecasting horizons. This suggests that forecasts may have been of good enough quality to inform decision making based on predictions a few weeks ahead of time but not longer, reflecting the high level of uncertainty in the processes driving the trajectory of the epidemic. Comparing forecasts based on the semi-mechanistic model to simpler null models showed that the best semi-mechanistic model variant performed better than the null models with respect to probabilistic calibration, and that this would have been identified from the earliest stages of the outbreak. As forecasts become a routine part of the toolkit in public health, standards for evaluation of performance will be important for assessing quality and improving credibility of mathematical models, and for elucidating difficulties and trade-offs when aiming to make the most useful and reliable forecasts.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1371/journal.pcbi.1006785; html:https://europepmc.org/articles/PMC6386417; pdf:https://europepmc.org/articles/PMC6386417?pdf=render"
-  },
-  {
     "id": "31558464",
     "doi": "https://doi.org/10.1136/bmjopen-2019-033013",
     "title": "Long-term impact of giving antibiotics before skin incision versus after cord clamping on children born by caesarean section: protocol for a longitudinal study based on UK electronic health records.",
@@ -2414,6 +2398,22 @@
     "abstract": "INTRODUCTION:In the UK, about a quarter of women give birth by caesarean section (CS) and are offered prophylactic broad-spectrum antibiotics to reduce the risk of maternal postpartum infection. In 2011, national guidance was changed from recommending antibiotics after the umbilical cord was cut to giving antibiotics prior to skin incision based on evidence that earlier administration reduces maternal infectious morbidity. Although antibiotics cross the placenta, there are no known short-term harms to the baby. This study aims to address the research gap on longer term impact of these antibiotics on child health. METHODS AND ANALYSIS:A controlled interrupted time series study will use anonymised mother-baby linked routine electronic health records for children born during 2006-2018 recorded in UK primary care (The Health Improvement Network, THIN and Clinical Practice Research Datalink, CPRD) and secondary care (Hospital Episode Statistics, HES) databases. The primary outcomes of interest are asthma and eczema, two common allergy-related diseases in childhood. In-utero exposure to antibiotics immediately prior to CS will be compared with no exposure when given after cord clamping. The risk of outcomes in children delivered by CS will also be compared with a control cohort delivered vaginally to account for time effects. We will use all available data from THIN, CPRD and HES with estimated power of 80% and 90% to detect relative increase in risk of asthma of 16% and 18%, respectively at the 5% significance level. ETHICS AND DISSEMINATION:Ethical approval has been obtained from the University of Birmingham Ethical Review Committee with scientific approvals obtained from the independent scientific advisory committees from the Medicines and Healthcare products Regulatory Agency for CPRD and the data provider, IQVIA for THIN. The results will be published in peer-reviewed journals, presented at national and international conferences and disseminated to stakeholders.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1136/bmjopen-2019-033013; html:https://europepmc.org/articles/PMC6773283; pdf:https://europepmc.org/articles/PMC6773283?pdf=render"
+  },
+  {
+    "id": "30742608",
+    "doi": "https://doi.org/10.1371/journal.pcbi.1006785",
+    "title": "Assessing the performance of real-time epidemic forecasts: A case study of Ebola in the Western Area region of Sierra Leone, 2014-15.",
+    "authorString": "Funk S, Camacho A, Kucharski AJ, Lowe R, Eggo RM, Edmunds WJ.",
+    "authorAffiliations": "Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Epicentre, Paris, France.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Barcelona Institute for Global Health (ISGlobal), Barcelona, Spain.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Centre for the Mathematical Modelling of Infectious Diseases, London School of Hygiene & Tropical Medicine, London, United Kingdom.; Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, United Kingdom.",
+    "journalTitle": "PLoS computational biology",
+    "pubYear": "2019",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Real-time forecasts based on mathematical models can inform critical decision-making during infectious disease outbreaks. Yet, epidemic forecasts are rarely evaluated during or after the event, and there is little guidance on the best metrics for assessment. Here, we propose an evaluation approach that disentangles different components of forecasting ability using metrics that separately assess the calibration, sharpness and bias of forecasts. This makes it possible to assess not just how close a forecast was to reality but also how well uncertainty has been quantified. We used this approach to analyse the performance of weekly forecasts we generated in real time for Western Area, Sierra Leone, during the 2013-16 Ebola epidemic in West Africa. We investigated a range of forecast model variants based on the model fits generated at the time with a semi-mechanistic model, and found that good probabilistic calibration was achievable at short time horizons of one or two weeks ahead but model predictions were increasingly unreliable at longer forecasting horizons. This suggests that forecasts may have been of good enough quality to inform decision making based on predictions a few weeks ahead of time but not longer, reflecting the high level of uncertainty in the processes driving the trajectory of the epidemic. Comparing forecasts based on the semi-mechanistic model to simpler null models showed that the best semi-mechanistic model variant performed better than the null models with respect to probabilistic calibration, and that this would have been identified from the earliest stages of the outbreak. As forecasts become a routine part of the toolkit in public health, standards for evaluation of performance will be important for assessing quality and improving credibility of mathematical models, and for elucidating difficulties and trade-offs when aiming to make the most useful and reliable forecasts.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1371/journal.pcbi.1006785; html:https://europepmc.org/articles/PMC6386417; pdf:https://europepmc.org/articles/PMC6386417?pdf=render"
   },
   {
     "id": "32763829",
@@ -3792,22 +3792,6 @@
     "urls": "doi:https://doi.org/10.1212/WNL.0000000000009814"
   },
   {
-    "id": "30382236",
-    "doi": "https://doi.org/10.1038/s41433-018-0229-6",
-    "title": "The diagnostic accuracy of OCT angiography in naive and treated neovascular age-related macular degeneration: a review.",
-    "authorString": "Perrott-Reynolds R, Cann R, Cronbach N, Neo YN, Ho V, McNally O, Madi HA, Cochran C, Chakravarthy U.",
-    "authorAffiliations": "Department of Ophthalmology, University Hospital of Wales, Cardiff, CF14 4XW, UK. Rhianon.reynolds@wales.nhs.uk.; Mid Yorkshire Hospitals NHS Trust, West Yorkshire, WF1 4DG, UK.; Buckinghamshire Healthcare NHS trust, Oxford, UK.; The Hillingdon Hospitals NHS Trust, Uxbridge, UB8 3NN, UK.; Royal Liverpool and Broadgreen University Hospitals NHS Trust, Liverpoool, L14 3LB, UK.; Belfast Health and Social Care Trust, Belfast, BT9 7AB, UK.; Sunderland Eye Infirmary, Sunderland, SR2 9HP, UK.; EDNA Study Team, University of Aberdeen, Aberdeen, AB25 2ZD, UK.; Ophthalmology and Vision Science, Queens University of Belfast, Belfast, BT7 1NN, UK.; Department of Ophthalmology, Belfast Health and Social Care Trust, Belfast, BT9 7AB, UK.",
-    "journalTitle": "Eye (London, England)",
-    "pubYear": "2019",
-    "isOpenAccess": "N",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Optical coherence tomography angiography (OCTA) is a non-invasive retinal imaging innovation that has been gaining popularity for the evaluation of the retinal vasculature. Of clinical importance is its current use either as an alternative or in conjunction with conventional dye-based angiography in neovascular age-related macular degeneration. OCTA is not without limitations and these include image artefact, a relatively small field of view and failure of the segmentation algorithms, which can confound the interpretation of findings. While there are numerous publications on OCTA in neovascular AMD, few have examined the diagnostic accuracy of this new technology compared with the accepted gold standard of fundus fluorescein angiography (FFA). In this review, we summarise the literature on the clinical application of OCTA in nAMD. In particular, we have reviewed the published articles that have reported the sensitivity and specificity of OCTA in the diagnosis of nAMD, and those that have described and or correlated the morphological findings and compared them to dye-based angiography.",
-    "laySummary": "Perrott et al. reviewed strengths and limitations of an eye (retinal) imagining method for diagnosis of a condition affecting the central part of the retina (the macula). This degenerative condition may result in loss of central vision in older adults. Perrott et al. concluded that diagnostic accuracy depends on both method and equipment. ",
-    "urls": "doi:https://doi.org/10.1038/s41433-018-0229-6; html:https://europepmc.org/articles/PMC6367454; pdf:https://europepmc.org/articles/PMC6367454?pdf=render; doi:https://doi.org/10.1038/s41433-018-0229-6"
-  },
-  {
     "id": "31650125",
     "doi": "https://doi.org/10.1016/s2589-7500(19)30012-3",
     "title": "A chronological map of 308 physical and mental health conditions from 4 million individuals in the English National Health Service.",
@@ -3822,6 +3806,22 @@
     "abstract": "Background:To effectively prevent, detect, and treat health conditions that affect people during their lifecourse, health-care professionals and researchers need to know which sections of the population are susceptible to which health conditions and at which ages. Hence, we aimed to map the course of human health by identifying the 50 most common health conditions in each decade of life and estimating the median age at first diagnosis. Methods:We developed phenotyping algorithms and codelists for physical and mental health conditions that involve intensive use of health-care resources. Individuals older than 1 year were included in the study if their primary-care and hospital-admission records met research standards set by the Clinical Practice Research Datalink and they had been registered in a general practice in England contributing up-to-standard data for at least 1 year during the study period. We used linked records of individuals from the CALIBER platform to calculate the sex-standardised cumulative incidence for these conditions by 10-year age groups between April 1, 2010, and March 31, 2015. We also derived the median age at diagnosis and prevalence estimates stratified by age, sex, and ethnicity (black, white, south Asian) over the study period from the primary-care and secondary-care records of patients. Findings:We developed case definitions for 308 disease phenotypes. We used records of 2\u2008784\u2008138 patients for the calculation of cumulative incidence and of 3\u2008872\u2008451 patients for the calculation of period prevalence and median age at diagnosis of these conditions. Conditions that first gained prominence at key stages of life were: atopic conditions and infections that led to hospital admission in children (<10 years); acne and menstrual disorders in the teenage years (10-19 years); mental health conditions, obesity, and migraine in individuals aged 20-29 years; soft-tissue disorders and gastro-oesophageal reflux disease in individuals aged 30-39 years; dyslipidaemia, hypertension, and erectile dysfunction in individuals aged 40-59 years; cancer, osteoarthritis, benign prostatic hyperplasia, cataract, diverticular disease, type 2 diabetes, and deafness in individuals aged 60-79 years; and atrial fibrillation, dementia, acute and chronic kidney disease, heart failure, ischaemic heart disease, anaemia, and osteoporosis in individuals aged 80 years or older. Black or south-Asian individuals were diagnosed earlier than white individuals for 258 (84%) of the 308 conditions. Bone fractures and atopic conditions were recorded earlier in male individuals, whereas female individuals were diagnosed at younger ages with nutritional anaemias, tubulointerstitial nephritis, and urinary disorders. Interpretation:We have produced the first chronological map of human health with cumulative-incidence and period-prevalence estimates for multiple morbidities in parallel from birth to advanced age. This can guide clinicians, policy makers, and researchers on how to formulate differential diagnoses, allocate resources, and target research priorities on the basis of the knowledge of who gets which diseases when. We have published our phenotyping algorithms on the CALIBER open-access Portal which will facilitate future research by providing a curated list of reusable case definitions. Funding:Wellcome Trust, National Institute for Health Research, Medical Research Council, Arthritis Research UK, British Heart Foundation, Cancer Research UK, Chief Scientist Office of the Scottish Government Health and Social Care Directorates, Department of Health and Social Care (England), Health and Social Care Research and Development Division (Welsh Government), Public Health Agency (Northern Ireland), Economic and Social Research Council, Engineering and Physical Sciences Research Council, National Institute for Social Care and Health Research, and The Alan Turing Institute.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1016/S2589-7500(19)30012-3; html:https://europepmc.org/articles/PMC6798263; pdf:https://europepmc.org/articles/PMC6798263?pdf=render"
+  },
+  {
+    "id": "30382236",
+    "doi": "https://doi.org/10.1038/s41433-018-0229-6",
+    "title": "The diagnostic accuracy of OCT angiography in naive and treated neovascular age-related macular degeneration: a review.",
+    "authorString": "Perrott-Reynolds R, Cann R, Cronbach N, Neo YN, Ho V, McNally O, Madi HA, Cochran C, Chakravarthy U.",
+    "authorAffiliations": "Department of Ophthalmology, University Hospital of Wales, Cardiff, CF14 4XW, UK. Rhianon.reynolds@wales.nhs.uk.; Mid Yorkshire Hospitals NHS Trust, West Yorkshire, WF1 4DG, UK.; Buckinghamshire Healthcare NHS trust, Oxford, UK.; The Hillingdon Hospitals NHS Trust, Uxbridge, UB8 3NN, UK.; Royal Liverpool and Broadgreen University Hospitals NHS Trust, Liverpoool, L14 3LB, UK.; Belfast Health and Social Care Trust, Belfast, BT9 7AB, UK.; Sunderland Eye Infirmary, Sunderland, SR2 9HP, UK.; EDNA Study Team, University of Aberdeen, Aberdeen, AB25 2ZD, UK.; Ophthalmology and Vision Science, Queens University of Belfast, Belfast, BT7 1NN, UK.; Department of Ophthalmology, Belfast Health and Social Care Trust, Belfast, BT9 7AB, UK.",
+    "journalTitle": "Eye (London, England)",
+    "pubYear": "2019",
+    "isOpenAccess": "N",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Optical coherence tomography angiography (OCTA) is a non-invasive retinal imaging innovation that has been gaining popularity for the evaluation of the retinal vasculature. Of clinical importance is its current use either as an alternative or in conjunction with conventional dye-based angiography in neovascular age-related macular degeneration. OCTA is not without limitations and these include image artefact, a relatively small field of view and failure of the segmentation algorithms, which can confound the interpretation of findings. While there are numerous publications on OCTA in neovascular AMD, few have examined the diagnostic accuracy of this new technology compared with the accepted gold standard of fundus fluorescein angiography (FFA). In this review, we summarise the literature on the clinical application of OCTA in nAMD. In particular, we have reviewed the published articles that have reported the sensitivity and specificity of OCTA in the diagnosis of nAMD, and those that have described and or correlated the morphological findings and compared them to dye-based angiography.",
+    "laySummary": "Perrott et al. reviewed strengths and limitations of an eye (retinal) imagining method for diagnosis of a condition affecting the central part of the retina (the macula). This degenerative condition may result in loss of central vision in older adults. Perrott et al. concluded that diagnostic accuracy depends on both method and equipment. ",
+    "urls": "doi:https://doi.org/10.1038/s41433-018-0229-6; html:https://europepmc.org/articles/PMC6367454; pdf:https://europepmc.org/articles/PMC6367454?pdf=render; doi:https://doi.org/10.1038/s41433-018-0229-6"
   },
   {
     "id": "32142356",
@@ -3854,6 +3854,22 @@
     "abstract": "Echocardiography plays an essential role in the diagnosis and assessment of cardiovascular disease. Measurements derived from echocardiography are also used to determine the severity of disease, its progression over time, and to aid in the choice of optimal therapy. It is therefore clinically important that echocardiographic measurements be reproducible, repeatable, and reliable. There are a variety of statistical tests available to assess these parameters, and in this article the authors summarize those available for use by echocardiographers to improve their clinical practice. Correlation coefficients, linear regression, Bland-Altman plots, and the coefficient of variation are explored, along with their limitations. The authors also provide an online tool for the easy calculation of these statistics in the clinical environment (www.birmingham.ac.uk/echo). Quantifying and enhancing the reproducibility of echocardiography has important potential to improve the value of echocardiography as the basis for good clinical decision-making.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1016/j.echo.2019.08.015"
+  },
+  {
+    "id": "32546850",
+    "doi": "https://doi.org/10.1038/s41598-020-66737-9",
+    "title": "Genetic aetiology of self-harm ideation and behaviour.",
+    "authorString": "Campos AI, Verweij KJH, Statham DJ, Madden PAF, Maciejewski DF, Davis KAS, John A, Hotopf M, Heath AC, Martin NG, Renter\u00eda ME.",
+    "authorAffiliations": "Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. adrian.campos@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. adrian.campos@qimrberghofer.edu.au.; Department of Psychiatry, Amsterdam UMC, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, the Netherlands.; Discipline of Psychology, School of Health and Life Sciences, Federation University, Ballarat, VIC, 3550, Australia.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Developmental Psychopathology, Behavioural Science Institute, Nijmegen, the Netherlands.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; HDRUK, Swansea University Medical School, Swansea, UK.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. miguel.renteria@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. miguel.renteria@qimrberghofer.edu.au.",
+    "journalTitle": "Scientific reports",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Family studies have identified a heritable component to self-harm that is partially independent from comorbid psychiatric disorders. However, the genetic aetiology of broad sense (non-suicidal and suicidal) self-harm has not been characterised on the molecular level. In addition, controversy exists about the degree to which suicidal and non-suicidal self-harm share a common genetic aetiology. In the present study, we conduct genome-wide association studies (GWAS) on lifetime self-harm ideation and self-harm behaviour (i.e. any lifetime self-harm act regardless of suicidal intent) using data from the UK Biobank (n\u2009>\u2009156,000). We also perform genome wide gene-based tests and characterize the SNP heritability and genetic correlations between these traits. Finally, we test whether polygenic risk scores (PRS) for self-harm ideation and self-harm behaviour predict suicide attempt, suicide thoughts and non-suicidal self-harm (NSSH) in an independent target sample of 8,703 Australian adults. Our GWAS results identified one genome-wide significant locus associated with each of the two phenotypes. SNP heritability (hsnp2) estimates were ~10%, and both traits were highly genetically correlated (LDSC rg\u2009>\u20090.8). Gene-based tests identified seven genes associated with self-harm ideation and four with self-harm behaviour. Furthermore, in the target sample, PRS for self-harm ideation were significantly associated with suicide thoughts and NSSH, and PRS for self-harm behaviour predicted suicide thoughts and suicide attempt. Follow up regressions identified a shared genetic aetiology between NSSH and suicide thoughts, and between suicide thoughts and suicide attempt. Evidence for shared genetic aetiology between NSSH and suicide attempt was not statistically significant.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1038/s41598-020-66737-9; html:https://europepmc.org/articles/PMC7297971; pdf:https://europepmc.org/articles/PMC7297971?pdf=render"
   },
   {
     "id": "32591531",
@@ -3902,22 +3918,6 @@
     "abstract": "BACKGROUND:Childhood maltreatment is a global public health, human rights, and moral issue that is associated with a substantial mental health burden. We aimed to assess the association between childhood maltreatment and the development of mental ill health and the initiation of new prescriptions for mental ill health. METHODS:In this population-based, retrospective, open cohort study, we used a dataset from individuals in The Health Improvement Network (THIN) database. THIN database comprises UK electronic medical records taken from 787 general practices throughout the UK. We used read codes in these records to identify exposed patients (those with a read code identifying officially confirmed childhood maltreatment or a maltreatment-related concern) and up to two unexposed patients (those without such read codes) from the same general practice, who were matched by age and sex. We evaluated the risk of developing depression, anxiety, or serious mental illness (a composite mental ill health outcome) or initiation of a prescription drug used to treat mental ill health, and the odds ratio of these events at baseline, in the exposed versus unexposed patients. FINDINGS:The first possible date for cohort entry (the study start date) was Jan 1, 1995, and patients could enter the cohort until the study end date, Dec 31, 2018. During the study period, 11\u2008831\u2008850 patients were eligible to participate. Of these patients, we identified 217\u2008758 (1\u00b78%) patients with any recorded childhood maltreatment. These patients were matched to 423\u2008410 unexposed control patients with no recorded exposure to childhood maltreatment. The exposed group were followed up for a median of 1\u00b78 years (IQR 0\u00b76-4\u00b73) versus 3\u00b72 years (1\u00b73-6\u00b71) in the unexposed group. During the study period, 11\u2008665 (5\u00b79%) new diagnoses of mental ill health were made in the exposed group, giving an incidence rate of 16\u00b78 events per 1000 person-years versus 15\u2008301 (3\u00b77%) new recorded diagnoses at an incidence rate of 8\u00b73 events per 1000 person-years in the unexposed cohort, giving an adjusted IRR of 2\u00b714 (95% CI 2\u00b708-2\u00b719). 30\u2008911 (14\u00b78%) patients in the exposed group received a new prescription for any type of mental ill health (incidence rate 46\u00b75 events per 1000 person-years) versus 36\u2008390 (8\u00b79%) patients in the unexposed group (20\u00b75 per 1000 person-years) resulting in an adjusted IRR of 2\u00b744 (95% CI 2\u00b740-2\u00b748). INTERPRETATION:Childhood maltreatment is thought to affect one in three children globally; therefore, a doubled risk of developing mental ill health among these individuals represents a substantial contribution to the mental ill health burden in the UK. It is imperative that public health approaches, including those aimed at preventing and detecting childhood maltreatment and its associated negative consequences, are implemented to prevent mental ill health. FUNDING:None.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1016/S2215-0366(19)30369-4"
-  },
-  {
-    "id": "32546850",
-    "doi": "https://doi.org/10.1038/s41598-020-66737-9",
-    "title": "Genetic aetiology of self-harm ideation and behaviour.",
-    "authorString": "Campos AI, Verweij KJH, Statham DJ, Madden PAF, Maciejewski DF, Davis KAS, John A, Hotopf M, Heath AC, Martin NG, Renter\u00eda ME.",
-    "authorAffiliations": "Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. adrian.campos@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. adrian.campos@qimrberghofer.edu.au.; Department of Psychiatry, Amsterdam UMC, University of Amsterdam, Meibergdreef 9, 1105, AZ, Amsterdam, the Netherlands.; Discipline of Psychology, School of Health and Life Sciences, Federation University, Ballarat, VIC, 3550, Australia.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Developmental Psychopathology, Behavioural Science Institute, Nijmegen, the Netherlands.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; HDRUK, Swansea University Medical School, Swansea, UK.; KCL Institute of Psychiatry, Psychology and Neuroscience, London, UK.; South London and Maudsley NHS Foundation Trust, London, UK.; Department of Psychiatry, Washington University School of Medicine, St Louis, MO, 63110, USA.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia.; Department of Genetics & Computational Biology, QIMR Berghofer Medical Research Institute, Brisbane, QLD 4006, Australia. miguel.renteria@qimrberghofer.edu.au.; Faculty of Medicine, The University of Queensland, Herston, QLD, Australia. miguel.renteria@qimrberghofer.edu.au.",
-    "journalTitle": "Scientific reports",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Family studies have identified a heritable component to self-harm that is partially independent from comorbid psychiatric disorders. However, the genetic aetiology of broad sense (non-suicidal and suicidal) self-harm has not been characterised on the molecular level. In addition, controversy exists about the degree to which suicidal and non-suicidal self-harm share a common genetic aetiology. In the present study, we conduct genome-wide association studies (GWAS) on lifetime self-harm ideation and self-harm behaviour (i.e. any lifetime self-harm act regardless of suicidal intent) using data from the UK Biobank (n\u2009>\u2009156,000). We also perform genome wide gene-based tests and characterize the SNP heritability and genetic correlations between these traits. Finally, we test whether polygenic risk scores (PRS) for self-harm ideation and self-harm behaviour predict suicide attempt, suicide thoughts and non-suicidal self-harm (NSSH) in an independent target sample of 8,703 Australian adults. Our GWAS results identified one genome-wide significant locus associated with each of the two phenotypes. SNP heritability (hsnp2) estimates were ~10%, and both traits were highly genetically correlated (LDSC rg\u2009>\u20090.8). Gene-based tests identified seven genes associated with self-harm ideation and four with self-harm behaviour. Furthermore, in the target sample, PRS for self-harm ideation were significantly associated with suicide thoughts and NSSH, and PRS for self-harm behaviour predicted suicide thoughts and suicide attempt. Follow up regressions identified a shared genetic aetiology between NSSH and suicide thoughts, and between suicide thoughts and suicide attempt. Evidence for shared genetic aetiology between NSSH and suicide attempt was not statistically significant.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1038/s41598-020-66737-9; html:https://europepmc.org/articles/PMC7297971; pdf:https://europepmc.org/articles/PMC7297971?pdf=render"
   },
   {
     "id": "32750130",
@@ -5424,22 +5424,6 @@
     "urls": "doi:https://doi.org/10.1016/j.aap.2019.03.007"
   },
   {
-    "id": "32488134",
-    "doi": "https://doi.org/10.1038/s41598-020-65855-8",
-    "title": "The Human Leukocyte Antigen Locus and Rheumatic Heart Disease Susceptibility in South Asians and Europeans.",
-    "authorString": "Auckland K, Mittal B, Cairns BJ, Garg N, Kumar S, Mentzer AJ, Kado J, Perman ML, Steer AC, Hill AVS, Parks T.",
-    "authorAffiliations": "The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Lucknow, 226025, Uttar Pradesh, India.; MRC Population Health Research Unit, Clinical Trial Service Unit and Epidemiological Studies Unit, Nuffield Department of Population Health, University of Oxford, Oxford, Oxfordshire, OX3 7LF, UK.; Department of Cardiology, Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow, 226014, Uttar Pradesh, India.; Department of Cytogenetics/Anatomy, All India Institute of Medical Sciences, New Delhi, 110029, Delhi, India.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Tropical Infectious Diseases, Murdoch Children's Research Institute, Melbourne, Victoria, 3052, Australia.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK. tom.parks@well.ox.ac.uk.; Department of Clinical Research, London School of Hygiene & Tropical Medicine, London, Greater London, WC1E 7HT, UK. tom.parks@well.ox.ac.uk.",
-    "journalTitle": "Scientific reports",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "Rheumatic heart disease (RHD), an autoinflammatory heart disease, was recently declared a global health priority by the World Health Organization. Here we report a genome-wide association study (GWAS) of RHD susceptibility in 1,163 South Asians (672 cases; 491 controls) recruited in India and Fiji. We analysed directly obtained and imputed genotypes, and followed-up associated loci in 1,459 Europeans (150 cases; 1,309 controls) from the UK Biobank study. We identify a novel susceptibility signal in the class III region of the human leukocyte antigen (HLA) complex in the South Asian dataset that clearly replicates in the Europeans (rs201026476; combined odds ratio 1.81, 95% confidence intervals 1.51-2.18, P\u2009=\u20093.48\u00d710-10). Importantly, this signal remains despite conditioning on the lead class I and class II variants (P\u2009=\u20090.00033). These findings suggest the class III region is a key determinant of RHD susceptibility offering important new insight into pathogenesis while partly explaining the inconsistency of earlier reports.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1038/s41598-020-65855-8; html:https://europepmc.org/articles/PMC7265443; pdf:https://europepmc.org/articles/PMC7265443?pdf=render"
-  },
-  {
     "id": "31317072",
     "doi": "https://doi.org/10.1002/lrh2.10191",
     "title": "Our data, our society, our health: A vision for inclusive and transparent health data science in the United Kingdom and beyond.",
@@ -5454,6 +5438,22 @@
     "abstract": "The last 6\u00a0years have seen sustained investment in health data science in the United Kingdom and beyond, which should result in a data science community that is inclusive of all stakeholders, working together to use data to benefit society through the improvement of public health and well-being. However, opportunities made possible through the innovative use of data are still not being fully realised, resulting in research inefficiencies and avoidable health harms. In this paper, we identify the most important barriers to achieving higher productivity in health data science. We then draw on previous research, domain expertise, and theory to outline how to go about overcoming these barriers, applying our core values of inclusivity and transparency. We believe a step change can be achieved through meaningful stakeholder involvement at every stage of research planning, design, and execution and team-based data science, as well as harnessing novel and secure data technologies. Applying these values to health data science will safeguard a social licence for health data research and ensure transparent and secure data usage for public benefit.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1002/lrh2.10191; html:https://europepmc.org/articles/PMC6628981; pdf:https://europepmc.org/articles/PMC6628981?pdf=render"
+  },
+  {
+    "id": "32488134",
+    "doi": "https://doi.org/10.1038/s41598-020-65855-8",
+    "title": "The Human Leukocyte Antigen Locus and Rheumatic Heart Disease Susceptibility in South Asians and Europeans.",
+    "authorString": "Auckland K, Mittal B, Cairns BJ, Garg N, Kumar S, Mentzer AJ, Kado J, Perman ML, Steer AC, Hill AVS, Parks T.",
+    "authorAffiliations": "The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Lucknow, 226025, Uttar Pradesh, India.; MRC Population Health Research Unit, Clinical Trial Service Unit and Epidemiological Studies Unit, Nuffield Department of Population Health, University of Oxford, Oxford, Oxfordshire, OX3 7LF, UK.; Department of Cardiology, Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow, 226014, Uttar Pradesh, India.; Department of Cytogenetics/Anatomy, All India Institute of Medical Sciences, New Delhi, 110029, Delhi, India.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Department of Medical Science, Fiji National University, Suva, PO Box 7222, Viti Levu, Fiji.; Tropical Infectious Diseases, Murdoch Children's Research Institute, Melbourne, Victoria, 3052, Australia.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK.; The Wellcome Centre for Human Genetics, University of Oxford, Oxford, Oxfordshire, OX3 7BN, UK. tom.parks@well.ox.ac.uk.; Department of Clinical Research, London School of Hygiene & Tropical Medicine, London, Greater London, WC1E 7HT, UK. tom.parks@well.ox.ac.uk.",
+    "journalTitle": "Scientific reports",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "Rheumatic heart disease (RHD), an autoinflammatory heart disease, was recently declared a global health priority by the World Health Organization. Here we report a genome-wide association study (GWAS) of RHD susceptibility in 1,163 South Asians (672 cases; 491 controls) recruited in India and Fiji. We analysed directly obtained and imputed genotypes, and followed-up associated loci in 1,459 Europeans (150 cases; 1,309 controls) from the UK Biobank study. We identify a novel susceptibility signal in the class III region of the human leukocyte antigen (HLA) complex in the South Asian dataset that clearly replicates in the Europeans (rs201026476; combined odds ratio 1.81, 95% confidence intervals 1.51-2.18, P\u2009=\u20093.48\u00d710-10). Importantly, this signal remains despite conditioning on the lead class I and class II variants (P\u2009=\u20090.00033). These findings suggest the class III region is a key determinant of RHD susceptibility offering important new insight into pathogenesis while partly explaining the inconsistency of earlier reports.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1038/s41598-020-65855-8; html:https://europepmc.org/articles/PMC7265443; pdf:https://europepmc.org/articles/PMC7265443?pdf=render"
   },
   {
     "id": "32283057",
@@ -5712,22 +5712,6 @@
     "urls": "doi:https://doi.org/10.1136/bmjopen-2019-035121; html:https://europepmc.org/articles/PMC7059496; pdf:https://europepmc.org/articles/PMC7059496?pdf=render"
   },
   {
-    "id": "32062083",
-    "doi": "https://doi.org/10.1016/j.neuroimage.2020.116604",
-    "title": "Optimising network modelling methods for fMRI.",
-    "authorString": "Pervaiz U, Vidaurre D, Woolrich MW, Smith SM.",
-    "authorAffiliations": "Oxford Centre for Functional MRI of the Brain (FMRIB), Wellcome Centre for Integrative Neuroimaging, Nuffield Department of Clinical Neurosciences, University of Oxford, Oxford, OX3 9DU, United Kingdom. Electronic address: usama.pervaiz@ndcn.ox.ac.uk.; Oxford Centre for Human Brain Activity (OHBA), Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford, Oxford, OX3 7JX, United Kingdom; Department of Clinical Medicine, Aarhus University, Denmark.; Oxford Centre for Human Brain Activity (OHBA), Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford, Oxford, OX3 7JX, United Kingdom.; Oxford Centre for Functional MRI of the Brain (FMRIB), Wellcome Centre for Integrative Neuroimaging, Nuffield Department of Clinical Neurosciences, University of Oxford, Oxford, OX3 9DU, United Kingdom.",
-    "journalTitle": "NeuroImage",
-    "pubYear": "2020",
-    "isOpenAccess": "Y",
-    "keywords": "Functional Connectivity; Connectome; Deep Learning; Riemannian Geometry; Convolutional Neural Networks; Netmat",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "A major goal of neuroimaging studies is to develop predictive models to analyze the relationship between whole brain functional connectivity patterns and behavioural traits. However, there is no single widely-accepted standard pipeline for analyzing functional connectivity. The common procedure for designing functional connectivity based predictive models entails three main steps: parcellating the brain, estimating the interaction between defined parcels, and lastly, using these integrated associations between brain parcels as features fed to a classifier for predicting non-imaging variables e.g., behavioural traits, demographics, emotional measures, etc. There are also additional considerations when using correlation-based measures of functional connectivity, resulting in three supplementary steps: utilising Riemannian geometry tangent space parameterization to preserve the geometry of functional connectivity; penalizing the connectivity estimates with shrinkage approaches to handle challenges related to short time-series (and noisy) data; and removing confounding variables from brain-behaviour data. These six steps are contingent on each-other, and to optimise a general framework one should ideally examine these various methods simultaneously. In this paper, we investigated strengths and short-comings, both independently and jointly, of the following measures: parcellation techniques of four kinds (categorized further depending upon number of parcels), five measures of functional connectivity, the decision of staying in the ambient space of connectivity matrices or in tangent space, the choice of applying shrinkage estimators, six alternative techniques for handling confounds and finally four novel classifiers/predictors. For performance evaluation, we have selected two of the largest datasets, UK Biobank and the Human Connectome Project resting state fMRI data, and have run more than 9000 different pipeline variants on a total of \u223c14000 individuals to determine the optimum pipeline. For independent performance validation, we have run some best-performing pipeline variants on ABIDE and ACPI datasets (\u223c1000 subjects) to evaluate the generalisability of proposed network modelling methods.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1016/j.neuroimage.2020.116604; html:https://europepmc.org/articles/PMC7086233"
-  },
-  {
     "id": "32664951",
     "doi": "https://doi.org/10.1186/s13148-020-00895-5",
     "title": "H3K27ac acetylome signatures reveal the epigenomic reorganization in remodeled non-failing human hearts.",
@@ -5742,6 +5726,22 @@
     "abstract": "BACKGROUND:H3K27ac histone acetylome changes contribute to the phenotypic response in heart diseases, particularly in end-stage heart failure. However, such epigenetic alterations have not been systematically investigated in remodeled non-failing human hearts. Therefore, valuable insight into cardiac dysfunction in early remodeling is lacking. This study aimed to reveal the acetylation changes of chromatin regions in response to myocardial remodeling and their correlations to transcriptional changes of neighboring genes. RESULTS:We detected chromatin regions with differential acetylation activity (DARs; Padj. < 0.05) between remodeled non-failing patient hearts and healthy donor hearts. The acetylation level of the chromatin region correlated with its RNA polymerase II occupancy level and the mRNA expression level of its adjacent gene per sample. Annotated genes from DARs were enriched in disease-related pathways, including fibrosis and cell metabolism regulation. DARs that change in the same direction have a tendency to cluster together, suggesting the well-reorganized chromatin architecture that facilitates the interactions of regulatory domains in response to myocardial remodeling. We further show the differences between the acetylation level and the mRNA expression level of cell-type-specific markers for cardiomyocytes and 11 non-myocyte cell types. Notably, we identified transcriptome factor (TF) binding motifs that were enriched in DARs and defined TFs that were predicted to bind to these motifs. We further showed 64 genes coding for these TFs that were differentially expressed in remodeled myocardium when compared with controls. CONCLUSIONS:Our study reveals extensive novel insight on myocardial remodeling at the DNA regulatory level. Differences between the acetylation level and the transcriptional level of cell-type-specific markers suggest additional mechanism(s) between acetylome and transcriptome. By integrating these two layers of epigenetic profiles, we further provide promising TF-encoding genes that could serve as master regulators of myocardial remodeling. Combined, our findings highlight the important role of chromatin regulatory signatures in understanding disease etiology.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1186/s13148-020-00895-5; html:https://europepmc.org/articles/PMC7362435; pdf:https://europepmc.org/articles/PMC7362435?pdf=render"
+  },
+  {
+    "id": "32062083",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2020.116604",
+    "title": "Optimising network modelling methods for fMRI.",
+    "authorString": "Pervaiz U, Vidaurre D, Woolrich MW, Smith SM.",
+    "authorAffiliations": "Oxford Centre for Functional MRI of the Brain (FMRIB), Wellcome Centre for Integrative Neuroimaging, Nuffield Department of Clinical Neurosciences, University of Oxford, Oxford, OX3 9DU, United Kingdom. Electronic address: usama.pervaiz@ndcn.ox.ac.uk.; Oxford Centre for Human Brain Activity (OHBA), Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford, Oxford, OX3 7JX, United Kingdom; Department of Clinical Medicine, Aarhus University, Denmark.; Oxford Centre for Human Brain Activity (OHBA), Wellcome Centre for Integrative Neuroimaging, Department of Psychiatry, University of Oxford, Oxford, OX3 7JX, United Kingdom.; Oxford Centre for Functional MRI of the Brain (FMRIB), Wellcome Centre for Integrative Neuroimaging, Nuffield Department of Clinical Neurosciences, University of Oxford, Oxford, OX3 9DU, United Kingdom.",
+    "journalTitle": "NeuroImage",
+    "pubYear": "2020",
+    "isOpenAccess": "Y",
+    "keywords": "Functional Connectivity; Connectome; Deep Learning; Riemannian Geometry; Convolutional Neural Networks; Netmat",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "A major goal of neuroimaging studies is to develop predictive models to analyze the relationship between whole brain functional connectivity patterns and behavioural traits. However, there is no single widely-accepted standard pipeline for analyzing functional connectivity. The common procedure for designing functional connectivity based predictive models entails three main steps: parcellating the brain, estimating the interaction between defined parcels, and lastly, using these integrated associations between brain parcels as features fed to a classifier for predicting non-imaging variables e.g., behavioural traits, demographics, emotional measures, etc. There are also additional considerations when using correlation-based measures of functional connectivity, resulting in three supplementary steps: utilising Riemannian geometry tangent space parameterization to preserve the geometry of functional connectivity; penalizing the connectivity estimates with shrinkage approaches to handle challenges related to short time-series (and noisy) data; and removing confounding variables from brain-behaviour data. These six steps are contingent on each-other, and to optimise a general framework one should ideally examine these various methods simultaneously. In this paper, we investigated strengths and short-comings, both independently and jointly, of the following measures: parcellation techniques of four kinds (categorized further depending upon number of parcels), five measures of functional connectivity, the decision of staying in the ambient space of connectivity matrices or in tangent space, the choice of applying shrinkage estimators, six alternative techniques for handling confounds and finally four novel classifiers/predictors. For performance evaluation, we have selected two of the largest datasets, UK Biobank and the Human Connectome Project resting state fMRI data, and have run more than 9000 different pipeline variants on a total of \u223c14000 individuals to determine the optimum pipeline. For independent performance validation, we have run some best-performing pipeline variants on ABIDE and ACPI datasets (\u223c1000 subjects) to evaluate the generalisability of proposed network modelling methods.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1016/j.neuroimage.2020.116604; html:https://europepmc.org/articles/PMC7086233"
   },
   {
     "id": "31504546",
