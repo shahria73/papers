@@ -3568,22 +3568,6 @@
     "urls": "doi:https://doi.org/10.1016/j.ebiom.2020.102818; html:https://europepmc.org/articles/PMC7276509; pdf:https://europepmc.org/articles/PMC7276509?pdf=render"
   },
   {
-    "id": "30993728",
-    "doi": "https://doi.org/10.1111/cen.13990",
-    "title": "Risk of incident circulatory disease in patients treated for differentiated thyroid carcinoma with no history of cardiovascular disease.",
-    "authorString": "Toulis KA, Viola D, Gkoutos G, Keerthy D, Boelaert K, Nirantharakumar K.",
-    "authorAffiliations": "Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology, 424 General Military Hospital, Thessaloniki, Greece.; Endocrine Unit, Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.; Centre for Computational Biology, University of Birmingham, Birmingham, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Health Data Research UK, London, UK.",
-    "journalTitle": "Clinical endocrinology",
-    "pubYear": "2019",
-    "isOpenAccess": "N",
-    "keywords": "Atrial fibrillation; Cardiovascular events; Thyroid cancer; Differentiated Thyroid Carcinoma",
-    "nationalPriorities": "",
-    "healthCategories": "",
-    "abstract": "CONTEXT:The incidence of differentiated thyroid cancer (DTC) is increasing, yet the prognosis is favourable and long-term survival is expected. Exogenous TSH suppression has been used for many years to prevent DTC recurrence and may be associated with increased risks of circulatory diseases. DESIGN:Risks of circulatory disease in patients treated for DTC were compared to randomly matched patients without DTC (controls) up to a 1:5 ratio using age, sex, body mass index (BMI) and smoking as the matching parameters in a population-based, open cohort study using The Health Improvement Network. PATIENTS:A total of 3009 patients treated for DTC with no pre-existing cardiovascular disease were identified and matched to 11\u00a0303 controls, followed up to median of 5\u00a0years. RESULTS:A total of 1259 incident circulatory events were recorded during the observation period. No difference in the risk of ischaemic heart disease (IHD) (adjusted hazards ratio [aHR]: 1.04, 95% CI: 0.80-1.36) or heart failure (HF) (aHR: 1.27, 95% CI: 0.89-1.81) was detected. The risk of atrial fibrillation (AF) and stroke was significantly higher in patients with DTC (aHR: 1.71, 95% CI: 1.36-2.15 and aHR: 1.34, 95% CI: 1.05-1.72, respectively). In a sensitivity analysis limited to newly diagnosed patients with DTC, only the risk of AF was consistently elevated (aHR: 1.86, 95% CI: 1.33-2.60). CONCLUSIONS:The increased risk of AF in patients who have undergone treatment for DTC but without pre-existing CVD may warrant periodic screening for this arrhythmia. Whereas no evidence of increased risk of IHD or HF was observed, the increased risk of stroke/TIA warrants further investigation.",
-    "laySummary": "",
-    "urls": "doi:https://doi.org/10.1111/cen.13990"
-  },
-  {
     "id": "32576090",
     "doi": "https://doi.org/10.1161/strokeaha.120.029042",
     "title": "Telemedicine Cognitive Behavioral Therapy for Anxiety After Stroke: Proof-of-Concept Randomized Controlled Trial.",
@@ -3598,6 +3582,22 @@
     "abstract": "BACKGROUND AND PURPOSE:Disabling anxiety affects a quarter of stroke survivors but access to treatment is poor. We developed a telemedicine model for delivering guided self-help cognitive behavioral therapy (CBT) for anxiety after stroke (TASK-CBT). We aimed to evaluate the feasibility of TASK-CBT in a randomized controlled trial workflow that enabled all trial procedures to be carried out remotely. In addition, we explored the feasibility of wrist-worn actigraphy sensor as a way of measuring objective outcomes in this clinical trial. METHODS:We recruited adult community-based stroke patients (n=27) and randomly allocated them to TASK-CBT (n=14) or relaxation therapy (TASK-Relax), an active comparator (n=13). RESULTS:In our sample (mean age 65 [\u00b110]; 56% men; 63% stroke, 37% transient ischemic attacks), remote self-enrolment, electronic signature, intervention delivery, and automated follow-up were feasible. All participants completed all TASK-CBT sessions (14/14). Lower levels of anxiety were observed in TASK-CBT when compared with TASK-Relax at both weeks 6 and 20. Mean actigraphy sensor wearing-time was 33 days (\u00b115). CONCLUSIONS:Our preliminary feasibility data from the current study support a larger definitive clinical trial and the use of wrist-worn actigraphy sensor in anxious stroke survivors. Registration: URL: https://www.clinicaltrials.gov. Unique identifier: NCT03439813.",
     "laySummary": "",
     "urls": "doi:https://doi.org/10.1161/STROKEAHA.120.029042; html:https://europepmc.org/articles/PMC7382539; pdf:https://europepmc.org/articles/PMC7382539?pdf=render"
+  },
+  {
+    "id": "30993728",
+    "doi": "https://doi.org/10.1111/cen.13990",
+    "title": "Risk of incident circulatory disease in patients treated for differentiated thyroid carcinoma with no history of cardiovascular disease.",
+    "authorString": "Toulis KA, Viola D, Gkoutos G, Keerthy D, Boelaert K, Nirantharakumar K.",
+    "authorAffiliations": "Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Department of Endocrinology, 424 General Military Hospital, Thessaloniki, Greece.; Endocrine Unit, Department of Clinical and Experimental Medicine, University of Pisa, Pisa, Italy.; Centre for Computational Biology, University of Birmingham, Birmingham, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Institute of Metabolism and Systems Research, University of Birmingham, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Institute of Applied Health Research, University of Birmingham, Birmingham, UK.; Centre for Endocrinology, Diabetes and Metabolism, Birmingham Health Partners, Birmingham, UK.; Health Data Research UK, London, UK.",
+    "journalTitle": "Clinical endocrinology",
+    "pubYear": "2019",
+    "isOpenAccess": "N",
+    "keywords": "Atrial fibrillation; Cardiovascular events; Thyroid cancer; Differentiated Thyroid Carcinoma",
+    "nationalPriorities": "",
+    "healthCategories": "",
+    "abstract": "CONTEXT:The incidence of differentiated thyroid cancer (DTC) is increasing, yet the prognosis is favourable and long-term survival is expected. Exogenous TSH suppression has been used for many years to prevent DTC recurrence and may be associated with increased risks of circulatory diseases. DESIGN:Risks of circulatory disease in patients treated for DTC were compared to randomly matched patients without DTC (controls) up to a 1:5 ratio using age, sex, body mass index (BMI) and smoking as the matching parameters in a population-based, open cohort study using The Health Improvement Network. PATIENTS:A total of 3009 patients treated for DTC with no pre-existing cardiovascular disease were identified and matched to 11\u00a0303 controls, followed up to median of 5\u00a0years. RESULTS:A total of 1259 incident circulatory events were recorded during the observation period. No difference in the risk of ischaemic heart disease (IHD) (adjusted hazards ratio [aHR]: 1.04, 95% CI: 0.80-1.36) or heart failure (HF) (aHR: 1.27, 95% CI: 0.89-1.81) was detected. The risk of atrial fibrillation (AF) and stroke was significantly higher in patients with DTC (aHR: 1.71, 95% CI: 1.36-2.15 and aHR: 1.34, 95% CI: 1.05-1.72, respectively). In a sensitivity analysis limited to newly diagnosed patients with DTC, only the risk of AF was consistently elevated (aHR: 1.86, 95% CI: 1.33-2.60). CONCLUSIONS:The increased risk of AF in patients who have undergone treatment for DTC but without pre-existing CVD may warrant periodic screening for this arrhythmia. Whereas no evidence of increased risk of IHD or HF was observed, the increased risk of stroke/TIA warrants further investigation.",
+    "laySummary": "",
+    "urls": "doi:https://doi.org/10.1111/cen.13990"
   },
   {
     "id": "30649175",
