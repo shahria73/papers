@@ -14,8 +14,6 @@ from datetime import datetime
 from operator import itemgetter
 import psutil
 import requests
-from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 import ray
 
 # Based on https://api.biorxiv.org/covid19/help
@@ -72,14 +70,6 @@ def retrieve_preprints(BASE_URL, data=None, page=0):
         time.sleep(1)
         retrieve_preprints(BIORXIV_COVID_API_URL, DATA, page)
     return DATA
-
-def fuzzy_match_lists(value_list, match_list):
-    max_match_value = 0
-    for value in value_list:
-        matches = process.extract(value, match_list, scorer=fuzz.token_set_ratio)
-        match_value = max(matches, key = itemgetter(1))[1]
-        if int(match_value) > int(max_match_value): max_match_value = match_value
-    return max_match_value
 
 def match_lists(value_list, match_list):
     for v in value_list:
