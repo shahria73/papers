@@ -14,6 +14,8 @@ from datetime import datetime
 from operator import itemgetter
 import psutil
 import requests
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
 import ray
 
 # Based on https://api.biorxiv.org/covid19/help
@@ -71,11 +73,13 @@ def retrieve_preprints(BASE_URL, data=None, page=0):
         retrieve_preprints(BIORXIV_COVID_API_URL, DATA, page)
     return DATA
 
-def match_lists(value_list, match_list):
-    for v in value_list:
-        if v.lower() in (match.lower() for match in match_list):
-            return 100
-    return 0
+def fuzzy_match_lists(value_list, match_list):
+    max_match_value = 0
+    for value in value_list:
+        matches = process.extract(value, match_list, scorer=fuzz.token_set_ratio)
+        match_value = max(matches, key = itemgetter(1))[1]
+        if int(match_value) > int(max_match_value): max_match_value = match_value
+    return max_match_value
 
 @ray.remote
 def filter_preprint(i, p, num_preprints, authors, affiliations):
@@ -86,10 +90,10 @@ def filter_preprint(i, p, num_preprints, authors, affiliations):
         doi_max_author_match = 0
         doi_max_affiliation_match = 0
         print("{}/{} Processing authors and affiliations for doi:{}".format(i+1, num_preprints, doi))
-        # Exact match author
-        doi_max_author_match = match_lists(preprint_authors, authors)
-        # Exact match affilaition
-        doi_max_affiliation_match = match_lists(preprint_affiliations, affiliations)
+        # Fuzzy match author
+        doi_max_author_match = fuzzy_match_lists(preprint_authors, authors)
+        # Fuzzy match affilaition
+        doi_max_affiliation_match = fuzzy_match_lists(preprint_affiliations, affiliations)
         print("Author Match: {} | Affiliation Match: {}".format(doi_max_author_match, doi_max_affiliation_match))
         
         if doi_max_author_match >= 90 and doi_max_affiliation_match >= 90:
@@ -154,20 +158,20 @@ def generate_summary(preprints):
 
 
 def main():
-    # # read old preprint extract
-    # old_data = read_json('data/covid/raw-preprints.json')
+    # read old preprint extract
+    old_data = read_json('data/covid/raw-preprints.json')
 
-    # # retrieve new preprint extract
-    # data = retrieve_preprints(BIORXIV_COVID_API_URL)
-    # write_json(data, 'data/covid/raw-preprints.json')
+    # retrieve new preprint extract
+    data = retrieve_preprints(BIORXIV_COVID_API_URL)
+    write_json(data, 'data/covid/raw-preprints.json')
 
-    # # check if length of new extract is more than old extract. fail if not.
-    # if len(old_data) >= len(data):
-    #     print("Error: New extract ({}) smaller than previous extract ({})".format(len(data), len(old_data)))
-    #     sys.exit(1)
+    # check if length of new extract is more than old extract. fail if not.
+    if len(old_data) >= len(data):
+        print("Error: New extract ({}) smaller than previous extract ({})".format(len(data), len(old_data)))
+        sys.exit(1)
 
     # filter preprints for HDR UK authors and affilaitions
-    data = read_json('data/covid/raw-preprints.json')
+    # data = read_json('data/covid/raw-preprints.json')
     data = filter_preprints(data)
     write_json(data, 'data/covid/preprints.json')
     headers = ['site', 'doi', 'date', 'link', 'title', 'authors', 'affiliations', 'abstract', 'category', 'author_similarity', 'affiliation_similarity']
@@ -180,5 +184,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print("CPU Cores", num_cpus)
     main()
