@@ -21,6 +21,7 @@ import ray
 # Based on https://api.biorxiv.org/covid19/help
 BIORXIV_COVID_API_URL = "https://api.biorxiv.org/covid19/{}"
 HDRUK_MEMBERS_CSV = "/home/runner/secrets/contacts.csv"
+# HDRUK_MEMBERS_CSV = "data/contacts.csv"
 
 num_cpus = psutil.cpu_count(logical=False)
 ray.init(num_cpus=num_cpus)
@@ -81,8 +82,16 @@ def fuzzy_match_lists(value_list, match_list):
         if int(match_value) > int(max_match_value): max_match_value = match_value
     return max_match_value
 
+def match_lists(value_list, match_list):
+    for v in value_list:
+        if v.lower() in (match.lower() for match in match_list):
+            return 100
+    return 0
+
 @ray.remote
 def filter_preprint(i, p, num_preprints, authors, affiliations):
+    fuzzy_row = None
+    exact_row = None
     doi = p.get('rel_doi', "")
     if p.get('rel_authors', None) is not None:
         preprint_authors = [a['author_name'] for a in p['rel_authors']]
@@ -94,10 +103,10 @@ def filter_preprint(i, p, num_preprints, authors, affiliations):
         doi_max_author_match = fuzzy_match_lists(preprint_authors, authors)
         # Fuzzy match affilaition
         doi_max_affiliation_match = fuzzy_match_lists(preprint_affiliations, affiliations)
-        print("Author Match: {} | Affiliation Match: {}".format(doi_max_author_match, doi_max_affiliation_match))
+        print("Author Fuzzy Match: {} | Affiliation Fuzzy Match: {}".format(doi_max_author_match, doi_max_affiliation_match))
         
         if doi_max_author_match >= 90 and doi_max_affiliation_match >= 90:
-            row = {
+            fuzzy_row = {
                 'site': p.get('rel_site', ""),
                 'doi': doi,
                 'date': p.get('rel_date',""),
@@ -107,15 +116,37 @@ def filter_preprint(i, p, num_preprints, authors, affiliations):
                 'affiliations': "; ".join(preprint_affiliations),
                 'abstract': p.get('rel_abs', ""),
                 'category': p.get('category', ""),
+                'match_type': "fuzzy",
                 'author_similarity': doi_max_author_match,
                 'affiliation_similarity': doi_max_affiliation_match
             }
-            print(row)
-            return row
+            print(fuzzy_row)
+        # Exact match author
+        doi_max_author_match = match_lists(preprint_authors, authors)
+        # Exact match affilaition
+        doi_max_affiliation_match = match_lists(preprint_affiliations, affiliations)
+        print("Author Exact Match: {} | Affiliation Exact Match: {}".format(doi_max_author_match, doi_max_affiliation_match))
+        
+        if doi_max_author_match >= 90 and doi_max_affiliation_match >= 90:
+            exact_row = {
+                'site': p.get('rel_site', ""),
+                'doi': doi,
+                'date': p.get('rel_date',""),
+                'link': p.get('rel_link', ""),
+                'title': p.get('rel_title', ""),
+                'authors': "; ".join(preprint_authors),
+                'affiliations': "; ".join(preprint_affiliations),
+                'abstract': p.get('rel_abs', ""),
+                'category': p.get('category', ""),
+                'match_type': "exact",
+                'author_similarity': doi_max_author_match,
+                'affiliation_similarity': doi_max_affiliation_match
+            }
+            print(exact_row)
+    return (fuzzy_row, exact_row)
 
 def filter_preprints(preprints):
     found = 0
-    data = []
     authors = []
     affiliations = []
     members, header = read_csv(HDRUK_MEMBERS_CSV)
@@ -133,9 +164,11 @@ def filter_preprints(preprints):
     futures = []
     for i, p in enumerate(preprints):
         futures.append(filter_preprint.remote(i, p, ray_num_preprints_id, ray_authors_id, ray_affiliations_id))
+    # Get match results
     results = ray.get(futures)
-    data = [r for r in results if r is not None]
-    return data
+    fuzzy_data = [r[0] for r in results if r[0] is not None]
+    exact_data = [r[1] for r in results if r[1] is not None]
+    return fuzzy_data, exact_data
 
 def generate_summary(preprints):
     data = []
@@ -170,15 +203,19 @@ def main():
         print("Error: New extract ({}) smaller than previous extract ({})".format(len(data), len(old_data)))
         sys.exit(1)
 
-    # filter preprints for HDR UK authors and affilaitions
     # data = read_json('data/covid/raw-preprints.json')
-    data = filter_preprints(data)
-    write_json(data, 'data/covid/preprints.json')
-    headers = ['site', 'doi', 'date', 'link', 'title', 'authors', 'affiliations', 'abstract', 'category', 'author_similarity', 'affiliation_similarity']
-    write_csv(data, headers, "data/covid/preprints.csv")
+    
+    # filter preprints for HDR UK authors and affilaitions
+    fuzzy_data, exact_data = filter_preprints(data)
+    headers = ['site', 'doi', 'date', 'link', 'title', 'authors', 'affiliations', 'abstract', 'category', 'match_type', 'author_similarity', 'affiliation_similarity']
+    write_json(fuzzy_data, 'data/covid/preprints.json')
+    write_csv(fuzzy_data, headers, "data/covid/preprints.csv")
+
+    write_json(exact_data, 'data/covid/preprints.exact.json')
+    write_csv(exact_data, headers, "data/covid/preprints.exact.csv")
 
     # generate preprint summary
-    summary, headers = generate_summary(data)
+    summary, headers = generate_summary(fuzzy_data)
     write_csv(summary, headers, "data/covid/preprints-summary.csv")
     
 
