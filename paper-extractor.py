@@ -101,8 +101,9 @@ def format_data(data):
     if 'authorList' in d.keys():
       for author in d['authorList']['author']:
         if 'authorAffiliationsList' in author.keys():
-          affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
-          authorAffiliations.append(affiliation)
+          if 'authorAffiliation' in author['authorAffiliationsList'].keys():
+            affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
+            authorAffiliations.append(affiliation)
     # Extracting URLS
     URLS = []
     if d.get('fullTextUrlList', None) is not None:
