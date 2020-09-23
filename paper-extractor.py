@@ -91,6 +91,7 @@ def format_data(data):
   HEADER = ['id', 'doi', 'title', 'authorString', 'authorAffiliations', 'journalTitle', 'pubYear', 'isOpenAccess', 'keywords', 'nationalPriorities', 'healthCategories', 'abstract', 'laySummary', 'urls']
   DATA = []
   for d in data:
+    print(d['id'])
     # Get National Priorities & Health Categories
     np = get_national_priorities(d)
     # Get lay Summary
@@ -102,8 +103,9 @@ def format_data(data):
       for author in d['authorList']['author']:
         if 'authorAffiliationsList' in author.keys():
           if 'authorAffiliation' in author['authorAffiliationsList'].keys():
-            affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
-            authorAffiliations.append(affiliation)
+            if None not in author['authorAffiliationsList']['authorAffiliation']:
+              affiliation = "; ".join(author['authorAffiliationsList']['authorAffiliation'])
+              authorAffiliations.append(affiliation)
     # Extracting URLS
     URLS = []
     if d.get('fullTextUrlList', None) is not None:
